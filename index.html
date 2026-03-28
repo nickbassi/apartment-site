@@ -1,0 +1,1233 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Inventario del Apartamento</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg: #0f1117;
+    --surface: #1a1d27;
+    --surface2: #22263a;
+    --border: #2e3248;
+    --text: #e8eaf6;
+    --text-muted: #8890b0;
+    --green: #22c55e;
+    --green-dark: #16a34a;
+    --green-bg: #052e16;
+    --accent: #6366f1;
+    --accent-light: #818cf8;
+    --red: #f87171;
+    --yellow: #fbbf24;
+    --radius: 12px;
+    --radius-sm: 8px;
+    --shadow: 0 4px 24px rgba(0,0,0,0.4);
+    --shadow-lg: 0 8px 48px rgba(0,0,0,0.6);
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    line-height: 1.6;
+  }
+
+  /* ── WhatsApp Banner ── */
+  #wa-banner {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: #128c7e;
+    color: #fff;
+    text-align: center;
+    padding: 10px 16px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    text-decoration: none;
+    display: block;
+    transition: background 0.2s;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.3);
+  }
+  #wa-banner:hover { background: #075e54; }
+
+  /* ── Header ── */
+  #header {
+    background: linear-gradient(135deg, #1a1d27 0%, #0f1117 100%);
+    border-bottom: 1px solid var(--border);
+    padding: 28px 24px 20px;
+  }
+
+  .header-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  #header h1 {
+    font-size: clamp(1.5rem, 4vw, 2.2rem);
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 4px;
+    letter-spacing: -0.02em;
+  }
+
+  #item-count {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    margin-bottom: 16px;
+    font-family: 'JetBrains Mono', monospace;
+  }
+
+  #search-wrap {
+    position: relative;
+    max-width: 480px;
+  }
+
+  #search-wrap svg {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--text-muted);
+    pointer-events: none;
+  }
+
+  #search {
+    width: 100%;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    color: var(--text);
+    padding: 10px 12px 10px 40px;
+    font-size: 0.9rem;
+    font-family: 'Inter', sans-serif;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+  #search:focus { border-color: var(--accent-light); }
+  #search::placeholder { color: var(--text-muted); }
+
+  /* ── Layout ── */
+  #layout {
+    display: flex;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+  /* ── Sidebar ── */
+  #sidebar {
+    width: 220px;
+    min-width: 220px;
+    padding: 20px 12px;
+    position: sticky;
+    top: 48px;
+    height: calc(100vh - 48px);
+    overflow-y: auto;
+    border-right: 1px solid var(--border);
+  }
+  #sidebar h3 {
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: var(--text-muted);
+    margin-bottom: 10px;
+    padding: 0 8px;
+  }
+  .cat-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    padding: 8px 10px;
+    background: none;
+    border: none;
+    border-radius: var(--radius-sm);
+    color: var(--text-muted);
+    font-size: 0.85rem;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+    transition: background 0.15s, color 0.15s;
+    text-align: left;
+  }
+  .cat-btn:hover { background: var(--surface); color: var(--text); }
+  .cat-btn.active { background: var(--surface2); color: var(--accent-light); font-weight: 600; }
+  .cat-btn .cat-btn-count {
+    margin-left: auto;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    background: var(--surface2);
+    padding: 1px 6px;
+    border-radius: 99px;
+  }
+  .cat-btn.active .cat-btn-count { background: var(--accent); color: #fff; }
+
+  /* Mobile sidebar */
+  .sidebar-toggle {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 90;
+    background: var(--accent);
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: var(--shadow);
+  }
+  .sidebar-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.6);
+    z-index: 89;
+  }
+  .sidebar-overlay.show { display: block; }
+
+  @media (max-width: 768px) {
+    #sidebar {
+      position: fixed;
+      left: 0; top: 0; bottom: 0;
+      z-index: 90;
+      background: var(--bg);
+      transform: translateX(-100%);
+      transition: transform 0.25s ease;
+      width: 260px;
+      height: 100vh;
+      top: 0;
+    }
+    #sidebar.open { transform: translateX(0); }
+    .sidebar-toggle { display: flex; align-items: center; justify-content: center; }
+  }
+
+  /* ── Main Content ── */
+  #main {
+    flex: 1;
+    padding: 24px 16px 60px;
+    min-width: 0;
+  }
+
+  /* ── Category Section ── */
+  .cat-section { margin-bottom: 40px; }
+
+  .cat-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 16px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .cat-header h2 {
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: var(--accent-light);
+    letter-spacing: 0.01em;
+  }
+
+  .cat-count {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.75rem;
+    background: var(--surface2);
+    color: var(--text-muted);
+    padding: 2px 8px;
+    border-radius: 99px;
+  }
+
+  /* ── Card Grid ── */
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+  }
+  @media (max-width: 900px) { .card-grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 560px) { .card-grid { grid-template-columns: 1fr; } }
+
+  /* ── Card ── */
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease;
+    display: flex;
+    flex-direction: column;
+  }
+  .card:hover {
+    transform: translateY(-3px);
+    border-color: var(--accent);
+    box-shadow: var(--shadow);
+  }
+
+  .card-img {
+    aspect-ratio: 4/3;
+    overflow: hidden;
+    background: var(--surface2);
+  }
+
+  .card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    image-orientation: from-image;
+    transition: transform 0.3s ease;
+    display: block;
+  }
+  .card:hover .card-img img { transform: scale(1.04); }
+
+  .card-no-img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    opacity: 0.3;
+  }
+
+  .card-body {
+    padding: 12px 14px 14px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .card-name {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--text);
+    line-height: 1.35;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .card-meta {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  .badge {
+    font-size: 0.7rem;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 99px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+
+  .badge-new     { background: #052e16; color: #4ade80; border: 1px solid #166534; }
+  .badge-excellent { background: #042f2e; color: #2dd4bf; border: 1px solid #115e59; }
+  .badge-good    { background: #1e3a5f; color: #60a5fa; border: 1px solid #1d4ed8; }
+  .badge-fair    { background: #451a03; color: #fb923c; border: 1px solid #9a3412; }
+  .badge-poor    { background: #450a0a; color: #f87171; border: 1px solid #991b1b; }
+
+  .card-price {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--green);
+    font-family: 'JetBrains Mono', monospace;
+    margin-top: auto;
+  }
+
+  /* ── No results ── */
+  #no-results {
+    display: none;
+    text-align: center;
+    padding: 60px 20px;
+    color: var(--text-muted);
+  }
+  #no-results .icon { font-size: 3rem; margin-bottom: 12px; }
+
+  /* ── Modal Overlay ── */
+  #modal-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.75);
+    z-index: 200;
+    backdrop-filter: blur(4px);
+    overflow-y: auto;
+    padding: 20px 16px;
+  }
+  #modal-overlay.open { display: flex; align-items: flex-start; justify-content: center; }
+
+  #modal {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    width: 100%;
+    max-width: 760px;
+    box-shadow: var(--shadow-lg);
+    animation: modal-in 0.2s ease;
+    position: relative;
+  }
+
+  @keyframes modal-in {
+    from { opacity: 0; transform: translateY(16px) scale(0.98); }
+    to   { opacity: 1; transform: translateY(0) scale(1); }
+  }
+
+  .modal-close {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    color: var(--text-muted);
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    transition: background 0.15s, color 0.15s;
+  }
+  .modal-close:hover { background: var(--border); color: var(--text); }
+
+  /* ── Photo Viewer ── */
+  #photo-viewer {
+    position: relative;
+    background: #000;
+    border-radius: var(--radius) var(--radius) 0 0;
+    overflow: hidden;
+  }
+
+  #main-photo {
+    width: 100%;
+    max-height: 440px;
+    object-fit: contain;
+    image-orientation: from-image;
+    display: block;
+  }
+
+  .photo-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0,0,0,0.6);
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.15s;
+    z-index: 5;
+  }
+  .photo-nav:hover { background: rgba(0,0,0,0.85); }
+  #btn-prev { left: 10px; }
+  #btn-next { right: 10px; }
+  .photo-nav.hidden { display: none; }
+
+  #photo-counter {
+    position: absolute;
+    bottom: 8px;
+    right: 10px;
+    background: rgba(0,0,0,0.6);
+    color: #fff;
+    font-size: 0.75rem;
+    padding: 2px 8px;
+    border-radius: 99px;
+    font-family: 'JetBrains Mono', monospace;
+  }
+
+  #thumb-strip {
+    display: flex;
+    gap: 6px;
+    padding: 8px 10px;
+    background: #0a0c14;
+    overflow-x: auto;
+    scrollbar-width: thin;
+  }
+
+  .thumb-item {
+    width: 56px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    overflow: hidden;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: border-color 0.15s;
+  }
+  .thumb-item.active { border-color: var(--accent); }
+  .thumb-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    image-orientation: from-image;
+    display: block;
+  }
+
+  /* ── Modal Body ── */
+  .modal-body {
+    padding: 20px 24px 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  #modal-name {
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: var(--text);
+    line-height: 1.3;
+  }
+
+  .modal-tags {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .tag-cat {
+    font-size: 0.78rem;
+    font-weight: 500;
+    color: var(--accent-light);
+    background: rgba(99,102,241,0.12);
+    border: 1px solid rgba(99,102,241,0.3);
+    padding: 3px 10px;
+    border-radius: 99px;
+  }
+
+  /* ── Pricing ── */
+  .pricing-block {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    padding: 14px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  #modal-sale-price {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--green);
+    font-family: 'JetBrains Mono', monospace;
+    letter-spacing: -0.02em;
+  }
+
+  .price-label {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  }
+
+  .original-price {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    text-decoration: line-through;
+    font-family: 'JetBrains Mono', monospace;
+  }
+
+  .savings-badge {
+    display: inline-block;
+    background: var(--green-bg);
+    color: var(--green);
+    border: 1px solid #166534;
+    border-radius: 99px;
+    font-size: 0.72rem;
+    font-weight: 700;
+    padding: 2px 8px;
+  }
+
+  /* ── Description / Notes ── */
+  .section-label {
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 4px;
+  }
+
+  .description-text {
+    font-size: 0.9rem;
+    color: var(--text);
+    line-height: 1.65;
+  }
+
+  .notes-text {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    line-height: 1.55;
+    font-style: italic;
+    background: var(--surface2);
+    border-left: 3px solid var(--border);
+    padding: 8px 12px;
+    border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  }
+
+  /* ── Sources ── */
+  .sources-list {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .source-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 12px;
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    text-decoration: none;
+    color: var(--text);
+    font-size: 0.85rem;
+    transition: border-color 0.15s, background 0.15s;
+  }
+  .source-link:hover { border-color: var(--accent); background: rgba(99,102,241,0.08); }
+
+  .source-site {
+    font-weight: 600;
+    color: var(--accent-light);
+    min-width: 80px;
+  }
+
+  .source-price {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.8rem;
+    color: var(--green);
+    margin-left: auto;
+  }
+
+  .source-note {
+    font-size: 0.78rem;
+    color: var(--text-muted);
+  }
+
+  /* ── WhatsApp CTA ── */
+  #wa-cta {
+    display: block;
+    background: #128c7e;
+    color: #fff;
+    text-align: center;
+    padding: 14px 20px;
+    border-radius: var(--radius-sm);
+    font-size: 1rem;
+    font-weight: 700;
+    text-decoration: none;
+    transition: background 0.2s, transform 0.15s;
+    letter-spacing: 0.02em;
+  }
+  #wa-cta:hover { background: #075e54; transform: translateY(-1px); }
+
+  /* ── Scrollbar ── */
+  ::-webkit-scrollbar { width: 6px; height: 6px; }
+  ::-webkit-scrollbar-track { background: var(--bg); }
+  ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+  ::-webkit-scrollbar-thumb:hover { background: var(--text-muted); }
+
+  /* ── Responsive modal ── */
+  @media (max-width: 600px) {
+    .modal-body { padding: 16px; }
+    #modal-name { font-size: 1.15rem; }
+    #modal-sale-price { font-size: 1.5rem; }
+  }
+</style>
+</head>
+<body>
+
+<a id="wa-banner" href="#" target="_blank" rel="noopener"></a>
+
+<div id="header">
+  <div class="header-inner">
+    <h1 id="page-title"></h1>
+    <div id="item-count"></div>
+    <div id="search-wrap">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+      <input type="search" id="search" autocomplete="off" spellcheck="false">
+    </div>
+  </div>
+</div>
+
+<div class="sidebar-overlay" id="sidebarOverlay" onclick="closeSidebar()"></div>
+<button class="sidebar-toggle" id="sidebarToggle" onclick="toggleSidebar()">☰</button>
+
+<div id="layout">
+  <aside id="sidebar">
+    <h3 id="sidebar-title">Categorías</h3>
+    <div id="sidebar-cats"></div>
+  </aside>
+  <div id="main"></div>
+</div>
+<div id="no-results">
+  <div class="icon">🔍</div>
+  <div id="no-results-text"></div>
+</div>
+
+<!-- Modal -->
+<div id="modal-overlay" role="dialog" aria-modal="true">
+  <div id="modal">
+    <button class="modal-close" id="modal-close-btn" aria-label="Close">✕</button>
+    <div id="photo-viewer">
+      <img id="main-photo" src="" alt="">
+      <button class="photo-nav" id="btn-prev">◀</button>
+      <button class="photo-nav" id="btn-next">▶</button>
+      <div id="photo-counter"></div>
+    </div>
+    <div id="thumb-strip"></div>
+    <div class="modal-body">
+      <div id="modal-name"></div>
+      <div class="modal-tags">
+        <span id="modal-cat" class="tag-cat"></span>
+        <span id="modal-cond" class="badge"></span>
+      </div>
+      <div class="pricing-block">
+        <div class="price-label" id="sale-label"></div>
+        <div id="modal-sale-price"></div>
+        <div id="modal-original-wrap"></div>
+      </div>
+      <div id="modal-desc-wrap">
+        <div class="section-label" id="desc-label"></div>
+        <div class="description-text" id="modal-desc"></div>
+      </div>
+      <div id="modal-notes-wrap" style="display:none">
+        <div class="section-label" id="notes-label"></div>
+        <div class="notes-text" id="modal-notes"></div>
+      </div>
+      <div id="modal-sources-wrap" style="display:none">
+        <div class="section-label" id="sources-label"></div>
+        <div class="sources-list" id="modal-sources"></div>
+      </div>
+      <a id="wa-cta" href="#" target="_blank" rel="noopener"></a>
+    </div>
+  </div>
+</div>
+
+<script>
+(function() {
+  // ── Language Detection ──
+  const isAdmin = window.location.pathname.includes('/admin');
+  const urlParams = new URLSearchParams(window.location.search);
+  const langParam = urlParams.get('lang');
+  const lang = isAdmin ? 'en' : (langParam || (window.location.pathname.includes('/en') ? 'en' : 'es'));
+
+  // ── Strings ──
+  const T = {
+    es: {
+      title: 'Inventario del Apartamento',
+      banner: '📱 Contáctame por WhatsApp: +57 322 544 3507',
+      bannerUrl: 'https://wa.me/573225443507?text=Hola,%20estoy%20interesado%20en%20los%20artículos',
+      search: 'Buscar artículos...',
+      itemsCount: n => `${n} artículo${n===1?'':'s'} disponible${n===1?'':'s'}`,
+      noResults: 'No se encontraron artículos',
+      saleLabel: 'PRECIO DE VENTA',
+      origLabel: 'Precio original:',
+      descLabel: 'DESCRIPCIÓN',
+      notesLabel: 'NOTAS',
+      sourcesLabel: 'REFERENCIAS DE PRECIO',
+      waBtn: '💬 Contactar por WhatsApp',
+      waItem: name => `https://wa.me/573225443507?text=Hola,%20estoy%20interesado%20en%20${encodeURIComponent(name)}`,
+      catMap: { Furniture:'Muebles', Kitchen:'Cocina', Appliances:'Electrodomésticos', Electronics:'Electrónica', Bedroom:'Dormitorio', Bathroom:'Baño', Décor:'Decoración', Storage:'Almacenamiento', Cleaning:'Limpieza', Other:'Otros' },
+      condMap: { New:'Nuevo', Excellent:'Excelente', Good:'Bueno', Fair:'Regular', Poor:'Malo' },
+    },
+    en: {
+      title: 'Apartment Inventory',
+      banner: '📱 Contact me via WhatsApp: +1 305 609 6693',
+      bannerUrl: "https://wa.me/13056096693?text=Hi,%20I'm%20interested%20in%20the%20apartment%20items",
+      search: 'Search items...',
+      itemsCount: n => `${n} item${n===1?'':'s'} available`,
+      noResults: 'No items found',
+      saleLabel: 'SALE PRICE',
+      origLabel: 'Original price:',
+      descLabel: 'DESCRIPTION',
+      notesLabel: 'NOTES',
+      sourcesLabel: 'PRICE REFERENCES',
+      waBtn: '💬 Contact via WhatsApp',
+      waItem: name => `https://wa.me/13056096693?text=Hi,%20I'm%20interested%20in%20${encodeURIComponent(name)}`,
+      catMap: { Furniture:'Furniture', Kitchen:'Kitchen', Appliances:'Appliances', Electronics:'Electronics', Bedroom:'Bedroom', Bathroom:'Bathroom', Décor:'Décor', Storage:'Storage', Cleaning:'Cleaning', Other:'Other' },
+      condMap: { New:'New', Excellent:'Excellent', Good:'Good', Fair:'Fair', Poor:'Poor' },
+    }
+  };
+  const t = T[lang];
+
+  // ── DOM Setup ──
+  document.title = t.title;
+  document.documentElement.lang = lang;
+  const waBanner = document.getElementById('wa-banner');
+  waBanner.textContent = t.banner;
+  waBanner.href = t.bannerUrl;
+  document.getElementById('page-title').textContent = t.title;
+  document.getElementById('search').placeholder = t.search;
+  document.getElementById('sale-label').textContent = t.saleLabel;
+  document.getElementById('desc-label').textContent = t.descLabel;
+  document.getElementById('notes-label').textContent = t.notesLabel;
+  document.getElementById('sources-label').textContent = t.sourcesLabel;
+  document.getElementById('wa-cta').textContent = t.waBtn;
+  document.getElementById('no-results-text').textContent = t.noResults;
+
+  // ── Helpers ──
+  function fmtPrice(cop) {
+    if (!cop && cop !== 0) return '';
+    return '$' + Number(cop).toLocaleString('es-CO') + ' COP';
+  }
+
+  function condClass(cond) {
+    const m = { New:'new', Excellent:'excellent', Good:'good', Fair:'fair', Poor:'poor' };
+    return 'badge-' + (m[cond] || 'good');
+  }
+
+  // ── State ──
+  let allItems = [];
+  let currentItem = null;
+  let currentPhotoIdx = 0;
+  let activeCategory = null;
+
+  // ── Sidebar ──
+  document.getElementById('sidebar-title').textContent = lang === 'es' ? 'Categorías' : 'Categories';
+
+  function renderSidebar(items) {
+    const counts = {};
+    items.forEach(i => { const c = i.category || 'Other'; counts[c] = (counts[c]||0)+1; });
+    const catOrder = ['Furniture','Bedroom','Kitchen','Appliances','Electronics','Bathroom','Décor','Storage','Cleaning','Other'];
+    const cats = Object.keys(counts).sort((a,b) => {
+      const ai = catOrder.indexOf(a); const bi = catOrder.indexOf(b);
+      return (ai===-1?99:ai) - (bi===-1?99:bi);
+    });
+    const total = items.length;
+    const allLabel = lang === 'es' ? 'Todos' : 'All';
+    let html = `<button class="cat-btn${activeCategory===null?' active':''}" onclick="filterCat(null)">${allLabel}<span class="cat-btn-count">${total}</span></button>`;
+    cats.forEach(cat => {
+      html += `<button class="cat-btn${activeCategory===cat?' active':''}" onclick="filterCat('${cat}')">${getCatLabel(cat)}<span class="cat-btn-count">${counts[cat]}</span></button>`;
+    });
+    document.getElementById('sidebar-cats').innerHTML = html;
+  }
+
+  window.filterCat = function(cat) {
+    activeCategory = cat;
+    applyFilters();
+    closeSidebar();
+  };
+
+  function applyFilters() {
+    let filtered = allItems;
+    if (activeCategory) {
+      filtered = filtered.filter(i => (i.category||'Other') === activeCategory);
+    }
+    const q = document.getElementById('search').value.trim().toLowerCase();
+    if (q) {
+      filtered = filtered.filter(i => {
+        const name = getItemName(i).toLowerCase();
+        const desc = getItemDesc(i).toLowerCase();
+        const cat = getCatLabel(i.category||'').toLowerCase();
+        return name.includes(q) || desc.includes(q) || cat.includes(q);
+      });
+    }
+    renderAll(filtered);
+    renderSidebar(allItems);
+  }
+
+  window.toggleSidebar = function() {
+    document.getElementById('sidebar').classList.toggle('open');
+    document.getElementById('sidebarOverlay').classList.toggle('show');
+  };
+  window.closeSidebar = function() {
+    document.getElementById('sidebar').classList.remove('open');
+    document.getElementById('sidebarOverlay').classList.remove('show');
+  };
+
+  // ── Fetch & Render ──
+  fetch('/inventory.json')
+    .then(r => r.json())
+    .then(data => {
+      allItems = isAdmin ? data : data.filter(i => i.active !== false);
+      if (!isAdmin) renderSidebar(allItems);
+      if (isAdmin) {
+        document.getElementById('sidebar').style.display = 'none';
+        document.getElementById('sidebarToggle').style.display = 'none';
+        document.getElementById('wa-banner').style.display = 'none';
+        renderAdminStats(allItems);
+      }
+      renderAll(allItems);
+    })
+    .catch(err => {
+      document.getElementById('main').innerHTML =
+        `<p style="color:var(--red);padding:40px;text-align:center">Failed to load inventory: ${err.message}</p>`;
+    });
+
+  function getItemName(item) {
+    return lang === 'en' ? (item.item_name_en || item.item_name) : (item.item_name_es || item.item_name);
+  }
+  function getItemDesc(item) {
+    return lang === 'en' ? (item.description_en || item.description || '') : (item.description_es || item.description || '');
+  }
+  function getItemNotes(item) {
+    return lang === 'en' ? (item.notes_en || item.notes || '') : (item.notes_es || item.notes || '');
+  }
+  function getCatLabel(cat) { return t.catMap[cat] || cat; }
+  function getCondLabel(cond) { return t.condMap[cond] || cond; }
+
+  function renderAdminStats(items) {
+    const totalUnits = items.reduce((s,i) => s + (i.quantity||1), 0);
+    const totalNew = items.reduce((s,i) => s + ((i.pricing?.new_price_cop||0) * (i.quantity||1)), 0);
+    const totalSale = items.reduce((s,i) => s + ((i.pricing?.recommended_sale_cop||0) * (i.quantity||1)), 0);
+    const discount = totalNew ? Math.round((1 - totalSale/totalNew) * 100) : 0;
+    const activeCount = items.filter(i => i.active !== false).length;
+    const inactiveCount = items.filter(i => i.active === false).length;
+
+    // Category breakdown
+    const cats = {};
+    items.forEach(i => {
+      const c = i.category || 'Other';
+      if (!cats[c]) cats[c] = {count:0, sale:0, newP:0};
+      cats[c].count += (i.quantity||1);
+      cats[c].sale += (i.pricing?.recommended_sale_cop||0) * (i.quantity||1);
+      cats[c].newP += (i.pricing?.new_price_cop||0) * (i.quantity||1);
+    });
+    const sortedCats = Object.entries(cats).sort((a,b) => b[1].sale - a[1].sale);
+
+    // Top 10
+    const top10 = [...items].sort((a,b) => (b.pricing?.recommended_sale_cop||0) - (a.pricing?.recommended_sale_cop||0)).slice(0, 10);
+
+    const statsDiv = document.createElement('div');
+    statsDiv.style.cssText = 'max-width:1200px;margin:0 auto;padding:20px 16px;';
+    statsDiv.innerHTML = `
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin-bottom:24px;">
+        <div style="background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:16px;">
+          <div style="font-size:11px;color:var(--text-muted);text-transform:uppercase;letter-spacing:1px;">Total Items</div>
+          <div style="font-size:28px;font-weight:700;color:var(--text);margin-top:4px;">${items.length} <span style="font-size:14px;color:var(--text-muted);">(${totalUnits} units)</span></div>
+          <div style="font-size:12px;color:var(--green);margin-top:2px;">🟢 ${activeCount} active</div>
+          ${inactiveCount ? `<div style="font-size:12px;color:var(--red);">🔴 ${inactiveCount} inactive</div>` : ''}
+        </div>
+        <div style="background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:16px;">
+          <div style="font-size:11px;color:var(--text-muted);text-transform:uppercase;letter-spacing:1px;">New Value</div>
+          <div style="font-size:28px;font-weight:700;color:var(--text);margin-top:4px;">$${(totalNew/1000000).toFixed(1)}M</div>
+          <div style="font-size:12px;color:var(--text-muted);">$${totalNew.toLocaleString('es-CO')} COP</div>
+          <div style="font-size:12px;color:var(--text-muted);">~$${Math.round(totalNew/4200).toLocaleString()} USD</div>
+        </div>
+        <div style="background:var(--surface);border:1px solid var(--green);border-radius:12px;padding:16px;">
+          <div style="font-size:11px;color:var(--green);text-transform:uppercase;letter-spacing:1px;">Sale Value</div>
+          <div style="font-size:28px;font-weight:700;color:var(--green);margin-top:4px;">$${(totalSale/1000000).toFixed(1)}M</div>
+          <div style="font-size:12px;color:var(--text-muted);">$${totalSale.toLocaleString('es-CO')} COP</div>
+          <div style="font-size:12px;color:var(--text-muted);">~$${Math.round(totalSale/4200).toLocaleString()} USD</div>
+        </div>
+        <div style="background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:16px;">
+          <div style="font-size:11px;color:var(--text-muted);text-transform:uppercase;letter-spacing:1px;">Avg Discount</div>
+          <div style="font-size:28px;font-weight:700;color:var(--yellow);margin-top:4px;">${discount}% off</div>
+          <div style="font-size:12px;color:var(--text-muted);">$${(totalNew-totalSale).toLocaleString('es-CO')} COP saved</div>
+        </div>
+      </div>
+
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:24px;">
+        <div style="background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:16px;">
+          <div style="font-size:12px;color:var(--accent-light);font-weight:600;text-transform:uppercase;letter-spacing:1px;margin-bottom:12px;">📊 By Category</div>
+          ${sortedCats.map(([cat, d]) => `
+            <div style="display:flex;align-items:center;gap:8px;padding:6px 0;border-bottom:1px solid var(--border);">
+              <span style="flex:1;font-size:13px;color:var(--text);">${cat}</span>
+              <span style="font-size:11px;color:var(--text-muted);">${d.count} items</span>
+              <span style="font-size:13px;font-weight:600;color:var(--green);font-family:'JetBrains Mono',monospace;">$${(d.sale/1000).toFixed(0)}k</span>
+            </div>
+          `).join('')}
+        </div>
+        <div style="background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:16px;">
+          <div style="font-size:12px;color:var(--accent-light);font-weight:600;text-transform:uppercase;letter-spacing:1px;margin-bottom:12px;">🏆 Top 10 Most Valuable</div>
+          ${top10.map((item, i) => `
+            <div style="display:flex;align-items:center;gap:8px;padding:6px 0;border-bottom:1px solid var(--border);">
+              <span style="font-size:11px;color:var(--text-muted);width:18px;">${i+1}.</span>
+              <span style="flex:1;font-size:12px;color:var(--text);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">${getItemName(item)}</span>
+              <span style="font-size:12px;font-weight:600;color:var(--green);font-family:'JetBrains Mono',monospace;">$${(item.pricing?.recommended_sale_cop||0).toLocaleString('es-CO')}</span>
+            </div>
+          `).join('')}
+        </div>
+      </div>
+      <div style="text-align:center;font-size:18px;font-weight:700;color:var(--green);padding:16px;background:var(--surface);border:1px solid var(--green);border-radius:12px;margin-bottom:24px;">
+        If you sell everything: ~$${totalSale.toLocaleString('es-CO')} COP (~$${Math.round(totalSale/4200).toLocaleString()} USD)
+      </div>
+    `;
+    document.getElementById('main').parentElement.insertBefore(statsDiv, document.getElementById('main'));
+  }
+
+  function renderAll(items) {
+    const main = document.getElementById('main');
+    const noRes = document.getElementById('no-results');
+    document.getElementById('item-count').textContent = t.itemsCount(items.length);
+
+    if (items.length === 0) {
+      main.innerHTML = '';
+      noRes.style.display = 'block';
+      return;
+    }
+    noRes.style.display = 'none';
+
+    if (isAdmin) {
+      // Admin mode: flat list sorted by price, no categories
+      const sorted = [...items].sort((a,b) => (b.pricing?.recommended_sale_cop||0) - (a.pricing?.recommended_sale_cop||0));
+      main.innerHTML = `<div class="card-grid">${sorted.map(item => renderCard(item)).join('')}</div>`;
+    } else {
+      // Public mode: grouped by category
+      const catOrder = ['Furniture','Bedroom','Kitchen','Appliances','Electronics','Bathroom','Décor','Storage','Cleaning','Other'];
+      const groups = {};
+      items.forEach(item => {
+        const c = item.category || 'Other';
+        if (!groups[c]) groups[c] = [];
+        groups[c].push(item);
+      });
+
+      Object.values(groups).forEach(arr =>
+        arr.sort((a,b) => (b.pricing?.recommended_sale_cop||0) - (a.pricing?.recommended_sale_cop||0))
+      );
+
+      const cats = Object.keys(groups).sort((a,b) => {
+        const ai = catOrder.indexOf(a); const bi = catOrder.indexOf(b);
+        return (ai===-1?99:ai) - (bi===-1?99:bi);
+      });
+
+      main.innerHTML = cats.map(cat => {
+        const catItems = groups[cat];
+        return `
+          <section class="cat-section">
+            <div class="cat-header">
+              <h2>${getCatLabel(cat)}</h2>
+              <span class="cat-count">${catItems.length}</span>
+            </div>
+            <div class="card-grid">
+              ${catItems.map(item => renderCard(item)).join('')}
+            </div>
+          </section>
+        `;
+      }).join('');
+    }
+
+    // Attach click handlers
+    main.querySelectorAll('.card').forEach(card => {
+      card.addEventListener('click', () => {
+        const id = Number(card.dataset.id);
+        const item = allItems.find(i => i.id === id);
+        if (item) openModal(item);
+      });
+    });
+  }
+
+  function renderCard(item) {
+    const name = getItemName(item);
+    const cond = item.condition || '';
+    const price = item.pricing?.recommended_sale_cop;
+    const photo = item.photos?.[0];
+    const imgHtml = photo
+      ? `<img src="/thumbs/${encodeURIComponent(photo)}" alt="${name.replace(/"/g,'&quot;')}" loading="lazy">`
+      : `<div class="card-no-img">📦</div>`;
+    return `
+      <div class="card" data-id="${item.id}" role="button" tabindex="0" aria-label="${name}">
+        <div class="card-img">${imgHtml}</div>
+        <div class="card-body">
+          <div class="card-name">${name}</div>
+          <div class="card-meta">
+            <span class="badge ${condClass(cond)}">${getCondLabel(cond)}</span>
+          </div>
+          <div class="card-price">${price ? fmtPrice(price) : ''}</div>
+        </div>
+      </div>
+    `;
+  }
+
+  // ── Modal ──
+  function openModal(item) {
+    currentItem = item;
+    currentPhotoIdx = 0;
+
+    const name = getItemName(item);
+    document.getElementById('modal-name').textContent = name;
+    document.getElementById('modal-cat').textContent = getCatLabel(item.category || '');
+
+    const condEl = document.getElementById('modal-cond');
+    condEl.textContent = getCondLabel(item.condition || '');
+    condEl.className = 'badge ' + condClass(item.condition || '');
+
+    // Pricing
+    const sale = item.pricing?.recommended_sale_cop;
+    const orig = item.pricing?.new_price_cop;
+    document.getElementById('modal-sale-price').textContent = sale ? fmtPrice(sale) : '—';
+
+    const origWrap = document.getElementById('modal-original-wrap');
+    if (orig && sale && orig > sale) {
+      const savings = Math.round((1 - sale/orig) * 100);
+      origWrap.innerHTML = `<span class="original-price">${fmtPrice(orig)}</span> <span class="savings-badge">-${savings}%</span>`;
+    } else {
+      origWrap.innerHTML = '';
+    }
+
+    // Description
+    const desc = getItemDesc(item);
+    document.getElementById('modal-desc').textContent = desc;
+
+    // Notes
+    const notes = getItemNotes(item);
+    const notesWrap = document.getElementById('modal-notes-wrap');
+    if (notes && notes.trim()) {
+      document.getElementById('modal-notes').textContent = notes;
+      notesWrap.style.display = 'block';
+    } else {
+      notesWrap.style.display = 'none';
+    }
+
+    // Sources
+    const sources = item.pricing?.sources || [];
+    const srcWrap = document.getElementById('modal-sources-wrap');
+    if (sources.length > 0) {
+      document.getElementById('modal-sources').innerHTML = sources.map(s => `
+        <a class="source-link" href="${s.url || '#'}" target="_blank" rel="noopener">
+          <span class="source-site">${s.site || ''}</span>
+          ${s.note ? `<span class="source-note">${s.note}</span>` : ''}
+          ${s.price_cop ? `<span class="source-price">${fmtPrice(s.price_cop)}</span>` : ''}
+        </a>
+      `).join('');
+      srcWrap.style.display = 'block';
+    } else {
+      srcWrap.style.display = 'none';
+    }
+
+    // WhatsApp CTA
+    const waCta = document.getElementById('wa-cta');
+    if (isAdmin) {
+      waCta.style.display = 'none';
+    } else {
+      waCta.style.display = '';
+      waCta.href = t.waItem(name);
+    }
+
+    // Photos
+    const photos = item.photos || [];
+    updatePhotoViewer(photos, 0);
+
+    // Open
+    document.getElementById('modal-overlay').classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function updatePhotoViewer(photos, idx) {
+    const mainPhoto = document.getElementById('main-photo');
+    const thumbStrip = document.getElementById('thumb-strip');
+    const counter = document.getElementById('photo-counter');
+    const btnPrev = document.getElementById('btn-prev');
+    const btnNext = document.getElementById('btn-next');
+    const viewer = document.getElementById('photo-viewer');
+
+    if (photos.length === 0) {
+      viewer.style.display = 'none';
+      thumbStrip.style.display = 'none';
+      return;
+    }
+
+    viewer.style.display = 'block';
+    mainPhoto.src = `/medium/${encodeURIComponent(photos[idx])}`;
+    mainPhoto.alt = '';
+
+    counter.textContent = `${idx + 1} / ${photos.length}`;
+
+    btnPrev.classList.toggle('hidden', idx === 0 || photos.length === 1);
+    btnNext.classList.toggle('hidden', idx === photos.length - 1 || photos.length === 1);
+
+    // Thumb strip
+    if (photos.length > 1) {
+      thumbStrip.style.display = 'flex';
+      thumbStrip.innerHTML = photos.map((p, i) => `
+        <div class="thumb-item ${i === idx ? 'active' : ''}" data-idx="${i}">
+          <img src="/thumbs/${encodeURIComponent(p)}" alt="" loading="lazy">
+        </div>
+      `).join('');
+      thumbStrip.querySelectorAll('.thumb-item').forEach(el => {
+        el.addEventListener('click', () => {
+          currentPhotoIdx = Number(el.dataset.idx);
+          updatePhotoViewer(currentItem.photos, currentPhotoIdx);
+        });
+      });
+    } else {
+      thumbStrip.style.display = 'none';
+    }
+  }
+
+  function closeModal() {
+    document.getElementById('modal-overlay').classList.remove('open');
+    document.body.style.overflow = '';
+    currentItem = null;
+  }
+
+  // Nav buttons
+  document.getElementById('btn-prev').addEventListener('click', e => {
+    e.stopPropagation();
+    if (currentItem && currentPhotoIdx > 0) {
+      currentPhotoIdx--;
+      updatePhotoViewer(currentItem.photos, currentPhotoIdx);
+    }
+  });
+  document.getElementById('btn-next').addEventListener('click', e => {
+    e.stopPropagation();
+    if (currentItem && currentPhotoIdx < currentItem.photos.length - 1) {
+      currentPhotoIdx++;
+      updatePhotoViewer(currentItem.photos, currentPhotoIdx);
+    }
+  });
+
+  document.getElementById('modal-close-btn').addEventListener('click', closeModal);
+  document.getElementById('modal-overlay').addEventListener('click', e => {
+    if (e.target === document.getElementById('modal-overlay')) closeModal();
+  });
+
+  // Keyboard
+  document.addEventListener('keydown', e => {
+    if (!currentItem) return;
+    if (e.key === 'Escape') closeModal();
+    if (e.key === 'ArrowLeft' && currentPhotoIdx > 0) {
+      currentPhotoIdx--;
+      updatePhotoViewer(currentItem.photos, currentPhotoIdx);
+    }
+    if (e.key === 'ArrowRight' && currentPhotoIdx < currentItem.photos.length - 1) {
+      currentPhotoIdx++;
+      updatePhotoViewer(currentItem.photos, currentPhotoIdx);
+    }
+  });
+
+  // Keyboard open card
+  document.getElementById('main').addEventListener('keydown', e => {
+    if (e.key === 'Enter' || e.key === ' ') {
+      const card = e.target.closest('.card');
+      if (card) {
+        e.preventDefault();
+        const id = Number(card.dataset.id);
+        const item = allItems.find(i => i.id === id);
+        if (item) openModal(item);
+      }
+    }
+  });
+
+  // ── Search ──
+  document.getElementById('search').addEventListener('input', () => applyFilters());
+
+})();
+</script>
+</body>
+</html>
