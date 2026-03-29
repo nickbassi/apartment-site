@@ -730,6 +730,9 @@
 
 <script>
 (function() {
+  // ── Base Path ──
+  const BP = window.location.pathname.includes('/apartment-site') ? '/apartment-site' : '';
+
   // ── Language Detection ──
   const isAdmin = window.location.pathname.includes('/admin');
   const urlParams = new URLSearchParams(window.location.search);
@@ -861,7 +864,7 @@
   };
 
   // ── Fetch & Render ──
-  fetch('/inventory.json')
+  fetch(BP + '/inventory.json')
     .then(r => r.json())
     .then(data => {
       allItems = isAdmin ? data : data.filter(i => i.active !== false);
@@ -1038,7 +1041,7 @@
     const price = item.pricing?.recommended_sale_cop;
     const photo = item.photos?.[0];
     const imgHtml = photo
-      ? `<img src="/thumbs/${encodeURIComponent(photo)}" alt="${name.replace(/"/g,'&quot;')}" loading="lazy">`
+      ? `<img src="${BP}/thumbs/${encodeURIComponent(photo)}" alt="${name.replace(/"/g,'&quot;')}" loading="lazy">`
       : `<div class="card-no-img">📦</div>`;
     return `
       <div class="card" data-id="${item.id}" role="button" tabindex="0" aria-label="${name}">
@@ -1143,7 +1146,7 @@
     }
 
     viewer.style.display = 'block';
-    mainPhoto.src = `/medium/${encodeURIComponent(photos[idx])}`;
+    mainPhoto.src = `${BP}/medium/${encodeURIComponent(photos[idx])}`;
     mainPhoto.alt = '';
 
     counter.textContent = `${idx + 1} / ${photos.length}`;
@@ -1156,7 +1159,7 @@
       thumbStrip.style.display = 'flex';
       thumbStrip.innerHTML = photos.map((p, i) => `
         <div class="thumb-item ${i === idx ? 'active' : ''}" data-idx="${i}">
-          <img src="/thumbs/${encodeURIComponent(p)}" alt="" loading="lazy">
+          <img src="${BP}/thumbs/${encodeURIComponent(p)}" alt="" loading="lazy">
         </div>
       `).join('');
       thumbStrip.querySelectorAll('.thumb-item').forEach(el => {
