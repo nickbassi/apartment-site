@@ -1082,14 +1082,21 @@
     const desc = getItemDesc(item);
     document.getElementById('modal-desc').textContent = desc;
 
-    // Notes — hidden on public pages
-    document.getElementById('modal-notes-wrap').style.display = 'none';
+    // Notes — only show if item has showNotes flag
+    const notes = getItemNotes(item);
+    const notesWrap = document.getElementById('modal-notes-wrap');
+    if (notes && notes.trim() && item.showNotes) {
+      document.getElementById('modal-notes').textContent = notes;
+      notesWrap.style.display = 'block';
+    } else {
+      notesWrap.style.display = 'none';
+    }
 
-    // Sources — hidden on public pages
-    document.getElementById('modal-sources-wrap').style.display = 'none';
-
-    if (false) { // disabled
-      document.getElementById('modal-sources').innerHTML = ''.split('').map(s => `
+    // Sources — show if they exist (empty array = hidden)
+    const sources = item.pricing?.sources || [];
+    const srcWrap = document.getElementById('modal-sources-wrap');
+    if (sources.length > 0) {
+      document.getElementById('modal-sources').innerHTML = sources.map(s => `
         <a class="source-link" href="${s.url || '#'}" target="_blank" rel="noopener">
           <span class="source-site">${s.site || ''}</span>
           ${s.note ? `<span class="source-note">${s.note}</span>` : ''}
