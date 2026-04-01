@@ -463,7 +463,14 @@
       "recommended_sale_cop": 100000,
       "recommended_sale_usd": 24,
       "condition_discount_pct": 83,
-      "sources": [],
+      "sources": [
+        {
+          "site": "estimated",
+          "url": "",
+          "price_cop": 600000,
+          "note": "Single/twin semi-orthopedic mattress Colombia, estimated new price"
+        }
+      ],
       "notes": "Visible staining significantly reduces value. Price low to sell quickly. Manufactured 2021."
     },
     "item_name_en": "Single/Twin Mattress (Colchones Descanso)",
