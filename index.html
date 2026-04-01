@@ -730,12 +730,14 @@
 
 <script>
 (function() {
-  // ── Base Path (GitHub Pages vs local server) ──
+  // ── Base Path ──
   const BP = window.location.pathname.includes('/apartment-site') ? '/apartment-site' : '';
 
   // ── Language Detection ──
   const isAdmin = window.location.pathname.includes('/admin');
-  const lang = isAdmin ? 'en' : (window.location.pathname.includes('/en') ? 'en' : 'es');
+  const urlParams = new URLSearchParams(window.location.search);
+  const langParam = urlParams.get('lang');
+  const lang = isAdmin ? 'en' : (langParam || (window.location.pathname.includes('/en') ? 'en' : 'es'));
 
   // ── Strings ──
   const T = {
@@ -1085,30 +1087,27 @@
     const desc = getItemDesc(item);
     document.getElementById('modal-desc').textContent = desc;
 
-    // Notes — only show if item has showNotes flag
+    // Notes
     const notes = getItemNotes(item);
     const notesWrap = document.getElementById('modal-notes-wrap');
-    if (notes && notes.trim() && item.showNotes) {
+    if (notes && notes.trim()) {
       document.getElementById('modal-notes').textContent = notes;
       notesWrap.style.display = 'block';
     } else {
       notesWrap.style.display = 'none';
     }
 
-    // Sources — show if they exist (empty array = hidden)
+    // Sources
     const sources = item.pricing?.sources || [];
     const srcWrap = document.getElementById('modal-sources-wrap');
     if (sources.length > 0) {
-      document.getElementById('modal-sources').innerHTML = sources.map(s => {
-        const hasUrl = s.url && s.url.trim();
-        const tag = hasUrl ? 'a' : 'div';
-        const attrs = hasUrl ? `href="${s.url}" target="_blank" rel="noopener"` : '';
-        return `<${tag} class="source-link" ${attrs} style="${hasUrl ? '' : 'cursor:default;'}">
+      document.getElementById('modal-sources').innerHTML = sources.map(s => `
+        <a class="source-link" href="${s.url || '#'}" target="_blank" rel="noopener">
           <span class="source-site">${s.site || ''}</span>
           ${s.note ? `<span class="source-note">${s.note}</span>` : ''}
           ${s.price_cop ? `<span class="source-price">${fmtPrice(s.price_cop)}</span>` : ''}
-        </${tag}>`;
-      }).join('');
+        </a>
+      `).join('');
       srcWrap.style.display = 'block';
     } else {
       srcWrap.style.display = 'none';
