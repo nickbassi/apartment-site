@@ -730,14 +730,9 @@
 
 <script>
 (function() {
-  // ── Base Path ──
-  const BP = window.location.pathname.includes('/apartment-site') ? '/apartment-site' : '';
-
   // ── Language Detection ──
-  const isAdmin = window.location.pathname.includes('/admin');
-  const urlParams = new URLSearchParams(window.location.search);
-  const langParam = urlParams.get('lang');
-  const lang = isAdmin ? 'en' : (langParam || (window.location.pathname.includes('/en') ? 'en' : 'es'));
+  const isAdmin = window.location.pathname.startsWith('/admin');
+  const lang = isAdmin ? 'en' : (window.location.pathname.startsWith('/en') ? 'en' : 'es');
 
   // ── Strings ──
   const T = {
@@ -864,7 +859,7 @@
   };
 
   // ── Fetch & Render ──
-  fetch(BP + '/inventory.json')
+  fetch('/inventory.json')
     .then(r => r.json())
     .then(data => {
       allItems = isAdmin ? data : data.filter(i => i.active !== false);
@@ -1041,7 +1036,7 @@
     const price = item.pricing?.recommended_sale_cop;
     const photo = item.photos?.[0];
     const imgHtml = photo
-      ? `<img src="${BP}/thumbs/${encodeURIComponent(photo)}" alt="${name.replace(/"/g,'&quot;')}" loading="lazy">`
+      ? `<img src="/thumbs/${encodeURIComponent(photo)}" alt="${name.replace(/"/g,'&quot;')}" loading="lazy">`
       : `<div class="card-no-img">📦</div>`;
     return `
       <div class="card" data-id="${item.id}" role="button" tabindex="0" aria-label="${name}">
@@ -1087,21 +1082,14 @@
     const desc = getItemDesc(item);
     document.getElementById('modal-desc').textContent = desc;
 
-    // Notes
-    const notes = getItemNotes(item);
-    const notesWrap = document.getElementById('modal-notes-wrap');
-    if (notes && notes.trim()) {
-      document.getElementById('modal-notes').textContent = notes;
-      notesWrap.style.display = 'block';
-    } else {
-      notesWrap.style.display = 'none';
-    }
+    // Notes — hidden on public pages
+    document.getElementById('modal-notes-wrap').style.display = 'none';
 
-    // Sources
-    const sources = item.pricing?.sources || [];
-    const srcWrap = document.getElementById('modal-sources-wrap');
-    if (sources.length > 0) {
-      document.getElementById('modal-sources').innerHTML = sources.map(s => `
+    // Sources — hidden on public pages
+    document.getElementById('modal-sources-wrap').style.display = 'none';
+
+    if (false) { // disabled
+      document.getElementById('modal-sources').innerHTML = ''.split('').map(s => `
         <a class="source-link" href="${s.url || '#'}" target="_blank" rel="noopener">
           <span class="source-site">${s.site || ''}</span>
           ${s.note ? `<span class="source-note">${s.note}</span>` : ''}
@@ -1146,7 +1134,7 @@
     }
 
     viewer.style.display = 'block';
-    mainPhoto.src = `${BP}/medium/${encodeURIComponent(photos[idx])}`;
+    mainPhoto.src = `/medium/${encodeURIComponent(photos[idx])}`;
     mainPhoto.alt = '';
 
     counter.textContent = `${idx + 1} / ${photos.length}`;
@@ -1159,7 +1147,7 @@
       thumbStrip.style.display = 'flex';
       thumbStrip.innerHTML = photos.map((p, i) => `
         <div class="thumb-item ${i === idx ? 'active' : ''}" data-idx="${i}">
-          <img src="${BP}/thumbs/${encodeURIComponent(p)}" alt="" loading="lazy">
+          <img src="/thumbs/${encodeURIComponent(p)}" alt="" loading="lazy">
         </div>
       `).join('');
       thumbStrip.querySelectorAll('.thumb-item').forEach(el => {

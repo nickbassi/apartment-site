@@ -185,7 +185,7 @@
     "description_es": "Escritorio eléctrico de altura ajustable con panel de control digital.",
     "notes_en": "",
     "notes_es": "",
-    "active": true
+    "active": false
   },
   {
     "id": 6,
@@ -235,7 +235,7 @@
     "_photoVersions": {
       "receipt_office_chair_tugo.jpg": 1774729642278
     },
-    "active": true
+    "active": false
   },
   {
     "id": 7,
@@ -379,7 +379,7 @@
     "description_es": "Base de cama tipo box spring con cabecero tapizado incluido.",
     "notes_en": "",
     "notes_es": "",
-    "active": true
+    "active": false
   },
   {
     "id": 12,
@@ -434,7 +434,7 @@
     "description_es": "Colchón de espuma firme IKEA ABYGDA, tamaño doble 140x200cm.",
     "notes_en": "",
     "notes_es": "",
-    "active": true
+    "active": false
   },
   {
     "id": 13,
@@ -463,20 +463,7 @@
       "recommended_sale_cop": 100000,
       "recommended_sale_usd": 24,
       "condition_discount_pct": 83,
-      "sources": [
-        {
-          "site": "estimated",
-          "url": "",
-          "price_cop": 600000,
-          "note": "Single/twin semi-orthopedic mattress Colombia, estimated new price"
-        },
-        {
-          "site": "homecenter.com.co",
-          "url": "https://www.homecenter.com.co/homecenter-co/product/510210/colchon-r100-sencillo-90x190cm-ortopedico-semifirme/510210/",
-          "price_cop": 1829900,
-          "note": "Rambler Colchón R100 Sencillo 90x190cm Ortopédico Semifirme - similar single orthopedic mattress, confirmed at Homecenter"
-        }
-      ],
+      "sources": [],
       "notes": "Visible staining significantly reduces value. Price low to sell quickly. Manufactured 2021."
     },
     "item_name_en": "Single/Twin Mattress (Colchones Descanso)",
@@ -1046,7 +1033,7 @@
     "description_es": "Lavadora LG de carga frontal.",
     "notes_en": "",
     "notes_es": "",
-    "active": true
+    "active": false
   },
   {
     "id": 32,
@@ -1081,7 +1068,7 @@
     "item_name_es": "Nevera Samsung Congelador Superior",
     "description_es": "Nevera Samsung con congelador superior.",
     "notes_en": "",
-    "active": true,
+    "active": false,
     "notes_es": ""
   },
   {
@@ -1218,7 +1205,7 @@
     "description_es": "Juego de vasos de vidrio para bebidas.",
     "notes_en": "",
     "notes_es": "",
-    "active": true
+    "active": false
   },
   {
     "id": 38,
@@ -1261,7 +1248,7 @@
     "description_es": "Olla a presión eléctrica marca Finlandek Select.",
     "notes_en": "",
     "notes_es": "",
-    "active": true
+    "active": false
   },
   {
     "id": 39,
@@ -1298,7 +1285,7 @@
     "description_es": "Juego de vajilla con diseño floral Agapanthus.",
     "notes_en": "",
     "notes_es": "",
-    "active": true
+    "active": false
   },
   {
     "id": 40,
@@ -1367,7 +1354,7 @@
     "item_name_es": "Recipientes de Vidrio con Tapa",
     "description_es": "Recipientes de vidrio para alimentos con tapa hermética.",
     "notes_en": "",
-    "active": true,
+    "active": false,
     "notes_es": ""
   },
   {
@@ -1487,7 +1474,7 @@
     "description_es": "Molino de café eléctrico Hamilton Beach.",
     "notes_en": "",
     "notes_es": "",
-    "active": true
+    "active": false
   },
   {
     "id": 45,
@@ -1564,7 +1551,7 @@
     "description_es": "Set de utensilios de cocina variados.",
     "notes_en": "",
     "notes_es": "",
-    "active": true
+    "active": false
   },
   {
     "id": 48,
@@ -1741,7 +1728,7 @@
     "description_es": "Juego de ollas y sartenes con recubrimiento antiadherente estilo granito rosa.",
     "notes_en": "",
     "notes_es": "",
-    "active": true
+    "active": false
   },
   {
     "id": 53,
@@ -1791,7 +1778,7 @@
     "description_en": "PowerXL Smart Pro 1800W blender with glass jar, 6 titanium-coated blades, box included. Spanish touch controls.",
     "item_name_es": "Licuadora PowerXL Smart Pro 1800W",
     "description_es": "Licuadora PowerXL Smart Pro de 1800W con 6 cuchillas de titanio y jarra de 2L.",
-    "active": true,
+    "active": false,
     "_photoVersions": {
       "receipt_powerxl_blender.jpg": 1774735107086
     },
@@ -1831,7 +1818,7 @@
     "description_es": "Par de guantes de cocina acolchados negros.",
     "notes_en": "",
     "notes_es": "",
-    "active": true
+    "active": false
   },
   {
     "id": 55,
@@ -1942,7 +1929,7 @@
     "description_es": "Germinador de semillas de 4 bandejas apilables con drenaje. Incluye semillas orgánicas.",
     "notes_en": "",
     "notes_es": "",
-    "active": true
+    "active": false
   },
   {
     "id": 59,
@@ -1975,7 +1962,7 @@
     "description_es": "Colador de cocina de acero inoxidable.",
     "notes_en": "",
     "notes_es": "",
-    "active": true
+    "active": false
   },
   {
     "id": 60,
@@ -2012,7 +1999,7 @@
     "description_es": "Set de 4 coladores de malla de acero inoxidable.",
     "notes_en": "",
     "notes_es": "",
-    "active": true
+    "active": false
   },
   {
     "id": 61,
@@ -2085,7 +2072,7 @@
       "20260325_185737.jpg": 1774731561909
     },
     "notes_en": "",
-    "active": true,
+    "active": false,
     "notes_es": ""
   },
   {
@@ -2122,7 +2109,7 @@
     "description_es": "Set de 7 coladores de malla plástica blancos.",
     "notes_en": "",
     "notes_es": "",
-    "active": true
+    "active": false
   },
   {
     "id": 64,
@@ -2280,7 +2267,7 @@
     "description_es": "Ducha de mano con organizador colgante incluido.",
     "notes_en": "",
     "notes_es": "",
-    "active": true
+    "active": false
   },
   {
     "id": 68,
@@ -2344,7 +2331,7 @@
     "description_es": "Set de limpieza con escoba, recogedor y trapeador giratorio.",
     "notes_en": "",
     "notes_es": "",
-    "active": true
+    "active": false
   },
   {
     "id": 70,
@@ -2376,7 +2363,7 @@
     "description_es": "Papelera plástica gris con pedal.",
     "notes_en": "",
     "notes_es": "",
-    "active": true
+    "active": false
   },
   {
     "id": 71,
@@ -2409,7 +2396,7 @@
     "description_es": "Aspiradora inalámbrica tipo bastón Würden.",
     "notes_en": "",
     "notes_es": "",
-    "active": true
+    "active": false
   },
   {
     "id": 73,
@@ -2496,7 +2483,7 @@
     "description_es": "Caja fuerte digital Fixser con pantalla, capacidad 53 litros.",
     "notes_en": "",
     "notes_es": "",
-    "active": true
+    "active": false
   },
   {
     "id": 75,
@@ -2701,7 +2688,7 @@
     "description_es": "Televisor LG de 49 pulgadas con control remoto incluido.",
     "notes_en": "",
     "notes_es": "",
-    "active": true
+    "active": false
   },
   {
     "id": 81,
@@ -2747,7 +2734,7 @@
     "description_es": "Kit de seguridad inalámbrico VTA+ con sensor de puerta y sirena.",
     "notes_en": "",
     "notes_es": "",
-    "active": true
+    "active": false
   },
   {
     "id": 82,
@@ -2792,7 +2779,7 @@
     "description_es": "Tarjeta de memoria MicroSD Maxell de 64GB.",
     "notes_en": "",
     "notes_es": "",
-    "active": true
+    "active": false
   },
   {
     "id": 84,
@@ -2842,7 +2829,7 @@
     "description_es": "Kit de 2 cámaras de seguridad Wi-Fi VTA+ Planet 2 con movimiento.",
     "notes_en": "",
     "notes_es": "",
-    "active": true
+    "active": false
   },
   {
     "id": 85,
@@ -2884,7 +2871,7 @@
     "description_es": "Monitor LED Sceptre J20 de 20 pulgadas.",
     "notes_en": "",
     "notes_es": "",
-    "active": true
+    "active": false
   },
   {
     "id": 86,
@@ -3009,7 +2996,7 @@
     "description_es": "Cámara de seguridad Wi-Fi fija VTA+ Figu 3.",
     "notes_en": "",
     "notes_es": "",
-    "active": true
+    "active": false
   },
   {
     "id": 89,
@@ -3048,7 +3035,7 @@
     "description_es": "Cámara de seguridad Wi-Fi VTA+ Krony, nueva y sellada en caja original.",
     "notes_en": "",
     "notes_es": "",
-    "active": true
+    "active": false
   },
   {
     "id": 90,
@@ -3096,7 +3083,7 @@
     "description_es": "Video portero inteligente VTA+ BIT II con pantalla táctil de 7\", cámara FHD, IP65, visión nocturna.",
     "notes_en": "",
     "notes_es": "",
-    "active": true
+    "active": false
   },
   {
     "id": 91,
@@ -3247,7 +3234,7 @@
     "description_es": "Tendedero plegable para secar ropa.",
     "notes_en": "",
     "notes_es": "",
-    "active": true
+    "active": false
   },
   {
     "id": 95,
@@ -3357,6 +3344,6 @@
     "description_es": "Cámara de seguridad Wi-Fi VTA+ Krony, previamente instalada y en uso.",
     "notes_en": "",
     "notes_es": "",
-    "active": true
+    "active": false
   }
 ]
