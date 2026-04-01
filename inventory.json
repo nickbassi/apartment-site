@@ -454,30 +454,17 @@
       "new_price_usd": 143,
       "used_price_range_cop": "80000-150000",
       "used_price_range_usd": "19-36",
-      "recommended_sale_cop": 100000,
-      "recommended_sale_usd": 24,
+      "recommended_sale_cop": 300000,
+      "recommended_sale_usd": 71,
       "condition_discount_pct": 83,
-      "sources": [
-        {
-          "site": "estimated",
-          "url": "",
-          "price_cop": 600000,
-          "note": "Single/twin semi-orthopedic mattress Colombia, estimated new price"
-        },
-        {
-          "site": "homecenter.com.co",
-          "url": "https://www.homecenter.com.co/homecenter-co/product/510210/colchon-r100-sencillo-90x190cm-ortopedico-semifirme/510210/",
-          "price_cop": 1829900,
-          "note": "Rambler Colchón R100 Sencillo 90x190cm Ortopédico Semifirme - similar single orthopedic mattress, confirmed at Homecenter"
-        }
-      ],
+      "sources": [],
       "notes": "Visible staining significantly reduces value. Price low to sell quickly. Manufactured 2021."
     },
     "item_name_en": "Single/Twin Mattress (Colchones Descanso)",
     "description_en": "Colchones Descanso brand semi-orthopedic pillow-top mattress. Manufactured 16/9/21. Cream quilted cover with gold floral pattern.",
     "item_name_es": "Colchón Sencillo (Colchones Descanso)",
     "description_es": "Colchón sencillo marca Colchones Descanso.",
-    "notes_en": "Some minor discoloration on underside",
+    "notes_en": "",
     "notes_es": "",
     "active": true
   },
