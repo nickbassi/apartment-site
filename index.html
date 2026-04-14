@@ -71,6 +71,54 @@
     margin: 0 auto;
   }
 
+  .header-top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 8px;
+  }
+
+  .header-copy {
+    min-width: 0;
+    flex: 1;
+  }
+
+  .lang-switch {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+  }
+
+  .lang-btn {
+    appearance: none;
+    border: 0;
+    background: transparent;
+    color: var(--text-muted);
+    font: inherit;
+    font-size: 0.82rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    padding: 8px 12px;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+  }
+
+  .lang-btn.active {
+    background: var(--accent);
+    color: #fff;
+  }
+
+  .lang-btn:hover:not(.active) {
+    color: var(--text);
+    background: rgba(255,255,255,0.04);
+  }
+
   #header h1 {
     font-size: clamp(1.5rem, 4vw, 2.2rem);
     font-weight: 700;
@@ -653,6 +701,13 @@
 
   /* ── Responsive modal ── */
   @media (max-width: 600px) {
+    .header-top {
+      flex-direction: column;
+      align-items: stretch;
+    }
+    .lang-switch {
+      align-self: flex-start;
+    }
     .modal-body { padding: 16px; }
     #modal-name { font-size: 1.15rem; }
     #modal-sale-price { font-size: 1.5rem; }
@@ -665,8 +720,16 @@
 
 <div id="header">
   <div class="header-inner">
-    <h1 id="page-title"></h1>
-    <div id="item-count"></div>
+    <div class="header-top">
+      <div class="header-copy">
+        <h1 id="page-title"></h1>
+        <div id="item-count"></div>
+      </div>
+      <div class="lang-switch" aria-label="Language switcher">
+        <button type="button" class="lang-btn" id="lang-es">ES</button>
+        <button type="button" class="lang-btn" id="lang-en">EN</button>
+      </div>
+    </div>
     <div id="search-wrap">
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
       <input type="search" id="search" autocomplete="off" spellcheck="false">
@@ -778,6 +841,12 @@
   };
   const t = T[lang];
 
+  function switchLanguage(nextLang) {
+    const next = new URL(window.location.href);
+    next.searchParams.set('lang', nextLang);
+    window.location.href = next.toString();
+  }
+
   // ── DOM Setup ──
   document.title = t.title;
   document.documentElement.lang = lang;
@@ -803,6 +872,13 @@
     const m = { New:'new', Excellent:'excellent', Good:'good', Fair:'fair', Poor:'poor' };
     return 'badge-' + (m[cond] || 'good');
   }
+
+  const langEsBtn = document.getElementById('lang-es');
+  const langEnBtn = document.getElementById('lang-en');
+  langEsBtn.classList.toggle('active', lang === 'es');
+  langEnBtn.classList.toggle('active', lang === 'en');
+  langEsBtn.onclick = () => { if (lang !== 'es') switchLanguage('es'); };
+  langEnBtn.onclick = () => { if (lang !== 'en') switchLanguage('en'); };
 
   // ── State ──
   let allItems = [];
