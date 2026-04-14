@@ -28,7 +28,8 @@
     "item_name_es": "Silla Lounge Convertible de Cuero Sintético Negro",
     "description_es": "Silla lounge convertible con diseño de botones y patas cromadas.",
     "notes_en": "",
-    "active": true
+    "active": true,
+    "notes_es": ""
   },
   {
     "id": 2,
@@ -62,7 +63,8 @@
     "item_name_es": "Mesa Auxiliar Plegable Negra",
     "description_es": "Mesa auxiliar plegable tipo bandeja, compacta y portátil.",
     "notes_en": "",
-    "active": true
+    "active": true,
+    "notes_es": ""
   },
   {
     "id": 3,
@@ -96,7 +98,8 @@
     "item_name_es": "Mesa para TV de Vidrio Negro y Cromo",
     "description_es": "Mesa para televisor con estantes de vidrio templado negro y estructura cromada.",
     "notes_en": "",
-    "active": true
+    "active": true,
+    "notes_es": ""
   },
   {
     "id": 4,
@@ -108,7 +111,7 @@
       "20260324_114118.jpg",
       "20260324_114157.jpg"
     ],
-    "notes": "Cushions in good condition",
+    "notes": "",
     "quantity": 1,
     "reviewed": true,
     "flagBox": false,
@@ -130,8 +133,8 @@
     "description_en": "Dark brown/espresso rectangular dining table with four matching chairs. Chairs have dark wooden frames with curved backrests and white/cream upholstered seats.",
     "item_name_es": "Mesa de Comedor con Sillas",
     "description_es": "Juego de comedor con mesa rectangular y sillas.",
-    "notes_en": "Cushions in good condition",
-    "notes_es": "Cojines en buen estado",
+    "notes_en": "",
+    "notes_es": "",
     "active": true
   },
   {
@@ -145,7 +148,7 @@
       "20260324_125520.jpg",
       "receipt_standing_desk.jpg"
     ],
-    "notes": "Distressed/rustic finish is intentional aesthetic. Cable grommet hole visible.",
+    "notes": "",
     "quantity": 1,
     "reviewed": true,
     "flagBox": false,
@@ -180,9 +183,9 @@
     "description_en": "Electric height-adjustable desk with digital control panel.",
     "item_name_es": "Escritorio Eléctrico Altura Ajustable Techgo DMTB-01-CA",
     "description_es": "Escritorio eléctrico de altura ajustable con panel de control digital.",
-    "notes_en": "Distressed/rustic finish is intentional aesthetic. Cable grommet hole visible.",
-    "notes_es": "Acabado rústico de diseño. Incluye orificio para cables.",
-    "active": true
+    "notes_en": "",
+    "notes_es": "",
+    "active": false
   },
   {
     "id": 6,
@@ -195,7 +198,7 @@
       "20260325_091939.jpg",
       "receipt_office_chair_tugo.jpg"
     ],
-    "notes": "Mesh backrest intact, no tears or sagging",
+    "notes": "",
     "quantity": 1,
     "reviewed": true,
     "flagBox": false,
@@ -227,12 +230,12 @@
     "description_en": "Ergonomic swivel office chair.",
     "item_name_es": "Silla Giratoria Juano Negra (Tugo)",
     "description_es": "Silla de oficina ergonómica giratoria.",
-    "notes_en": "Mesh backrest intact, no tears or sagging",
-    "notes_es": "Respaldo de malla en perfecto estado",
+    "notes_en": "",
+    "notes_es": "",
     "_photoVersions": {
       "receipt_office_chair_tugo.jpg": 1774729642278
     },
-    "active": true
+    "active": false
   },
   {
     "id": 7,
@@ -264,7 +267,8 @@
     "item_name_es": "Escritorio Plegable con Ruedas",
     "description_es": "Escritorio plegable con ruedas, fácil de mover.",
     "notes_en": "",
-    "active": true
+    "active": true,
+    "notes_es": ""
   },
   {
     "id": 8,
@@ -299,7 +303,8 @@
     "item_name_es": "Mesas de Noche Espejadas (Par)",
     "description_es": "Par de mesas de noche con superficie espejada.",
     "notes_en": "",
-    "active": true
+    "active": true,
+    "notes_es": ""
   },
   {
     "id": 9,
@@ -330,7 +335,8 @@
     "item_name_es": "Mesa de Centro de Vidrio de Dos Niveles",
     "description_es": "Mesa de centro con dos niveles de vidrio.",
     "notes_en": "",
-    "active": true
+    "active": true,
+    "notes_es": ""
   },
   {
     "id": 10,
@@ -342,7 +348,7 @@
       "20260325_124131.jpg",
       "20260325_124136.jpg"
     ],
-    "notes": "Headboard and base come together as one unit",
+    "notes": "",
     "quantity": 1,
     "reviewed": true,
     "flagBox": false,
@@ -371,9 +377,9 @@
     "description_en": "Bed base / box spring and tufted fabric headboard — sold together as a set.",
     "item_name_es": "Base de Cama con Cabecero Tapizado",
     "description_es": "Base de cama tipo box spring con cabecero tapizado incluido.",
-    "notes_en": "Headboard and base come together as one unit",
-    "notes_es": "Cabecero y base incluidos como juego completo",
-    "active": true
+    "notes_en": "",
+    "notes_es": "",
+    "active": false
   },
   {
     "id": 12,
@@ -385,7 +391,7 @@
       "20260325_123802.jpg",
       "20260325_123833.jpg"
     ],
-    "notes": "Mattress surface clean and unmarked",
+    "notes": "",
     "quantity": 1,
     "reviewed": true,
     "flagBox": false,
@@ -426,16 +432,16 @@
     "description_en": "IKEA ABYGDA firm foam mattress, double size 140x200cm.",
     "item_name_es": "Colchón IKEA ABYGDA ESP 140x200 Firme/Blanco",
     "description_es": "Colchón de espuma firme IKEA ABYGDA, tamaño doble 140x200cm.",
-    "notes_en": "Mattress surface clean and unmarked",
-    "notes_es": "Colchón en excelente estado",
-    "active": true
+    "notes_en": "",
+    "notes_es": "",
+    "active": false
   },
   {
     "id": 13,
-    "item_name": "Colchón Sencillo (Colchones Descanso)",
+    "item_name": "Single/Twin Mattress (Colchones Descanso)",
     "category": "Bedroom",
     "condition": "Fair",
-    "description": "Colchón sencillo marca Colchones Descanso.",
+    "description": "Colchones Descanso brand semi-orthopedic pillow-top mattress. Manufactured 16/9/21. Cream quilted cover with gold floral pattern.",
     "photos": [
       "20260325_114713.jpg",
       "20260325_114747.jpg",
@@ -451,13 +457,20 @@
     },
     "pricing": {
       "new_price_cop": 600000,
-      "new_price_usd": 143,
+      "new_price_usd": 164,
       "used_price_range_cop": "80000-150000",
       "used_price_range_usd": "19-36",
-      "recommended_sale_cop": 300000,
-      "recommended_sale_usd": 71,
+      "recommended_sale_cop": 200000,
+      "recommended_sale_usd": 54,
       "condition_discount_pct": 83,
-      "sources": [],
+      "sources": [
+        {
+          "site": "estimated",
+          "url": "",
+          "price_cop": 600000,
+          "note": "Single/twin semi-orthopedic mattress Colombia, estimated new price"
+        }
+      ],
       "notes": "Visible staining significantly reduces value. Price low to sell quickly. Manufactured 2021."
     },
     "item_name_en": "Single/Twin Mattress (Colchones Descanso)",
@@ -466,7 +479,8 @@
     "description_es": "Colchón sencillo marca Colchones Descanso.",
     "notes_en": "",
     "notes_es": "",
-    "active": true
+    "active": true,
+    "showNotes": false
   },
   {
     "id": 14,
@@ -503,7 +517,8 @@
     "item_name_es": "Colchón de Resortes Doble",
     "description_es": "Colchón de resortes tamaño doble.",
     "notes_en": "",
-    "active": true
+    "active": true,
+    "notes_es": ""
   },
   {
     "id": 15,
@@ -514,7 +529,7 @@
     "photos": [
       "20260324_111712.jpg"
     ],
-    "notes": "Futon style, matches armless chair",
+    "notes": "",
     "reviewed": true,
     "quantity": 1,
     "flagBox": false,
@@ -533,8 +548,8 @@
     "description_en": "Black faux leather futon-style sofa with silver/gray decorative pillows.",
     "item_name_es": "Sofá Futón de Cuero Sintético Negro",
     "description_es": "Sofá futón convertible de cuero sintético negro.",
-    "notes_en": "Futon style, matches armless chair",
-    "notes_es": "Estilo futón, combina con la silla lounge",
+    "notes_en": "",
+    "notes_es": "",
     "active": true
   },
   {
@@ -546,7 +561,7 @@
     "photos": [
       "20260324_111725.jpg"
     ],
-    "notes": "Appears to be original oil or acrylic works",
+    "notes": "",
     "quantity": 1,
     "reviewed": true,
     "flagBox": false,
@@ -565,8 +580,8 @@
     "description_en": "Three square abstract canvas paintings in deep blue, black, teal with white highlights. Brushstrokes and textural effects.",
     "item_name_es": "Arte Tríptico Abstracto Azul en Lienzo",
     "description_es": "Tres cuadros abstractos en lienzo, tonos azul y negro.",
-    "notes_en": "Appears to be original oil or acrylic works",
-    "notes_es": "Obras originales en óleo o acrílico",
+    "notes_en": "",
+    "notes_es": "",
     "active": true
   },
   {
@@ -578,7 +593,7 @@
     "photos": [
       "20260324_112135.jpg"
     ],
-    "notes": "Appears to be original painting or high-quality reproduction",
+    "notes": "",
     "quantity": 1,
     "reviewed": true,
     "flagBox": false,
@@ -597,8 +612,8 @@
     "description_en": "Square canvas painting depicting autumn scene with wooden footbridge over stream. Impasto/palette knife technique.",
     "item_name_es": "Pintura al Óleo Paisaje Otoñal",
     "description_es": "Pintura al óleo con paisaje de otoño.",
-    "notes_en": "Appears to be original painting or high-quality reproduction",
-    "notes_es": "Pintura original o reproducción de alta calidad",
+    "notes_en": "",
+    "notes_es": "",
     "_photoVersions": {
       "20260324_112135.jpg": 1774734107703
     },
@@ -613,7 +628,7 @@
     "photos": [
       "20260324_112325.jpg"
     ],
-    "notes": "Appears functional, showing approximately 10:10",
+    "notes": "",
     "quantity": 1,
     "reviewed": true,
     "flagBox": false,
@@ -632,8 +647,8 @@
     "description_en": "Large round matte black wall clock with raised 3D block numerals and silver metallic hands. Minimalist monochromatic design.",
     "item_name_es": "Reloj de Pared Negro",
     "description_es": "Reloj de pared color negro.",
-    "notes_en": "Appears functional, showing approximately 10:10",
-    "notes_es": "Funcional",
+    "notes_en": "",
+    "notes_es": "",
     "active": true
   },
   {
@@ -668,7 +683,8 @@
     "item_name_es": "Florero Decorativo de Vidrio Azul",
     "description_es": "Florero decorativo de vidrio color azul.",
     "notes_en": "",
-    "active": true
+    "active": true,
+    "notes_es": ""
   },
   {
     "id": 20,
@@ -699,7 +715,8 @@
     "item_name_es": "Cuadro Díptico Puente Atirantado en Lienzo",
     "description_es": "Par de cuadros en lienzo con imagen de puente atirantado.",
     "notes_en": "",
-    "active": true
+    "active": true,
+    "notes_es": ""
   },
   {
     "id": 21,
@@ -807,7 +824,7 @@
     "photos": [
       "20260324_112307.jpg"
     ],
-    "notes": "Mirror surface clean and intact, mounting clips visible",
+    "notes": "",
     "quantity": 1,
     "reviewed": true,
     "flagBox": false,
@@ -826,8 +843,8 @@
     "description_en": "Rectangular frameless/beveled-edge wall mirror mounted on white wall. Simple modern design.",
     "item_name_es": "Espejo de Pared sin Marco",
     "description_es": "Espejo de pared sin marco, montaje directo.",
-    "notes_en": "Mirror surface clean and intact, mounting clips visible",
-    "notes_es": "Espejo limpio, incluye clips de montaje",
+    "notes_en": "",
+    "notes_es": "",
     "active": true
   },
   {
@@ -839,7 +856,7 @@
     "photos": [
       "20260324_111031.jpg"
     ],
-    "notes": "Plant appears healthy and well-maintained",
+    "notes": "",
     "quantity": 1,
     "reviewed": true,
     "flagBox": false,
@@ -858,8 +875,8 @@
     "description_en": "Potted Money Tree in black/white swirled decorative pot. Lush green palmate leaves.",
     "item_name_es": "Planta Árbol del Dinero (Pachira Aquatica)",
     "description_es": "Planta Pachira Aquatica en maceta.",
-    "notes_en": "Plant appears healthy and well-maintained",
-    "notes_es": "Planta saludable y bien cuidada",
+    "notes_en": "",
+    "notes_es": "",
     "active": true
   },
   {
@@ -891,7 +908,7 @@
     "item_name_es": "Cuadro Collage de Nueva York en Lienzo",
     "description_es": "Cuadro en lienzo con collage de la ciudad de Nueva York.",
     "notes_en": "",
-    "notes_es": "Cuadro decorativo en lienzo",
+    "notes_es": "",
     "active": true
   },
   {
@@ -903,7 +920,7 @@
     "photos": [
       "20260324_111215.jpg"
     ],
-    "notes": "Minor browning on few leaf tips (normal)",
+    "notes": "",
     "quantity": 1,
     "reviewed": true,
     "flagBox": false,
@@ -922,7 +939,7 @@
     "description_en": "Spider plant with dangling baby plantlet on stolon. Variegated green and white striped leaves.",
     "item_name_es": "Planta Cinta (Chlorophytum comosum)",
     "description_es": "Planta cinta en maceta.",
-    "notes_en": "Minor browning on few leaf tips (normal)",
+    "notes_en": "",
     "notes_es": "",
     "active": true
   },
@@ -955,7 +972,8 @@
     "item_name_es": "Cuadro Escena Urbana",
     "description_es": "Cuadro impreso con escena urbana.",
     "notes_en": "",
-    "active": true
+    "active": true,
+    "notes_es": ""
   },
   {
     "id": 30,
@@ -966,7 +984,7 @@
     "photos": [
       "20260325_190447.jpg"
     ],
-    "notes": "Used but lay relatively flat",
+    "notes": "",
     "quantity": 1,
     "reviewed": true,
     "flagBox": false,
@@ -985,7 +1003,7 @@
     "description_en": "Three rectangular woven placemats in black, gray, and cream/beige striped pattern. Stiff vinyl/bamboo-like texture.",
     "item_name_es": "Individuales Tejidos (Juego de 3)",
     "description_es": "Juego de 3 individuales tejidos para mesa.",
-    "notes_en": "Used but lay relatively flat",
+    "notes_en": "",
     "notes_es": "",
     "active": true
   },
@@ -999,7 +1017,7 @@
       "20260324_112909.jpg",
       "20260324_112502.jpg"
     ],
-    "notes": "Silver finish dulled, some discoloration on lower portion",
+    "notes": "",
     "quantity": 1,
     "reviewed": true,
     "flagBox": false,
@@ -1021,9 +1039,9 @@
     "description_en": "LG front-load silver/gray washing machine. Model WD-10587BD, Direct Drive, 31 lbs capacity. 10-year DD Motor warranty.",
     "item_name_es": "Lavadora LG Carga Frontal",
     "description_es": "Lavadora LG de carga frontal.",
-    "notes_en": "Silver finish dulled, some discoloration on lower portion",
+    "notes_en": "",
     "notes_es": "",
-    "active": true
+    "active": false
   },
   {
     "id": 32,
@@ -1058,7 +1076,8 @@
     "item_name_es": "Nevera Samsung Congelador Superior",
     "description_es": "Nevera Samsung con congelador superior.",
     "notes_en": "",
-    "active": true
+    "active": false,
+    "notes_es": ""
   },
   {
     "id": 33,
@@ -1069,7 +1088,7 @@
     "photos": [
       "20260325_130844.jpg"
     ],
-    "notes": "Small yellow spot near center; slightly aged appearance",
+    "notes": "",
     "quantity": 1,
     "reviewed": true,
     "flagBox": false,
@@ -1088,7 +1107,7 @@
     "description_en": "White/cream saucer with radiating blue dashes and dots sunburst pattern.",
     "item_name_es": "Platillo con Diseño Puntos Azules",
     "description_es": "Platillo decorativo con diseño de puntos azules.",
-    "notes_en": "Small yellow spot near center; slightly aged appearance",
+    "notes_en": "",
     "notes_es": "",
     "_photoVersions": {
       "20260325_130844.jpg": 1774731573141
@@ -1104,7 +1123,7 @@
     "photos": [
       "20260324_115058.jpg"
     ],
-    "notes": "Chrome shiny, no visible rust; baskets empty",
+    "notes": "",
     "quantity": 1,
     "reviewed": true,
     "flagBox": false,
@@ -1123,8 +1142,8 @@
     "description_en": "Four-tier freestanding chrome wire basket stand. Graduated sizes.",
     "item_name_es": "Frutero de Alambre Cromado",
     "description_es": "Frutero tipo canasta de alambre cromado con niveles.",
-    "notes_en": "Chrome shiny, no visible rust; baskets empty",
-    "notes_es": "Cromo brillante, sin óxido",
+    "notes_en": "",
+    "notes_es": "",
     "active": true
   },
   {
@@ -1156,7 +1175,8 @@
     "item_name_es": "Báscula Digital de Cocina SF-400",
     "description_es": "Báscula digital de cocina, capacidad 10kg.",
     "notes_en": "",
-    "active": true
+    "active": true,
+    "notes_es": ""
   },
   {
     "id": 37,
@@ -1172,7 +1192,7 @@
       "20260325_132257.jpg",
       "20260325_132244.jpg"
     ],
-    "notes": "Standard everyday glass",
+    "notes": "",
     "quantity": 1,
     "reviewed": true,
     "flagBox": false,
@@ -1191,9 +1211,9 @@
     "description_en": "Full set: two ribbed water bottles, four highball glasses, one glass mug, one branded rocks glass, one tumbler. 9 pieces total.",
     "item_name_es": "Colección de Vasos de Vidrio",
     "description_es": "Juego de vasos de vidrio para bebidas.",
-    "notes_en": "Standard everyday glass",
+    "notes_en": "",
     "notes_es": "",
-    "active": true
+    "active": false
   },
   {
     "id": 38,
@@ -1208,7 +1228,7 @@
       "20260326_102307.jpg",
       "20260326_102343.jpg"
     ],
-    "notes": "Lid gasket intact; Unit powers on and functions",
+    "notes": "",
     "quantity": 1,
     "reviewed": true,
     "flagBox": false,
@@ -1234,9 +1254,9 @@
     "description_en": "Finlandek Select FI-PR618 electric pressure cooker. 1000W. Spanish controls for Colombian cooking (Arroz, Frijol, Sopa, etc.).",
     "item_name_es": "Olla a Presión Eléctrica Finlandek Select",
     "description_es": "Olla a presión eléctrica marca Finlandek Select.",
-    "notes_en": "Lid gasket intact; Unit powers on and functions",
-    "notes_es": "Funciona correctamente",
-    "active": true
+    "notes_en": "",
+    "notes_es": "",
+    "active": false
   },
   {
     "id": 39,
@@ -1252,7 +1272,7 @@
       "20260325_130749.jpg",
       "20260325_130736.jpg"
     ],
-    "notes": "Smooth white glaze",
+    "notes": "",
     "quantity": 1,
     "reviewed": true,
     "flagBox": false,
@@ -1271,9 +1291,9 @@
     "description_en": "Purple agapanthus and yellow wildflower botanical print dinnerware: dinner plate, saucers, bowls, 3 teacups. Opal/tempered glass.",
     "item_name_es": "Vajilla Floral Diseño Agapanthus",
     "description_es": "Juego de vajilla con diseño floral Agapanthus.",
-    "notes_en": "Smooth white glaze",
+    "notes_en": "",
     "notes_es": "",
-    "active": true
+    "active": false
   },
   {
     "id": 40,
@@ -1307,7 +1327,8 @@
       "20260325_130830.jpg": 1774731359180
     },
     "notes_en": "",
-    "active": true
+    "active": true,
+    "notes_es": ""
   },
   {
     "id": 41,
@@ -1341,7 +1362,8 @@
     "item_name_es": "Recipientes de Vidrio con Tapa",
     "description_es": "Recipientes de vidrio para alimentos con tapa hermética.",
     "notes_en": "",
-    "active": true
+    "active": false,
+    "notes_es": ""
   },
   {
     "id": 42,
@@ -1378,7 +1400,9 @@
     "description_en": "Two tall ribbed/textured clear glass bottles with colored plastic lids (purple and hot pink).",
     "item_name_es": "Jarras/Botellas de Vidrio (Par)",
     "description_es": "Par de jarras de vidrio para agua.",
-    "active": true
+    "active": true,
+    "notes_es": "",
+    "notes_en": ""
   },
   {
     "id": 43,
@@ -1393,7 +1417,7 @@
       "20260326_112349.jpg",
       "20260326_113804.jpg"
     ],
-    "notes": "Appears new or like-new; shiny unblemished chrome",
+    "notes": "",
     "quantity": 1,
     "reviewed": true,
     "flagBox": false,
@@ -1419,8 +1443,8 @@
     "description_en": "Grival 4-stage under-counter water filter. Activated carbon technology, reduces odors, improves taste and water quality.",
     "item_name_es": "Filtro de Agua Bajo Mesón 4 Etapas Grival",
     "description_es": "Filtro de agua Grival de 4 etapas para instalación bajo mesón. Tecnología de carbón activado, reduce olores, mejora sabor y apariencia del agua. Marca Grival.",
-    "notes_en": "Appears new or like-new; shiny unblemished chrome",
-    "notes_es": "Como nuevo",
+    "notes_en": "",
+    "notes_es": "",
     "_photoVersions": {
       "20260326_113804.jpg": 1774730860195
     },
@@ -1437,7 +1461,7 @@
       "20260325_190312.jpg",
       "20260325_190247.jpg"
     ],
-    "notes": "Some grime around base edges",
+    "notes": "",
     "quantity": 1,
     "reviewed": true,
     "flagBox": false,
@@ -1456,9 +1480,9 @@
     "description_en": "Hamilton Beach electric coffee/spice grinder. Model 80335G, 125W.",
     "item_name_es": "Molino de Café Hamilton Beach",
     "description_es": "Molino de café eléctrico Hamilton Beach.",
-    "notes_en": "Some grime around base edges",
+    "notes_en": "",
     "notes_es": "",
-    "active": true
+    "active": false
   },
   {
     "id": 45,
@@ -1470,7 +1494,7 @@
       "20260325_130840.jpg",
       "20260325_130837.jpg"
     ],
-    "notes": "Minor glaze variation; handmade/artisan",
+    "notes": "",
     "quantity": 1,
     "reviewed": true,
     "flagBox": false,
@@ -1493,8 +1517,8 @@
       "20260325_130840.jpg": 1774726226450,
       "20260325_130837.jpg": 1774726271169
     },
-    "notes_en": "Minor glaze variation; handmade/artisan",
-    "notes_es": "Hecho a mano / artesanal",
+    "notes_en": "",
+    "notes_es": "",
     "active": true
   },
   {
@@ -1511,7 +1535,7 @@
       "20260326_094826.jpg",
       "20260326_094812.jpg"
     ],
-    "notes": "All items laid out for inventory; Silverware appears clean; Minor use darkening on wooden spoon",
+    "notes": "",
     "quantity": 1,
     "reviewed": true,
     "flagBox": false,
@@ -1533,9 +1557,9 @@
     "description_en": "Comprehensive set: knife block with knives/scissors, wooden utensils, can opener, peeler, garlic press, tongs, measuring cups/spoons, serving spoons, cutting board, box grater, cutlery organizer with flatware.",
     "item_name_es": "Colección de Utensilios de Cocina",
     "description_es": "Set de utensilios de cocina variados.",
-    "notes_en": "All items laid out for inventory; Silverware appears clean; Minor use darkening on wooden spoon",
+    "notes_en": "",
     "notes_es": "",
-    "active": true
+    "active": false
   },
   {
     "id": 48,
@@ -1549,7 +1573,7 @@
       "20260325_183831.jpg",
       "receipt_yogurt_maker.jpg"
     ],
-    "notes": "Marked as New; Box in fair condition; Product appears new/unused inside",
+    "notes": "",
     "quantity": 1,
     "reviewed": true,
     "flagBox": false,
@@ -1581,8 +1605,8 @@
     "description_en": "MVPower SNJ-159B yogurt maker. 25W, 8 glass jars 1440ML. Retail box. Appears unused.",
     "item_name_es": "Yogurtera Digital MVPower con 8 Vasos",
     "description_es": "Yogurtera digital MVPower con 8 vasos de vidrio incluidos.",
-    "notes_en": "Marked as New; Box in fair condition; Product appears new/unused inside",
-    "notes_es": "Nuevo — producto sin usar dentro de la caja",
+    "notes_en": "",
+    "notes_es": "",
     "active": true,
     "_photoVersions": {
       "receipt_yogurt_maker.jpg": 1774735077978
@@ -1599,7 +1623,7 @@
       "20260325_183938.jpg",
       "20260325_183946.jpg"
     ],
-    "notes": "base clean",
+    "notes": "",
     "quantity": 1,
     "reviewed": true,
     "flagBox": false,
@@ -1625,7 +1649,7 @@
     "description_en": "Ninja Auto iQ BN401 personal blender. Two cups with sip-and-seal lids. Start/Stop, Crush, Smoothie, Pulse buttons.",
     "item_name_es": "Licuadora Personal Ninja Auto iQ",
     "description_es": "Licuadora personal Ninja Auto iQ con vasos para llevar.",
-    "notes_en": "base clean",
+    "notes_en": "",
     "notes_es": "",
     "active": true
   },
@@ -1666,7 +1690,8 @@
     "item_name_es": "Licuadora Profesional Ninja BL610",
     "description_es": "Licuadora profesional Ninja BL610 de 1000W con jarra de 72oz.",
     "notes_en": "",
-    "active": true
+    "active": true,
+    "notes_es": ""
   },
   {
     "id": 51,
@@ -1679,7 +1704,7 @@
       "20260325_185431.jpg",
       "20260325_185425.jpg"
     ],
-    "notes": "Matte pink handles and knobs",
+    "notes": "",
     "quantity": 1,
     "reviewed": true,
     "flagBox": false,
@@ -1709,9 +1734,9 @@
     "description_en": "4-piece pink/rose cookware set: two-handled pot and frying pan with granite stone-coated interiors, plus two glass lids with pink silicone rims.",
     "item_name_es": "Juego de Ollas Antiadherentes Rosa Granito",
     "description_es": "Juego de ollas y sartenes con recubrimiento antiadherente estilo granito rosa.",
-    "notes_en": "Matte pink handles and knobs",
-    "notes_es": "Mangos y perillas color rosa mate",
-    "active": true
+    "notes_en": "",
+    "notes_es": "",
+    "active": false
   },
   {
     "id": 53,
@@ -1761,11 +1786,12 @@
     "description_en": "PowerXL Smart Pro 1800W blender with glass jar, 6 titanium-coated blades, box included. Spanish touch controls.",
     "item_name_es": "Licuadora PowerXL Smart Pro 1800W",
     "description_es": "Licuadora PowerXL Smart Pro de 1800W con 6 cuchillas de titanio y jarra de 2L.",
-    "active": true,
+    "active": false,
     "_photoVersions": {
       "receipt_powerxl_blender.jpg": 1774735107086
     },
-    "notes_en": ""
+    "notes_en": "",
+    "notes_es": ""
   },
   {
     "id": 54,
@@ -1776,7 +1802,7 @@
     "photos": [
       "20260325_183040.jpg"
     ],
-    "notes": "Small spot/mark visible",
+    "notes": "",
     "quantity": 1,
     "reviewed": true,
     "flagBox": false,
@@ -1798,9 +1824,9 @@
     "description_en": "Pair of black quilted oven mitts with diamond pattern and hanging loops at cuff end.",
     "item_name_es": "Guantes de Cocina Acolchados (Par)",
     "description_es": "Par de guantes de cocina acolchados negros.",
-    "notes_en": "Small spot/mark visible",
+    "notes_en": "",
     "notes_es": "",
-    "active": true
+    "active": false
   },
   {
     "id": 55,
@@ -1812,7 +1838,7 @@
       "20260325_184705.jpg",
       "20260325_184712.jpg"
     ],
-    "notes": "Nuevos — también sirven como coladores",
+    "notes": "",
     "quantity": 1,
     "reviewed": true,
     "flagBox": false,
@@ -1834,8 +1860,8 @@
     "description_en": "Three Rama Design 29cm/11.5\" stainless steel splatter screens with black plastic knob handles. Two still in packaging.",
     "item_name_es": "Protectores Antisalpicaduras Rama Design (Set de 3)",
     "description_es": "Set de 3 protectores antisalpicaduras para sartén.",
-    "notes_en": "New; price sticker shows $7,000 COP each; Can also be used for straining",
-    "notes_es": "Nuevos — también sirven como coladores",
+    "notes_en": "",
+    "notes_es": "",
     "active": true
   },
   {
@@ -1870,7 +1896,8 @@
     "item_name_es": "Calentador de Arepas",
     "description_es": "Calentador/parrilla para arepas.",
     "notes_en": "",
-    "active": true
+    "active": true,
+    "notes_es": ""
   },
   {
     "id": 58,
@@ -1909,8 +1936,8 @@
     "item_name_es": "Germinador de Semillas Kitchen Crop 4 Bandejas (VKP1234)",
     "description_es": "Germinador de semillas de 4 bandejas apilables con drenaje. Incluye semillas orgánicas.",
     "notes_en": "",
-    "notes_es": "Incluye caja y semillas orgánicas de brócoli y alfalfa",
-    "active": true
+    "notes_es": "",
+    "active": false
   },
   {
     "id": 59,
@@ -1922,7 +1949,7 @@
       "20260325_185902.jpg",
       "20260325_185800.jpg"
     ],
-    "notes": "Clean and shiny; Minor dullness/patina from use",
+    "notes": "",
     "quantity": 1,
     "reviewed": true,
     "flagBox": false,
@@ -1941,9 +1968,9 @@
     "description_en": "Stainless steel perforated colander with two small riveted loop handles. Footed base for stability.",
     "item_name_es": "Colador de Acero Inoxidable",
     "description_es": "Colador de cocina de acero inoxidable.",
-    "notes_en": "Clean and shiny; Minor dullness/patina from use",
+    "notes_en": "",
     "notes_es": "",
-    "active": true
+    "active": false
   },
   {
     "id": 60,
@@ -1955,7 +1982,7 @@
       "20260325_185829.jpg",
       "20260325_185839.jpg"
     ],
-    "notes": "Mesh intact, no holes or tears",
+    "notes": "",
     "quantity": 1,
     "reviewed": true,
     "flagBox": false,
@@ -1978,9 +2005,9 @@
     "description_en": "Four stainless steel fine-mesh strainers with wire loop handles, graduated sizes.",
     "item_name_es": "Coladores de Malla de Acero Inoxidable (Set de 4)",
     "description_es": "Set de 4 coladores de malla de acero inoxidable.",
-    "notes_en": "Mesh intact, no holes or tears",
+    "notes_en": "",
     "notes_es": "",
-    "active": true
+    "active": false
   },
   {
     "id": 61,
@@ -2016,7 +2043,8 @@
     "item_name_es": "Bandeja para Servir Blanca de Melamina",
     "description_es": "Bandeja para servir de melamina blanca.",
     "notes_en": "",
-    "active": true
+    "active": true,
+    "notes_es": ""
   },
   {
     "id": 62,
@@ -2052,7 +2080,8 @@
       "20260325_185737.jpg": 1774731561909
     },
     "notes_en": "",
-    "active": true
+    "active": false,
+    "notes_es": ""
   },
   {
     "id": 63,
@@ -2064,7 +2093,7 @@
       "20260325_185640.jpg",
       "20260325_185634.jpg"
     ],
-    "notes": "Mesh intact on all; Yellow strainer shows slight discoloration",
+    "notes": "",
     "quantity": 1,
     "reviewed": true,
     "flagBox": false,
@@ -2086,9 +2115,9 @@
     "description_en": "Six white plastic-handled mesh strainers (graduated sizes) plus one yellow plastic mesh strainer.",
     "item_name_es": "Coladores de Malla Plástica (Set de 7)",
     "description_es": "Set de 7 coladores de malla plástica blancos.",
-    "notes_en": "Mesh intact on all; Yellow strainer shows slight discoloration",
+    "notes_en": "",
     "notes_es": "",
-    "active": true
+    "active": false
   },
   {
     "id": 64,
@@ -2104,7 +2133,7 @@
       "20260326_110739.jpg",
       "20260325_184199.jpg"
     ],
-    "notes": "Box shows creases; All components appear intact and functional",
+    "notes": "",
     "quantity": 1,
     "reviewed": true,
     "flagBox": false,
@@ -2135,8 +2164,8 @@
     "description_en": "Würden WPR-FP-408 food processor. 1000W. Manufactured 09/2024. 2000ml bowl, 5 stainless steel discs, S-blade, storage caddy. Box included.",
     "item_name_es": "Procesador de Alimentos Würden",
     "description_es": "Procesador de alimentos Würden de 1000W.",
-    "notes_en": "Box shows creases; All components appear intact and functional",
-    "notes_es": "Todos los componentes incluidos y funcionales",
+    "notes_en": "",
+    "notes_es": "",
     "active": true
   },
   {
@@ -2175,7 +2204,8 @@
     "item_name_es": "Esquinero de Baño Cromado 3 Niveles",
     "description_es": "Organizador esquinero de baño cromado con 3 niveles.",
     "notes_en": "",
-    "active": true
+    "active": true,
+    "notes_es": ""
   },
   {
     "id": 66,
@@ -2187,7 +2217,7 @@
       "20260325_114430.jpg",
       "20260325_114423.jpg"
     ],
-    "notes": "Working correctly",
+    "notes": "",
     "quantity": 1,
     "reviewed": true,
     "flagBox": false,
@@ -2210,8 +2240,8 @@
     "description_en": "Black glass digital bathroom scale with four stainless steel bioelectrical impedance electrode pads. LCD display. Confirmed working.",
     "item_name_es": "Báscula Digital de Composición Corporal",
     "description_es": "Báscula digital de baño con medición de composición corporal.",
-    "notes_en": "Working correctly",
-    "notes_es": "Funciona correctamente",
+    "notes_en": "",
+    "notes_es": "",
     "active": true
   },
   {
@@ -2224,7 +2254,7 @@
       "20260326_103918.jpg",
       "20260326_103921.jpg"
     ],
-    "notes": "Chrome clean and shiny; caddy has no visible rust",
+    "notes": "",
     "quantity": 1,
     "reviewed": true,
     "flagBox": false,
@@ -2243,9 +2273,9 @@
     "description_en": "Chrome multi-spray handheld shower head with flexible hose. Black metal 3-tier hanging shower caddy with suction cups.",
     "item_name_es": "Ducha de Mano y Organizador Colgante",
     "description_es": "Ducha de mano con organizador colgante incluido.",
-    "notes_en": "Chrome clean and shiny; caddy has no visible rust",
+    "notes_en": "",
     "notes_es": "",
-    "active": true
+    "active": false
   },
   {
     "id": 68,
@@ -2276,7 +2306,8 @@
     "item_name_es": "Papeleras de Acero Inoxidable para Baño (Par)",
     "description_es": "Par de papeleras de acero inoxidable para baño.",
     "notes_en": "",
-    "active": true
+    "active": true,
+    "notes_es": ""
   },
   {
     "id": 69,
@@ -2287,7 +2318,7 @@
     "photos": [
       "20260324_115552.jpg"
     ],
-    "notes": "Broom bristles slightly splayed; all items leaning against gray entry door",
+    "notes": "",
     "quantity": 1,
     "reviewed": true,
     "flagBox": false,
@@ -2306,9 +2337,9 @@
     "description_en": "Red-handled broom with pink bristles, red standing dustpan, and white/teal spin mop with bucket and wringer.",
     "item_name_es": "Set de Limpieza (Escoba, Recogedor y Trapeador)",
     "description_es": "Set de limpieza con escoba, recogedor y trapeador giratorio.",
-    "notes_en": "Broom bristles slightly splayed; all items leaning against gray entry door",
+    "notes_en": "",
     "notes_es": "",
-    "active": true
+    "active": false
   },
   {
     "id": 70,
@@ -2319,7 +2350,7 @@
     "photos": [
       "20260324_123536.jpg"
     ],
-    "notes": "white trash bag liner visible",
+    "notes": "",
     "quantity": 1,
     "reviewed": true,
     "flagBox": false,
@@ -2338,9 +2369,9 @@
     "description_en": "Gray rectangular plastic pedal trash can with matching lid and black foot pedal. Standard household size.",
     "item_name_es": "Papelera Gris con Pedal",
     "description_es": "Papelera plástica gris con pedal.",
-    "notes_en": "white trash bag liner visible",
+    "notes_en": "",
     "notes_es": "",
-    "active": true
+    "active": false
   },
   {
     "id": 71,
@@ -2352,7 +2383,7 @@
       "20260324_113437.jpg",
       "20260326_110640.jpg"
     ],
-    "notes": "BASE DE CARGA label on charging dock",
+    "notes": "",
     "quantity": 1,
     "reviewed": true,
     "flagBox": false,
@@ -2371,9 +2402,9 @@
     "description_en": "Würden aspiradora 2-en-1 (stick + handheld) cyclonic bagless vacuum. Original retail box with Sodimac/Corona retail strap. 2-year warranty. Little chip at the top of removable piece but still functions",
     "item_name_es": "Aspiradora Inalámbrica Würden",
     "description_es": "Aspiradora inalámbrica tipo bastón Würden.",
-    "notes_en": "BASE DE CARGA label on charging dock",
+    "notes_en": "",
     "notes_es": "",
-    "active": true
+    "active": false
   },
   {
     "id": 73,
@@ -2384,7 +2415,7 @@
     "photos": [
       "20260324_110412.jpg"
     ],
-    "notes": "Empty, appears new or lightly used",
+    "notes": "",
     "quantity": 2,
     "reviewed": true,
     "flagBox": false,
@@ -2410,8 +2441,8 @@
     "description_en": "Tall black plastic modular shelving unit with 5 evenly spaced shelves and cylindrical legs. Approximately 5-6 feet tall.",
     "item_name_es": "Estante Plástico Negro de 5 Niveles",
     "description_es": "Estante organizador plástico negro con 5 niveles.",
-    "notes_en": "Empty, appears new or lightly used",
-    "notes_es": "Como nuevo",
+    "notes_en": "",
+    "notes_es": "",
     "active": true
   },
   {
@@ -2426,7 +2457,7 @@
       "20260326_111117.jpg",
       "receipt_homecenter_may30.jpg"
     ],
-    "notes": "Interior empty and clean",
+    "notes": "",
     "quantity": 1,
     "reviewed": true,
     "flagBox": false,
@@ -2458,9 +2489,9 @@
     "description_en": "Fixser Digital Safe 53L. 36x33x50cm, LED screen, 2-year warranty. Dark gray textured powder-coated finish. Numeric keypad, rotary locking knob. Box included.",
     "item_name_es": "Caja Fuerte Digital Fixser 53L",
     "description_es": "Caja fuerte digital Fixser con pantalla, capacidad 53 litros.",
-    "notes_en": "Interior empty and clean",
-    "notes_es": "Interior limpio",
-    "active": true
+    "notes_en": "",
+    "notes_es": "",
+    "active": false
   },
   {
     "id": 75,
@@ -2500,7 +2531,7 @@
     "item_name_es": "Maleta Grande Protege Trulite 30\" Negra",
     "description_es": "Maleta grande Protege color negro con detalles rojos.",
     "notes_en": "",
-    "notes_es": "Tela intacta, buen estado",
+    "notes_es": "",
     "active": false
   },
   {
@@ -2545,7 +2576,8 @@
     "item_name_es": "Maleta Protege Gravity Free 20\" Gris",
     "description_es": "Maleta grande Protege color gris.",
     "notes_en": "",
-    "active": false
+    "active": false,
+    "notes_es": ""
   },
   {
     "id": 77,
@@ -2557,7 +2589,7 @@
       "20260324_134239.jpg",
       "20260324_134249.jpg"
     ],
-    "notes": "Fabric mesh intact, no tears",
+    "notes": "",
     "quantity": 1,
     "reviewed": true,
     "flagBox": false,
@@ -2583,7 +2615,7 @@
     "description_en": "Cylindrical upright portable Bluetooth speaker branded 1HORA. Woven fabric mesh. USB-A, 3.5mm aux, micro SD slot, USB-C charging port.",
     "item_name_es": "Parlante Bluetooth 1HORA",
     "description_es": "Parlante portátil Bluetooth marca 1HORA.",
-    "notes_en": "Fabric mesh intact, no tears",
+    "notes_en": "",
     "notes_es": "",
     "active": true
   },
@@ -2599,7 +2631,7 @@
       "20260324_130557.jpg",
       "20260324_130559.jpg"
     ],
-    "notes": "Caja original incluida",
+    "notes": "",
     "quantity": 1,
     "reviewed": false,
     "flagBox": false,
@@ -2625,8 +2657,8 @@
     "description_en": "Klip Xtreme KLS-100 portable Bluetooth party speaker with dual-driver design. Green accent details. Flame LED light. Retail box included.",
     "item_name_es": "Parlante Bluetooth Klip Xtreme BoomFire 1200 (KLS-660)",
     "description_es": "Parlante portátil Bluetooth Klip Xtreme BoomFire 1200 con caja incluida.",
-    "notes_en": "Retail box included; portable party speaker",
-    "notes_es": "Caja original incluida",
+    "notes_en": "",
+    "notes_es": "",
     "active": true
   },
   {
@@ -2640,7 +2672,7 @@
       "20260324_123954.jpg",
       "20260325_122959.jpg"
     ],
-    "notes": "Multiple cables hanging behind",
+    "notes": "",
     "quantity": 1,
     "reviewed": true,
     "flagBox": false,
@@ -2662,9 +2694,9 @@
     "description_en": "LG 49LH570T 49-inch TV. Manufactured April 2016, assembled in Mexico. AC 100-240V, 1.6A. Smart TV with Netflix and Prime Video buttons on remote.",
     "item_name_es": "Televisor LG 49 Pulgadas con Control",
     "description_es": "Televisor LG de 49 pulgadas con control remoto incluido.",
-    "notes_en": "Multiple cables hanging behind",
+    "notes_en": "",
     "notes_es": "",
-    "active": true
+    "active": false
   },
   {
     "id": 81,
@@ -2676,7 +2708,7 @@
       "20260324_114416.jpg",
       "20260324_134116.jpg"
     ],
-    "notes": "Both units installed and operational; model VTA-84440",
+    "notes": "",
     "quantity": 1,
     "reviewed": true,
     "flagBox": false,
@@ -2708,9 +2740,9 @@
     "description_en": "VTA+ VTA-84440 wireless security system. Includes magnetic door/window contact sensor and wireless indoor alarm siren/hub. Both units installed and operational.",
     "item_name_es": "Sistema de Seguridad Inalámbrico VTA+ (VTA-84440)",
     "description_es": "Kit de seguridad inalámbrico VTA+ con sensor de puerta y sirena.",
-    "notes_en": "Both units installed and operational; model VTA-84440",
-    "notes_es": "Ambas unidades instaladas y operativas — modelo VTA-84440",
-    "active": true
+    "notes_en": "",
+    "notes_es": "",
+    "active": false
   },
   {
     "id": 82,
@@ -2721,7 +2753,7 @@
     "photos": [
       "20260324_133811.jpg"
     ],
-    "notes": "Nueva y sellada",
+    "notes": "",
     "quantity": 1,
     "reviewed": false,
     "flagBox": false,
@@ -2753,9 +2785,9 @@
     "description_en": "Maxell ActionPro 64GB MicroSD XC I card in sealed retail blister. U3, A1, V30, 100MB/s, supports 8K.",
     "item_name_es": "Tarjeta MicroSD Maxell 64GB",
     "description_es": "Tarjeta de memoria MicroSD Maxell de 64GB.",
-    "notes_en": "New and sealed",
-    "notes_es": "Nueva y sellada",
-    "active": true
+    "notes_en": "",
+    "notes_es": "",
+    "active": false
   },
   {
     "id": 84,
@@ -2768,7 +2800,7 @@
       "20260324_115122.jpg",
       "20260324_115134.jpg"
     ],
-    "notes": "Retail box included; 2 cameras; currently installed",
+    "notes": "",
     "quantity": 1,
     "reviewed": true,
     "flagBox": false,
@@ -2803,9 +2835,9 @@
     "description_en": "VTA+ Planet 2 kit of 2 indoor spherical pan-and-tilt Wi-Fi cameras. Box included.",
     "item_name_es": "Kit de 2 Cámaras Inteligentes VTA+ Planet 2",
     "description_es": "Kit de 2 cámaras de seguridad Wi-Fi VTA+ Planet 2 con movimiento.",
-    "notes_en": "Retail box included; 2 cameras; currently installed",
-    "notes_es": "Caja original incluida — 2 cámaras actualmente instaladas",
-    "active": true
+    "notes_en": "",
+    "notes_es": "",
+    "active": false
   },
   {
     "id": 85,
@@ -2845,9 +2877,9 @@
     "description_en": "Sceptre J20 computer monitor (approx 20-inch) on round black pedestal stand.",
     "item_name_es": "Monitor LED Sceptre J20 de 20 Pulgadas",
     "description_es": "Monitor LED Sceptre J20 de 20 pulgadas.",
-    "notes_en": "Thick bezels suggest older/budget model",
+    "notes_en": "",
     "notes_es": "",
-    "active": true
+    "active": false
   },
   {
     "id": 86,
@@ -2883,7 +2915,8 @@
     "item_name_es": "Televisor Sony Bravia 46 Pulgadas con Control",
     "description_es": "Televisor Sony Bravia de 46 pulgadas con control remoto. Pantalla dañada — solo para repuestos.",
     "active": true,
-    "notes_en": ""
+    "notes_en": "",
+    "notes_es": ""
   },
   {
     "id": 87,
@@ -2895,7 +2928,7 @@
       "20260326_111204.jpg",
       "20260326_111209.jpg"
     ],
-    "notes": "Black powder-coated steel, suitable for medium to large TVs",
+    "notes": "",
     "quantity": 1,
     "reviewed": true,
     "flagBox": false,
@@ -2921,8 +2954,8 @@
     "description_en": "Black metal adjustable/articulating TV wall mount bracket, disassembled. Two vertical arms with adjustment holes, wall plate, pivot bolts.",
     "item_name_es": "Soporte de Pared para TV",
     "description_es": "Soporte articulado de pared para televisor.",
-    "notes_en": "Black powder-coated steel, suitable for medium to large TVs",
-    "notes_es": "Acero negro, apto para TV medianos y grandes",
+    "notes_en": "",
+    "notes_es": "",
     "active": true
   },
   {
@@ -2934,7 +2967,7 @@
     "photos": [
       "20260324_133821.jpg"
     ],
-    "notes": "Box shown; in use",
+    "notes": "",
     "quantity": 1,
     "reviewed": true,
     "flagBox": false,
@@ -2969,9 +3002,9 @@
     "description_en": "VTA+ Figu 3 indoor cylindrical Wi-Fi smart security camera. Retail box included. Connection issues. Randomly disconnects",
     "item_name_es": "Cámara Inteligente Wi-Fi VTA+ Figu 3",
     "description_es": "Cámara de seguridad Wi-Fi fija VTA+ Figu 3.",
-    "notes_en": "Box shown; in use",
-    "notes_es": "Caja incluida, en uso",
-    "active": true
+    "notes_en": "",
+    "notes_es": "",
+    "active": false
   },
   {
     "id": 89,
@@ -2982,7 +3015,7 @@
     "photos": [
       "20260324_133739.jpg"
     ],
-    "notes": "Box appears new/sealed",
+    "notes": "",
     "quantity": 1,
     "reviewed": true,
     "flagBox": false,
@@ -3008,9 +3041,9 @@
     "description_en": "Retail box for VTA+ Krony 2K Smart Motion Cam. Cloud storage, call button, WiFi 2.4/5 GHz, Google Home/Alexa compatible. Box appears new/sealed.",
     "item_name_es": "Cámara Inteligente VTA+ Krony (Nueva, Sellada)",
     "description_es": "Cámara de seguridad Wi-Fi VTA+ Krony, nueva y sellada en caja original.",
-    "notes_en": "Box appears new/sealed",
-    "notes_es": "Caja sellada, nueva",
-    "active": true
+    "notes_en": "",
+    "notes_es": "",
+    "active": false
   },
   {
     "id": 90,
@@ -3024,7 +3057,7 @@
       "20260324_114414.jpg",
       "receipt_video_portero.jpg"
     ],
-    "notes": "Box included; Full HD; WiFi; outdoor doorbell camera + indoor monitor",
+    "notes": "",
     "quantity": 1,
     "reviewed": true,
     "flagBox": false,
@@ -3056,9 +3089,9 @@
     "description_en": "VTA+ BIT II Video Portero WiFi with 7\" touchscreen (1024x600), FHD camera, IP65 weatherproof, DVR function, 120° viewing angle, night vision up to 8m, WiFi 2.4GHz, supports up to 2 wired cameras, microSD up to 128GB. VTA+ app control.",
     "item_name_es": "Video Portero WiFi VTA+ BIT II con Pantalla 7\"",
     "description_es": "Video portero inteligente VTA+ BIT II con pantalla táctil de 7\", cámara FHD, IP65, visión nocturna.",
-    "notes_en": "Box included; Full HD; WiFi; outdoor doorbell camera + indoor monitor",
-    "notes_es": "Caja incluida — Full HD, WiFi, cámara exterior + monitor interior",
-    "active": true
+    "notes_en": "",
+    "notes_es": "",
+    "active": false
   },
   {
     "id": 91,
@@ -3072,7 +3105,7 @@
       "20260325_115426.jpg",
       "20260325_115420.jpg"
     ],
-    "notes": "Good condition",
+    "notes": "",
     "quantity": 1,
     "reviewed": true,
     "flagBox": false,
@@ -3095,8 +3128,8 @@
     "description_en": "Pair of adjustable dumbbells convertible to barbell. Black cement/plastic plates, red/orange textured rubber grips. Threaded spinlock collars. 4 X 2.5KG Plates and  8 X 1KG plates.",
     "item_name_es": "Juego de Mancuernas/Barra Ajustable",
     "description_es": "Set de pesas ajustables tipo mancuerna y barra.",
-    "notes_en": "Good condition",
-    "notes_es": "Buen estado",
+    "notes_en": "",
+    "notes_es": "",
     "active": true
   },
   {
@@ -3109,7 +3142,7 @@
       "20260324_134454.jpg",
       "receipt_homecenter_may30.jpg"
     ],
-    "notes": "Brand new, never opened",
+    "notes": "",
     "quantity": 1,
     "reviewed": true,
     "flagBox": false,
@@ -3137,8 +3170,8 @@
     "description_en": "Fixser Cerrojo Doble deadbolt in sealed blister packaging. Antique brass finish, 5 keys, Grade 3, 5-year warranty.",
     "item_name_es": "Cerrojo Doble Fixser (Nuevo en Empaque)",
     "description_es": "Cerrojo doble marca Fixser, nuevo en empaque original.",
-    "notes_en": "Brand new, never opened",
-    "notes_es": "Completamente nuevo, sin abrir",
+    "notes_en": "",
+    "notes_es": "",
     "active": true
   },
   {
@@ -3175,7 +3208,8 @@
     "item_name_es": "Rodillo de Espuma",
     "description_es": "Rodillo de espuma para ejercicio y recuperación muscular.",
     "notes_en": "",
-    "active": true
+    "active": true,
+    "notes_es": ""
   },
   {
     "id": 94,
@@ -3187,7 +3221,7 @@
       "20260325_122339.jpg",
       "20260325_122346.jpg"
     ],
-    "notes": "Large capacity rack",
+    "notes": "",
     "quantity": 1,
     "reviewed": true,
     "flagBox": false,
@@ -3206,9 +3240,9 @@
     "description_en": "Large multi-tier folding laundry drying rack, fully extended. Silver/gray metal frame with teal/blue plastic joints. Multiple tiers and fold-out wings.",
     "item_name_es": "Tendedero Plegable de Ropa",
     "description_es": "Tendedero plegable para secar ropa.",
-    "notes_en": "Large capacity rack",
-    "notes_es": "Gran capacidad",
-    "active": true
+    "notes_en": "",
+    "notes_es": "",
+    "active": false
   },
   {
     "id": 95,
@@ -3242,7 +3276,8 @@
     "item_name_es": "Dos Balones de Baloncesto",
     "description_es": "Dos balones de baloncesto.",
     "notes_en": "",
-    "active": true
+    "active": true,
+    "notes_es": ""
   },
   {
     "id": 96,
@@ -3276,7 +3311,8 @@
     "item_name_es": "Mortero y Pilón de Bambú",
     "description_es": "Mortero y pilón de bambú para moler especias.",
     "notes_en": "",
-    "active": true
+    "active": true,
+    "notes_es": ""
   },
   {
     "id": 97,
@@ -3288,7 +3324,7 @@
       "20260324_133805.jpg",
       "20260324_115205.jpg"
     ],
-    "notes": "Open/used unit; box included",
+    "notes": "",
     "quantity": 1,
     "reviewed": true,
     "flagBox": false,
@@ -3314,8 +3350,8 @@
     "description_en": "VTA+ Krony smart Wi-Fi motion camera, pan-and-tilt. Previously installed. Box included.",
     "item_name_es": "Cámara Inteligente VTA+ Krony (Usada)",
     "description_es": "Cámara de seguridad Wi-Fi VTA+ Krony, previamente instalada y en uso.",
-    "notes_en": "Open/used unit; box included",
-    "notes_es": "Unidad usada, caja incluida",
-    "active": true
+    "notes_en": "",
+    "notes_es": "",
+    "active": false
   }
 ]
