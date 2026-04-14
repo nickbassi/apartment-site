@@ -734,18 +734,18 @@
   const BP = window.location.pathname.includes('/apartment-site') ? '/apartment-site' : '';
 
   // ── Language Detection ──
-  const isAdmin = window.location.pathname.includes('/admin');
   const urlParams = new URLSearchParams(window.location.search);
+  const isAdmin = window.location.pathname.includes('/admin') || urlParams.get('admin') === '1';
   const langParam = urlParams.get('lang');
   const lang = isAdmin ? 'en' : (langParam || (window.location.pathname.includes('/en') ? 'en' : 'es'));
 
   // ── Strings ──
   const T = {
     es: {
-      title: 'Inventario del Apartamento',
+      title: 'Artículos Disponibles del Apartamento',
       banner: '📱 Contáctame por WhatsApp: +57 322 544 3507',
       bannerUrl: 'https://wa.me/573225443507?text=Hola,%20estoy%20interesado%20en%20los%20artículos',
-      search: 'Buscar artículos...',
+      search: 'Buscar artículos disponibles...',
       itemsCount: n => `${n} artículo${n===1?'':'s'} disponible${n===1?'':'s'}`,
       noResults: 'No se encontraron artículos',
       saleLabel: 'PRECIO DE VENTA',
@@ -759,10 +759,10 @@
       condMap: { New:'Nuevo', Excellent:'Excelente', Good:'Bueno', Fair:'Regular', Poor:'Malo' },
     },
     en: {
-      title: 'Apartment Inventory',
+      title: 'Available Apartment Items',
       banner: '📱 Contact me via WhatsApp: +1 305 609 6693',
-      bannerUrl: "https://wa.me/13056096693?text=Hi,%20I'm%20interested%20in%20the%20apartment%20items",
-      search: 'Search items...',
+      bannerUrl: "https://wa.me/13056096693?text=Hi,%20I'm%20interested%20in%20the%20available%20items",
+      search: 'Search available items...',
       itemsCount: n => `${n} item${n===1?'':'s'} available`,
       noResults: 'No items found',
       saleLabel: 'SALE PRICE',

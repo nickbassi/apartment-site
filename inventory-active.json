@@ -1,0 +1,3236 @@
+[
+  {
+    "id": 1,
+    "item_name": "Black Faux Leather Convertible Lounge Chair",
+    "category": "Furniture",
+    "condition": "Fair",
+    "description": "Armless black faux leather chair with tufted/button design and chrome legs. Matches futon sofa style.",
+    "photos": [
+      "20260324_111739.jpg"
+    ],
+    "notes": "",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "pricing": {
+      "new_price_cop": 700000,
+      "new_price_usd": 167,
+      "used_price_range_cop": "150000-280000",
+      "used_price_range_usd": "36-67",
+      "recommended_sale_cop": 150000,
+      "recommended_sale_usd": 36,
+      "condition_discount_pct": 79,
+      "sources": [],
+      "notes": ""
+    },
+    "item_name_en": "Black Faux Leather Convertible Lounge Chair",
+    "description_en": "Armless black faux leather chair with tufted/button design and chrome legs. Matches futon sofa style.",
+    "item_name_es": "Silla Lounge Convertible de Cuero Sintético Negro",
+    "description_es": "Silla lounge convertible con diseño de botones y patas cromadas.",
+    "notes_en": "",
+    "active": true
+  },
+  {
+    "id": 2,
+    "item_name": "Black Folding TV Tray / Side Table",
+    "category": "Furniture",
+    "condition": "Fair",
+    "description": "Small black folding tray table with rectangular plastic/composite top and black metal folding legs.",
+    "photos": [
+      "20260324_122331.jpg"
+    ],
+    "notes": "",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "_photoVersions": {
+      "20260324_122331.jpg": 1774631040438
+    },
+    "pricing": {
+      "new_price_cop": 80000,
+      "new_price_usd": 19,
+      "used_price_range_cop": "20000-40000",
+      "used_price_range_usd": "5-10",
+      "recommended_sale_cop": 30000,
+      "recommended_sale_usd": 7,
+      "condition_discount_pct": 63,
+      "sources": [],
+      "notes": "Very common item. Sell quickly at low price."
+    },
+    "item_name_en": "Black Folding TV Tray / Side Table",
+    "description_en": "Small black folding tray table with rectangular plastic/composite top and black metal folding legs.",
+    "item_name_es": "Mesa Auxiliar Plegable Negra",
+    "description_es": "Mesa auxiliar plegable tipo bandeja, compacta y portátil.",
+    "notes_en": "",
+    "active": true
+  },
+  {
+    "id": 3,
+    "item_name": "Black Glass & Chrome TV Stand",
+    "category": "Furniture",
+    "condition": "Good",
+    "description": "Modern TV stand with black tempered glass shelves and ornate chrome/silver decorative column design. Built-in TV mounting bracket at center top.",
+    "photos": [
+      "20260324_111431.jpg"
+    ],
+    "notes": "",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "_photoVersions": {
+      "20260324_111431.jpg": 1774631276894
+    },
+    "pricing": {
+      "new_price_cop": 500000,
+      "new_price_usd": 119,
+      "used_price_range_cop": "180000-280000",
+      "used_price_range_usd": "43-67",
+      "recommended_sale_cop": 220000,
+      "recommended_sale_usd": 52,
+      "condition_discount_pct": 56,
+      "sources": [],
+      "notes": "Glass/chrome stand in good shape. Decorative style may limit buyers."
+    },
+    "item_name_en": "Black Glass & Chrome TV Stand",
+    "description_en": "Modern TV stand with black tempered glass shelves and ornate chrome/silver decorative column design. Built-in TV mounting bracket at center top.",
+    "item_name_es": "Mesa para TV de Vidrio Negro y Cromo",
+    "description_es": "Mesa para televisor con estantes de vidrio templado negro y estructura cromada.",
+    "notes_en": "",
+    "active": true
+  },
+  {
+    "id": 4,
+    "item_name": "Dining Table with Chairs",
+    "category": "Furniture",
+    "condition": "Good",
+    "description": "Dark brown/espresso rectangular dining table with four matching chairs. Chairs have dark wooden frames with curved backrests and white/cream upholstered seats.",
+    "photos": [
+      "20260324_114118.jpg",
+      "20260324_114157.jpg"
+    ],
+    "notes": "Cushions in good condition",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "_photoVersions": {
+      "20260324_114118.jpg": 1774631026764
+    },
+    "pricing": {
+      "new_price_cop": 1200000,
+      "new_price_usd": 286,
+      "used_price_range_cop": "450000-700000",
+      "used_price_range_usd": "107-167",
+      "recommended_sale_cop": 600000,
+      "recommended_sale_usd": 143,
+      "condition_discount_pct": 50,
+      "sources": [],
+      "notes": "Complete 4-person dining set in good condition. High demand item in Medellin used market."
+    },
+    "item_name_en": "Dining Table with Chairs",
+    "description_en": "Dark brown/espresso rectangular dining table with four matching chairs. Chairs have dark wooden frames with curved backrests and white/cream upholstered seats.",
+    "item_name_es": "Mesa de Comedor con Sillas",
+    "description_es": "Juego de comedor con mesa rectangular y sillas.",
+    "notes_en": "Cushions in good condition",
+    "notes_es": "Cojines en buen estado",
+    "active": true
+  },
+  {
+    "id": 5,
+    "item_name": "Techgo DMTB-01-CA Electric Height-Adjustable Standing Desk",
+    "category": "Furniture",
+    "condition": "Good",
+    "description": "Electric height-adjustable desk with digital control panel.",
+    "photos": [
+      "20260324_125244.jpg",
+      "20260324_125520.jpg",
+      "receipt_standing_desk.jpg"
+    ],
+    "notes": "Distressed/rustic finish is intentional aesthetic. Cable grommet hole visible.",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "pricing": {
+      "new_price_cop": 1357000,
+      "new_price_usd": 323,
+      "used_price_range_cop": "500000-750000",
+      "used_price_range_usd": "119-179",
+      "recommended_sale_cop": 600000,
+      "recommended_sale_usd": 143,
+      "condition_discount_pct": 50,
+      "sources": [
+        {
+          "site": "mercadolibre.com.co",
+          "url": "https://www.mercadolibre.com.co/escritorio-ergo-altura-ajustable-electrico-techgo-dmtb-01-ca-color-marron/p/MCO36315892",
+          "price_cop": 1357000,
+          "note": "actual product — paid 939,900 COP after 417,100 discount"
+        }
+      ],
+      "notes": "Paid 939,900 COP after 417,100 discount on MercadoLibre (Feb 26, 2025). List price 1,357,000 COP. Free shipping. Efecty payment."
+    },
+    "receipts": [
+      {
+        "file": "receipt_standing_desk.jpg",
+        "note": "MercadoLibre receipt — paid 939,900 COP"
+      }
+    ],
+    "_photoVersions": {
+      "receipt_standing_desk.jpg": 1774735039201
+    },
+    "item_name_en": "Techgo DMTB-01-CA Electric Height-Adjustable Standing Desk",
+    "description_en": "Electric height-adjustable desk with digital control panel.",
+    "item_name_es": "Escritorio Eléctrico Altura Ajustable Techgo DMTB-01-CA",
+    "description_es": "Escritorio eléctrico de altura ajustable con panel de control digital.",
+    "notes_en": "Distressed/rustic finish is intentional aesthetic. Cable grommet hole visible.",
+    "notes_es": "Acabado rústico de diseño. Incluye orificio para cables.",
+    "active": true
+  },
+  {
+    "id": 6,
+    "item_name": "Juano Swivel Office Chair Black (Tugo)",
+    "category": "Furniture",
+    "condition": "Good",
+    "description": "Ergonomic swivel office chair.",
+    "photos": [
+      "20260325_091925.jpg",
+      "20260325_091939.jpg",
+      "receipt_office_chair_tugo.jpg"
+    ],
+    "notes": "Mesh backrest intact, no tears or sagging",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "pricing": {
+      "new_price_cop": 799990,
+      "new_price_usd": 190,
+      "used_price_range_cop": "150000-250000",
+      "used_price_range_usd": "36-60",
+      "recommended_sale_cop": 200000,
+      "recommended_sale_usd": 48,
+      "condition_discount_pct": 56,
+      "sources": [
+        {
+          "site": "tugo.co",
+          "url": "https://www.tugo.co/silla-giratoria-juano-negra-negra/p",
+          "price_cop": 799990,
+          "note": "Tugo — paid 549,990 COP"
+        }
+      ],
+      "notes": ""
+    },
+    "receipts": [
+      {
+        "file": "receipt_office_chair_tugo.jpg",
+        "note": "Tugo receipt — paid 549,990 COP"
+      }
+    ],
+    "item_name_en": "Juano Swivel Office Chair Black (Tugo)",
+    "description_en": "Ergonomic swivel office chair.",
+    "item_name_es": "Silla Giratoria Juano Negra (Tugo)",
+    "description_es": "Silla de oficina ergonómica giratoria.",
+    "notes_en": "Mesh backrest intact, no tears or sagging",
+    "notes_es": "Respaldo de malla en perfecto estado",
+    "_photoVersions": {
+      "receipt_office_chair_tugo.jpg": 1774729642278
+    },
+    "active": true
+  },
+  {
+    "id": 7,
+    "item_name": "Folding/Rolling Desk with Casters",
+    "category": "Furniture",
+    "condition": "Good",
+    "description": "Rectangular desk with light oak wood-grain laminate top, black metal angled legs with locking caster wheels. Mobile/rolling design.",
+    "photos": [
+      "20260324_171543.jpg",
+      "20260324_171555.jpg"
+    ],
+    "notes": "",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "pricing": {
+      "new_price_cop": 400000,
+      "new_price_usd": 95,
+      "used_price_range_cop": "140000-220000",
+      "used_price_range_usd": "33-52",
+      "recommended_sale_cop": 170000,
+      "recommended_sale_usd": 40,
+      "condition_discount_pct": 58,
+      "sources": [],
+      "notes": "Mobile desk with casters. Good condition "
+    },
+    "item_name_en": "Folding/Rolling Desk with Casters",
+    "description_en": "Rectangular desk with light oak wood-grain laminate top, black metal angled legs with locking caster wheels. Mobile/rolling design.",
+    "item_name_es": "Escritorio Plegable con Ruedas",
+    "description_es": "Escritorio plegable con ruedas, fácil de mover.",
+    "notes_en": "",
+    "active": true
+  },
+  {
+    "id": 8,
+    "item_name": "Mirrored Nightstands (Pair)",
+    "category": "Furniture",
+    "condition": "Fair",
+    "description": "Pair of small mirrored nightstands/bedside cabinets. Each has two drawers with white/cream fronts and mirrored side panels.",
+    "photos": [
+      "20260324_122859.jpg",
+      "20260324_122903.jpg"
+    ],
+    "notes": "",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "_photoVersions": {
+      "20260324_122859.jpg": 1774631051398
+    },
+    "pricing": {
+      "new_price_cop": 500000,
+      "new_price_usd": 119,
+      "used_price_range_cop": "120000-200000",
+      "used_price_range_usd": "29-48",
+      "recommended_sale_cop": 150000,
+      "recommended_sale_usd": 36,
+      "condition_discount_pct": 70,
+      "sources": [],
+      "notes": ""
+    },
+    "item_name_en": "Mirrored Nightstands (Pair)",
+    "description_en": "Pair of small mirrored nightstands/bedside cabinets. Each has two drawers with white/cream fronts and mirrored side panels.",
+    "item_name_es": "Mesas de Noche Espejadas (Par)",
+    "description_es": "Par de mesas de noche con superficie espejada.",
+    "notes_en": "",
+    "active": true
+  },
+  {
+    "id": 9,
+    "item_name": "Two-Tier Glass Coffee Table",
+    "category": "Furniture",
+    "condition": "Good",
+    "description": "Two-tier glass coffee table with organic/kidney shaped split-level top. Chrome cylindrical legs.",
+    "photos": [
+      "20260324_110633.jpg"
+    ],
+    "notes": "",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "pricing": {
+      "new_price_cop": 450000,
+      "new_price_usd": 107,
+      "used_price_range_cop": "160000-250000",
+      "used_price_range_usd": "38-60",
+      "recommended_sale_cop": 200000,
+      "recommended_sale_usd": 48,
+      "condition_discount_pct": 56,
+      "sources": [],
+      "notes": "Good condition glass table, no cracks or chips."
+    },
+    "item_name_en": "Two-Tier Glass Coffee Table",
+    "description_en": "Two-tier glass coffee table with organic/kidney shaped split-level top. Chrome cylindrical legs.",
+    "item_name_es": "Mesa de Centro de Vidrio de Dos Niveles",
+    "description_es": "Mesa de centro con dos niveles de vidrio.",
+    "notes_en": "",
+    "active": true
+  },
+  {
+    "id": 10,
+    "item_name": "Bed Base / Box Spring with Tufted Headboard",
+    "category": "Bedroom",
+    "condition": "Good",
+    "description": "Bed base / box spring and tufted fabric headboard — sold together as a set.",
+    "photos": [
+      "20260325_124131.jpg",
+      "20260325_124136.jpg"
+    ],
+    "notes": "Headboard and base come together as one unit",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "_photoVersions": {
+      "20260325_124131.jpg": 1774631667783
+    },
+    "pricing": {
+      "new_price_cop": 1200000,
+      "new_price_usd": 300,
+      "used_price_range_cop": "280000-400000",
+      "used_price_range_usd": "67-95",
+      "recommended_sale_cop": 300000,
+      "recommended_sale_usd": 75,
+      "condition_discount_pct": 60,
+      "sources": [
+        {
+          "site": "homecenter.com.co",
+          "url": "https://www.homecenter.com.co/homecenter-co/product/745806/base-cama-cabecero-doble-luxury-gris-plomo-140x190x150/745806/",
+          "price_cop": 800000,
+          "note": "Base Cama + Cabecero Doble Luxury - similar set confirmed at Homecenter"
+        }
+      ],
+      "notes": "Bed base and tufted headboard in good condition. Sell together as a set."
+    },
+    "item_name_en": "Bed Base / Box Spring with Tufted Headboard",
+    "description_en": "Bed base / box spring and tufted fabric headboard — sold together as a set.",
+    "item_name_es": "Base de Cama con Cabecero Tapizado",
+    "description_es": "Base de cama tipo box spring con cabecero tapizado incluido.",
+    "notes_en": "Headboard and base come together as one unit",
+    "notes_es": "Cabecero y base incluidos como juego completo",
+    "active": true
+  },
+  {
+    "id": 12,
+    "item_name": "IKEA ABYGDA Foam Mattress 140x200 Firm/White",
+    "category": "Bedroom",
+    "condition": "Good",
+    "description": "IKEA ABYGDA firm foam mattress, double size 140x200cm.",
+    "photos": [
+      "20260325_123802.jpg",
+      "20260325_123833.jpg"
+    ],
+    "notes": "Mattress surface clean and unmarked",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "_photoVersions": {
+      "20260325_123802.jpg": 1774631683924,
+      "20260325_123833.jpg": 1774631698185,
+      "receipt_ikea_1.jpg": 1774707357200
+    },
+    "pricing": {
+      "new_price_cop": 999990,
+      "new_price_usd": 272,
+      "used_price_range_cop": "600000-900000",
+      "used_price_range_usd": "143-214",
+      "recommended_sale_cop": 600000,
+      "recommended_sale_usd": 150,
+      "condition_discount_pct": 65,
+      "sources": [
+        {
+          "site": "ikea.com.co",
+          "url": "https://www.ikea.com/co/es/p/abygda-colchon-de-espuma-firme-blanco-00481462/#content",
+          "price_cop": 999990,
+          "note": "IKEA ABYGDA 140x200 Firme — paid 999,990 COP"
+        }
+      ],
+      "notes": "Bought at IKEA Viva Envigado, Medellín. Jan 2, 2025. Item #00481462. Paid 1,022,890 COP total (999,990 product + 22,900 delivery). Visa Debit. Order ISO0317047. Size: 140x200cm (Double/Full). Firm."
+    },
+    "receipts": [
+      {
+        "file": "receipt_memory_foam_ikea_1.jpg",
+        "note": "IKEA receipt p1 — 999,990 COP"
+      },
+      {
+        "file": "receipt_memory_foam_ikea_2.jpg",
+        "note": "IKEA receipt p2"
+      }
+    ],
+    "item_name_en": "IKEA ABYGDA Foam Mattress 140x200 Firm/White",
+    "description_en": "IKEA ABYGDA firm foam mattress, double size 140x200cm.",
+    "item_name_es": "Colchón IKEA ABYGDA ESP 140x200 Firme/Blanco",
+    "description_es": "Colchón de espuma firme IKEA ABYGDA, tamaño doble 140x200cm.",
+    "notes_en": "Mattress surface clean and unmarked",
+    "notes_es": "Colchón en excelente estado",
+    "active": true
+  },
+  {
+    "id": 13,
+    "item_name": "Colchón Sencillo (Colchones Descanso)",
+    "category": "Bedroom",
+    "condition": "Fair",
+    "description": "Colchón sencillo marca Colchones Descanso.",
+    "photos": [
+      "20260325_114713.jpg",
+      "20260325_114747.jpg",
+      "20260325_114652.jpg",
+      "20260325_114611.jpg"
+    ],
+    "notes": "",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "_photoVersions": {
+      "20260325_114611.jpg": 1774631773663
+    },
+    "pricing": {
+      "new_price_cop": 600000,
+      "new_price_usd": 143,
+      "used_price_range_cop": "80000-150000",
+      "used_price_range_usd": "19-36",
+      "recommended_sale_cop": 300000,
+      "recommended_sale_usd": 71,
+      "condition_discount_pct": 83,
+      "sources": [],
+      "notes": "Visible staining significantly reduces value. Price low to sell quickly. Manufactured 2021."
+    },
+    "item_name_en": "Single/Twin Mattress (Colchones Descanso)",
+    "description_en": "Colchones Descanso brand semi-orthopedic pillow-top mattress. Manufactured 16/9/21. Cream quilted cover with gold floral pattern.",
+    "item_name_es": "Colchón Sencillo (Colchones Descanso)",
+    "description_es": "Colchón sencillo marca Colchones Descanso.",
+    "notes_en": "",
+    "notes_es": "",
+    "active": true
+  },
+  {
+    "id": 14,
+    "item_name": "Spring Mattress (Double/Full)",
+    "category": "Bedroom",
+    "condition": "Fair",
+    "description": "Double/full spring mattress with quilted top. Dark navy/black sides. ",
+    "photos": [
+      "20260325_123938.jpg",
+      "20260325_123946.jpg",
+      "20260325_124049.jpg"
+    ],
+    "notes": "",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "_photoVersions": {
+      "20260325_124049.jpg": 1774631636560,
+      "20260325_123938.jpg": 1774631648723
+    },
+    "pricing": {
+      "new_price_cop": 1500000,
+      "new_price_usd": 357,
+      "used_price_range_cop": "300000-550000",
+      "used_price_range_usd": "71-131",
+      "recommended_sale_cop": 300000,
+      "recommended_sale_usd": 70,
+      "condition_discount_pct": 77,
+      "sources": [],
+      "notes": ""
+    },
+    "item_name_en": "Spring Mattress (Double/Full)",
+    "description_en": "Double/full spring mattress with quilted top. Dark navy/black sides. ",
+    "item_name_es": "Colchón de Resortes Doble",
+    "description_es": "Colchón de resortes tamaño doble.",
+    "notes_en": "",
+    "active": true
+  },
+  {
+    "id": 15,
+    "item_name": "Black Faux Leather Futon Sofa",
+    "category": "Furniture",
+    "condition": "Good",
+    "description": "Black faux leather futon-style sofa with silver/gray decorative pillows.",
+    "photos": [
+      "20260324_111712.jpg"
+    ],
+    "notes": "Futon style, matches armless chair",
+    "reviewed": true,
+    "quantity": 1,
+    "flagBox": false,
+    "pricing": {
+      "new_price_cop": 800000,
+      "new_price_usd": 190,
+      "used_price_range_cop": "280000-400000",
+      "used_price_range_usd": "67-95",
+      "recommended_sale_cop": 320000,
+      "recommended_sale_usd": 76,
+      "condition_discount_pct": 60,
+      "sources": [],
+      "notes": "Good condition black faux leather futon. Popular for small apartments. Sells well without paired chair (chair in worse condition)."
+    },
+    "item_name_en": "Black Faux Leather Futon Sofa",
+    "description_en": "Black faux leather futon-style sofa with silver/gray decorative pillows.",
+    "item_name_es": "Sofá Futón de Cuero Sintético Negro",
+    "description_es": "Sofá futón convertible de cuero sintético negro.",
+    "notes_en": "Futon style, matches armless chair",
+    "notes_es": "Estilo futón, combina con la silla lounge",
+    "active": true
+  },
+  {
+    "id": 16,
+    "item_name": "Abstract Blue Triptych Canvas Art",
+    "category": "Décor",
+    "condition": "Good",
+    "description": "Three square abstract canvas paintings in deep blue, black, teal with white highlights. Brushstrokes and textural effects.",
+    "photos": [
+      "20260324_111725.jpg"
+    ],
+    "notes": "Appears to be original oil or acrylic works",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "pricing": {
+      "new_price_cop": 250000,
+      "new_price_usd": 60,
+      "used_price_range_cop": "80000-140000",
+      "used_price_range_usd": "19-33",
+      "recommended_sale_cop": 100000,
+      "recommended_sale_usd": 24,
+      "condition_discount_pct": 60,
+      "sources": [],
+      "notes": "Sell as set of 3. If original art, could command more. Decorative and popular."
+    },
+    "item_name_en": "Abstract Blue Triptych Canvas Art",
+    "description_en": "Three square abstract canvas paintings in deep blue, black, teal with white highlights. Brushstrokes and textural effects.",
+    "item_name_es": "Arte Tríptico Abstracto Azul en Lienzo",
+    "description_es": "Tres cuadros abstractos en lienzo, tonos azul y negro.",
+    "notes_en": "Appears to be original oil or acrylic works",
+    "notes_es": "Obras originales en óleo o acrílico",
+    "active": true
+  },
+  {
+    "id": 17,
+    "item_name": "Autumn Landscape Oil Painting",
+    "category": "Décor",
+    "condition": "Good",
+    "description": "Square canvas painting depicting autumn scene with wooden footbridge over stream. Impasto/palette knife technique.",
+    "photos": [
+      "20260324_112135.jpg"
+    ],
+    "notes": "Appears to be original painting or high-quality reproduction",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "pricing": {
+      "new_price_cop": 200000,
+      "new_price_usd": 48,
+      "used_price_range_cop": "60000-120000",
+      "used_price_range_usd": "14-29",
+      "recommended_sale_cop": 80000,
+      "recommended_sale_usd": 19,
+      "condition_discount_pct": 60,
+      "sources": [],
+      "notes": "Impasto technique suggests original. Decorative landscape popular in Colombia."
+    },
+    "item_name_en": "Autumn Landscape Oil Painting",
+    "description_en": "Square canvas painting depicting autumn scene with wooden footbridge over stream. Impasto/palette knife technique.",
+    "item_name_es": "Pintura al Óleo Paisaje Otoñal",
+    "description_es": "Pintura al óleo con paisaje de otoño.",
+    "notes_en": "Appears to be original painting or high-quality reproduction",
+    "notes_es": "Pintura original o reproducción de alta calidad",
+    "_photoVersions": {
+      "20260324_112135.jpg": 1774734107703
+    },
+    "active": true
+  },
+  {
+    "id": 18,
+    "item_name": "Black Wall Clock",
+    "category": "Décor",
+    "condition": "Good",
+    "description": "Large round matte black wall clock with raised 3D block numerals and silver metallic hands. Minimalist monochromatic design.",
+    "photos": [
+      "20260324_112325.jpg"
+    ],
+    "notes": "Appears functional, showing approximately 10:10",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "pricing": {
+      "new_price_cop": 120000,
+      "new_price_usd": 29,
+      "used_price_range_cop": "40000-70000",
+      "used_price_range_usd": "10-17",
+      "recommended_sale_cop": 50000,
+      "recommended_sale_usd": 12,
+      "condition_discount_pct": 58,
+      "sources": [],
+      "notes": "Functional black wall clock. Popular minimalist style. Easy to sell."
+    },
+    "item_name_en": "Black Wall Clock",
+    "description_en": "Large round matte black wall clock with raised 3D block numerals and silver metallic hands. Minimalist monochromatic design.",
+    "item_name_es": "Reloj de Pared Negro",
+    "description_es": "Reloj de pared color negro.",
+    "notes_en": "Appears functional, showing approximately 10:10",
+    "notes_es": "Funcional",
+    "active": true
+  },
+  {
+    "id": 19,
+    "item_name": "Blue Decorative Glass Vase",
+    "category": "Décor",
+    "condition": "Good",
+    "description": "Bulbous gourd/teardrop shaped cobalt/royal blue glass vase with narrow neck and flared lip.",
+    "photos": [
+      "20260325_122542.jpg"
+    ],
+    "notes": "",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "_photoVersions": {
+      "20260325_122542.jpg": 1774631965867
+    },
+    "pricing": {
+      "new_price_cop": 70000,
+      "new_price_usd": 17,
+      "used_price_range_cop": "20000-40000",
+      "used_price_range_usd": "5-10",
+      "recommended_sale_cop": 30000,
+      "recommended_sale_usd": 7,
+      "condition_discount_pct": 57,
+      "sources": [],
+      "notes": "Nice cobalt blue glass, intact no chips. Decorative item, moderate demand."
+    },
+    "item_name_en": "Blue Decorative Glass Vase",
+    "description_en": "Bulbous gourd/teardrop shaped cobalt/royal blue glass vase with narrow neck and flared lip.",
+    "item_name_es": "Florero Decorativo de Vidrio Azul",
+    "description_es": "Florero decorativo de vidrio color azul.",
+    "notes_en": "",
+    "active": true
+  },
+  {
+    "id": 20,
+    "item_name": "Cable-Stayed Bridge Diptych Canvas Prints",
+    "category": "Décor",
+    "condition": "Good",
+    "description": "Two rectangular canvas prints of cable-stayed bridge tower at sunset/dusk with radiating suspension cables.",
+    "photos": [
+      "20260324_112157.jpg"
+    ],
+    "notes": "",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "pricing": {
+      "new_price_cop": 150000,
+      "new_price_usd": 36,
+      "used_price_range_cop": "50000-80000",
+      "used_price_range_usd": "12-19",
+      "recommended_sale_cop": 60000,
+      "recommended_sale_usd": 14,
+      "condition_discount_pct": 60,
+      "sources": [],
+      "notes": "Matching pair of architectural canvas prints. Minor edge chips. Sell as set."
+    },
+    "item_name_en": "Cable-Stayed Bridge Diptych Canvas Prints",
+    "description_en": "Two rectangular canvas prints of cable-stayed bridge tower at sunset/dusk with radiating suspension cables.",
+    "item_name_es": "Cuadro Díptico Puente Atirantado en Lienzo",
+    "description_es": "Par de cuadros en lienzo con imagen de puente atirantado.",
+    "notes_en": "",
+    "active": true
+  },
+  {
+    "id": 21,
+    "item_name": "Cream Grommet Curtain",
+    "category": "Décor",
+    "condition": "Good",
+    "description": "Large cream/off-white curtain with diagonal crosshatch texture, hung on rod with dark metal grommet rings.",
+    "photos": [
+      "20260324_110313.jpg"
+    ],
+    "notes": "",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "pricing": {
+      "new_price_cop": 120000,
+      "new_price_usd": 29,
+      "used_price_range_cop": "40000-70000",
+      "used_price_range_usd": "10-17",
+      "recommended_sale_cop": 50000,
+      "recommended_sale_usd": 12,
+      "condition_discount_pct": 58,
+      "sources": [],
+      "notes": ""
+    },
+    "item_name_en": "Cream Grommet Curtain",
+    "description_en": "Large cream/off-white curtain with diagonal crosshatch texture, hung on rod with dark metal grommet rings.",
+    "item_name_es": "Cortina Crema con Ojales",
+    "description_es": "Cortina color crema con ojales metálicos.",
+    "notes_en": "",
+    "notes_es": "",
+    "active": true
+  },
+  {
+    "id": 22,
+    "item_name": "Dark Patterned Lace Curtain",
+    "category": "Décor",
+    "condition": "Good",
+    "description": "Dark spiral/swirl patterned lace curtain. ",
+    "photos": [
+      "20260324_105728.jpg",
+      "20260324_105941.jpg"
+    ],
+    "notes": "",
+    "quantity": 2,
+    "reviewed": true,
+    "flagBox": false,
+    "pricing": {
+      "new_price_cop": 80000,
+      "new_price_usd": 19,
+      "used_price_range_cop": "15000-25000",
+      "used_price_range_usd": "4-6",
+      "recommended_sale_cop": 20000,
+      "recommended_sale_usd": 5,
+      "condition_discount_pct": 75,
+      "sources": [],
+      "notes": "Price per curtain (qty 2). Consider selling both for $35,000."
+    },
+    "item_name_en": "Dark Patterned Lace Curtain",
+    "description_en": "Dark spiral/swirl patterned lace curtain. ",
+    "item_name_es": "Cortina de Encaje Oscura",
+    "description_es": "Cortina de encaje color oscuro.",
+    "notes_en": "",
+    "notes_es": "",
+    "active": true
+  },
+  {
+    "id": 23,
+    "item_name": "Dark Solid Curtain",
+    "category": "Décor",
+    "condition": "Fair",
+    "description": "Burgundy/maroon solid fabric curtain. Small hole",
+    "photos": [
+      "20260324_105855.jpg"
+    ],
+    "notes": "",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "pricing": {
+      "new_price_cop": 80000,
+      "new_price_usd": 19,
+      "used_price_range_cop": "15000-30000",
+      "used_price_range_usd": "4-7",
+      "recommended_sale_cop": 20000,
+      "recommended_sale_usd": 5,
+      "condition_discount_pct": 75,
+      "sources": [],
+      "notes": ""
+    },
+    "item_name_en": "Dark Solid Curtain",
+    "description_en": "Burgundy/maroon solid fabric curtain. Small hole",
+    "item_name_es": "Cortina Sólida Oscura",
+    "description_es": "Cortina lisa color oscuro.",
+    "notes_en": "",
+    "notes_es": "",
+    "active": true
+  },
+  {
+    "id": 24,
+    "item_name": "Frameless Wall Mirror",
+    "category": "Décor",
+    "condition": "Good",
+    "description": "Rectangular frameless/beveled-edge wall mirror mounted on white wall. Simple modern design.",
+    "photos": [
+      "20260324_112307.jpg"
+    ],
+    "notes": "Mirror surface clean and intact, mounting clips visible",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "pricing": {
+      "new_price_cop": 200000,
+      "new_price_usd": 48,
+      "used_price_range_cop": "70000-120000",
+      "used_price_range_usd": "17-29",
+      "recommended_sale_cop": 90000,
+      "recommended_sale_usd": 21,
+      "condition_discount_pct": 55,
+      "sources": [],
+      "notes": "Clean frameless mirror in excellent condition. Popular and practical item."
+    },
+    "item_name_en": "Frameless Wall Mirror",
+    "description_en": "Rectangular frameless/beveled-edge wall mirror mounted on white wall. Simple modern design.",
+    "item_name_es": "Espejo de Pared sin Marco",
+    "description_es": "Espejo de pared sin marco, montaje directo.",
+    "notes_en": "Mirror surface clean and intact, mounting clips visible",
+    "notes_es": "Espejo limpio, incluye clips de montaje",
+    "active": true
+  },
+  {
+    "id": 25,
+    "item_name": "Money Tree (Pachira Aquatica) Plant",
+    "category": "Décor",
+    "condition": "Good",
+    "description": "Potted Money Tree in black/white swirled decorative pot. Lush green palmate leaves.",
+    "photos": [
+      "20260324_111031.jpg"
+    ],
+    "notes": "Plant appears healthy and well-maintained",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "pricing": {
+      "new_price_cop": 50000,
+      "new_price_usd": 12,
+      "used_price_range_cop": "20000-35000",
+      "used_price_range_usd": "5-8",
+      "recommended_sale_cop": 30000,
+      "recommended_sale_usd": 7,
+      "condition_discount_pct": 40,
+      "sources": [],
+      "notes": "Healthy money tree. Popular feng shui plant in Colombia. Includes decorative pot."
+    },
+    "item_name_en": "Money Tree (Pachira Aquatica) Plant",
+    "description_en": "Potted Money Tree in black/white swirled decorative pot. Lush green palmate leaves.",
+    "item_name_es": "Planta Árbol del Dinero (Pachira Aquatica)",
+    "description_es": "Planta Pachira Aquatica en maceta.",
+    "notes_en": "Plant appears healthy and well-maintained",
+    "notes_es": "Planta saludable y bien cuidada",
+    "active": true
+  },
+  {
+    "id": 26,
+    "item_name": "New York City Collage Canvas Print",
+    "category": "Décor",
+    "condition": "Good",
+    "description": "Square canvas print with mixed-media collage of NYC imagery — Brooklyn Bridge, Statue of Liberty, American flag. Vintage/distressed aesthetic.",
+    "photos": [
+      "20260324_112144.jpg"
+    ],
+    "notes": "",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "pricing": {
+      "new_price_cop": 100000,
+      "new_price_usd": 24,
+      "used_price_range_cop": "30000-60000",
+      "used_price_range_usd": "7-14",
+      "recommended_sale_cop": 40000,
+      "recommended_sale_usd": 10,
+      "condition_discount_pct": 60,
+      "sources": [],
+      "notes": ""
+    },
+    "item_name_en": "New York City Collage Canvas Print",
+    "description_en": "Square canvas print with mixed-media collage of NYC imagery — Brooklyn Bridge, Statue of Liberty, American flag. Vintage/distressed aesthetic.",
+    "item_name_es": "Cuadro Collage de Nueva York en Lienzo",
+    "description_es": "Cuadro en lienzo con collage de la ciudad de Nueva York.",
+    "notes_en": "",
+    "notes_es": "Cuadro decorativo en lienzo",
+    "active": true
+  },
+  {
+    "id": 28,
+    "item_name": "Spider Plant (Chlorophytum comosum)",
+    "category": "Décor",
+    "condition": "Good",
+    "description": "Spider plant with dangling baby plantlet on stolon. Variegated green and white striped leaves.",
+    "photos": [
+      "20260324_111215.jpg"
+    ],
+    "notes": "Minor browning on few leaf tips (normal)",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "pricing": {
+      "new_price_cop": 25000,
+      "new_price_usd": 6,
+      "used_price_range_cop": "10000-20000",
+      "used_price_range_usd": "2-5",
+      "recommended_sale_cop": 15000,
+      "recommended_sale_usd": 4,
+      "condition_discount_pct": 40,
+      "sources": [],
+      "notes": "Very common plant. Has baby plantlet. Low value but sells quickly."
+    },
+    "item_name_en": "Spider Plant (Chlorophytum comosum)",
+    "description_en": "Spider plant with dangling baby plantlet on stolon. Variegated green and white striped leaves.",
+    "item_name_es": "Planta Cinta (Chlorophytum comosum)",
+    "description_es": "Planta cinta en maceta.",
+    "notes_en": "Minor browning on few leaf tips (normal)",
+    "notes_es": "",
+    "active": true
+  },
+  {
+    "id": 29,
+    "item_name": "Urban Street Scene Print",
+    "category": "Décor",
+    "condition": "Good",
+    "description": "Tall vertical print of European-style urban street scene with historic buildings, street lamp, outdoor café figure.",
+    "photos": [
+      "20260324_112140.jpg"
+    ],
+    "notes": "",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "pricing": {
+      "new_price_cop": 80000,
+      "new_price_usd": 19,
+      "used_price_range_cop": "25000-45000",
+      "used_price_range_usd": "6-11",
+      "recommended_sale_cop": 30000,
+      "recommended_sale_usd": 7,
+      "condition_discount_pct": 63,
+      "sources": [],
+      "notes": "European street scene print, popular in Colombia."
+    },
+    "item_name_en": "Urban Street Scene Print",
+    "description_en": "Tall vertical print of European-style urban street scene with historic buildings, street lamp, outdoor café figure.",
+    "item_name_es": "Cuadro Escena Urbana",
+    "description_es": "Cuadro impreso con escena urbana.",
+    "notes_en": "",
+    "active": true
+  },
+  {
+    "id": 30,
+    "item_name": "Woven Placemats (Set of 3)",
+    "category": "Décor",
+    "condition": "Fair",
+    "description": "Three rectangular woven placemats in black, gray, and cream/beige striped pattern. Stiff vinyl/bamboo-like texture.",
+    "photos": [
+      "20260325_190447.jpg"
+    ],
+    "notes": "Used but lay relatively flat",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "pricing": {
+      "new_price_cop": 45000,
+      "new_price_usd": 11,
+      "used_price_range_cop": "10000-18000",
+      "used_price_range_usd": "2-4",
+      "recommended_sale_cop": 12000,
+      "recommended_sale_usd": 3,
+      "condition_discount_pct": 73,
+      "sources": [],
+      "notes": "Used placemats with low resale value. Bundle with other kitchen/dining items."
+    },
+    "item_name_en": "Woven Placemats (Set of 3)",
+    "description_en": "Three rectangular woven placemats in black, gray, and cream/beige striped pattern. Stiff vinyl/bamboo-like texture.",
+    "item_name_es": "Individuales Tejidos (Juego de 3)",
+    "description_es": "Juego de 3 individuales tejidos para mesa.",
+    "notes_en": "Used but lay relatively flat",
+    "notes_es": "",
+    "active": true
+  },
+  {
+    "id": 31,
+    "item_name": "LG Front-Load Washing Machine",
+    "category": "Appliances",
+    "condition": "Fair",
+    "description": "LG front-load silver/gray washing machine. Model WD-10587BD, Direct Drive, 31 lbs capacity. 10-year DD Motor warranty.",
+    "photos": [
+      "20260324_112909.jpg",
+      "20260324_112502.jpg"
+    ],
+    "notes": "Silver finish dulled, some discoloration on lower portion",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "_photoVersions": {
+      "20260324_112909.jpg": 1774631089187
+    },
+    "pricing": {
+      "new_price_cop": 2500000,
+      "new_price_usd": 595,
+      "used_price_range_cop": "700000-1100000",
+      "used_price_range_usd": "167-262",
+      "recommended_sale_cop": 800000,
+      "recommended_sale_usd": 190,
+      "condition_discount_pct": 68,
+      "sources": [],
+      "notes": "LG front-load with DD motor. WD-10587BD older model but functional. Appliances sell well used in Medellin."
+    },
+    "item_name_en": "LG Front-Load Washing Machine",
+    "description_en": "LG front-load silver/gray washing machine. Model WD-10587BD, Direct Drive, 31 lbs capacity. 10-year DD Motor warranty.",
+    "item_name_es": "Lavadora LG Carga Frontal",
+    "description_es": "Lavadora LG de carga frontal.",
+    "notes_en": "Silver finish dulled, some discoloration on lower portion",
+    "notes_es": "",
+    "active": true
+  },
+  {
+    "id": 32,
+    "item_name": "Samsung Top-Freezer Refrigerator",
+    "category": "Appliances",
+    "condition": "Fair",
+    "description": "Samsung stainless steel top-freezer refrigerator with built-in water dispenser. Model RT32K5730SL, 120V, R-600a refrigerant, made in Mexico.",
+    "photos": [
+      "20260324_112424.jpg",
+      "20260324_112349.jpg"
+    ],
+    "notes": "",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "_photoVersions": {
+      "20260324_112349.jpg": 1774631108018
+    },
+    "pricing": {
+      "new_price_cop": 2200000,
+      "new_price_usd": 524,
+      "used_price_range_cop": "700000-950000",
+      "used_price_range_usd": "167-226",
+      "recommended_sale_cop": 750000,
+      "recommended_sale_usd": 179,
+      "condition_discount_pct": 66,
+      "sources": [],
+      "notes": "Samsung RT32K discontinued model. functional with water dispenser. Refrigerators are high-demand used items."
+    },
+    "item_name_en": "Samsung Top-Freezer Refrigerator",
+    "description_en": "Samsung stainless steel top-freezer refrigerator with built-in water dispenser. Model RT32K5730SL, 120V, R-600a refrigerant, made in Mexico.",
+    "item_name_es": "Nevera Samsung Congelador Superior",
+    "description_es": "Nevera Samsung con congelador superior.",
+    "notes_en": "",
+    "active": true
+  },
+  {
+    "id": 33,
+    "item_name": "Blue Dot/Dash Pattern Saucer",
+    "category": "Kitchen",
+    "condition": "Good",
+    "description": "White/cream saucer with radiating blue dashes and dots sunburst pattern.",
+    "photos": [
+      "20260325_130844.jpg"
+    ],
+    "notes": "Small yellow spot near center; slightly aged appearance",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "pricing": {
+      "new_price_cop": 15000,
+      "new_price_usd": 4,
+      "used_price_range_cop": "3000-8000",
+      "used_price_range_usd": "1-2",
+      "recommended_sale_cop": 5000,
+      "recommended_sale_usd": 1,
+      "condition_discount_pct": 67,
+      "sources": [],
+      "notes": "Single mismatched saucer. Very low value. Bundle with dinnerware sets."
+    },
+    "item_name_en": "Blue Dot/Dash Pattern Saucer",
+    "description_en": "White/cream saucer with radiating blue dashes and dots sunburst pattern.",
+    "item_name_es": "Platillo con Diseño Puntos Azules",
+    "description_es": "Platillo decorativo con diseño de puntos azules.",
+    "notes_en": "Small yellow spot near center; slightly aged appearance",
+    "notes_es": "",
+    "_photoVersions": {
+      "20260325_130844.jpg": 1774731573141
+    },
+    "active": true
+  },
+  {
+    "id": 34,
+    "item_name": "Chrome Wire Fruit/Vegetable Basket Stand",
+    "category": "Kitchen",
+    "condition": "Good",
+    "description": "Four-tier freestanding chrome wire basket stand. Graduated sizes.",
+    "photos": [
+      "20260324_115058.jpg"
+    ],
+    "notes": "Chrome shiny, no visible rust; baskets empty",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "pricing": {
+      "new_price_cop": 80000,
+      "new_price_usd": 19,
+      "used_price_range_cop": "30000-50000",
+      "used_price_range_usd": "7-12",
+      "recommended_sale_cop": 40000,
+      "recommended_sale_usd": 10,
+      "condition_discount_pct": 50,
+      "sources": [],
+      "notes": "Practical kitchen organizer. Good chrome condition, no rust. Easy to sell."
+    },
+    "item_name_en": "Chrome Wire Fruit/Vegetable Basket Stand",
+    "description_en": "Four-tier freestanding chrome wire basket stand. Graduated sizes.",
+    "item_name_es": "Frutero de Alambre Cromado",
+    "description_es": "Frutero tipo canasta de alambre cromado con niveles.",
+    "notes_en": "Chrome shiny, no visible rust; baskets empty",
+    "notes_es": "Cromo brillante, sin óxido",
+    "active": true
+  },
+  {
+    "id": 36,
+    "item_name": "Digital Kitchen Scale SF-400",
+    "category": "Kitchen",
+    "condition": "Good",
+    "description": "White plastic digital kitchen scale. 10000g x 1g capacity. LCD display.",
+    "photos": [
+      "20260325_183235.jpg"
+    ],
+    "notes": "",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "pricing": {
+      "new_price_cop": 40000,
+      "new_price_usd": 10,
+      "used_price_range_cop": "15000-25000",
+      "used_price_range_usd": "4-6",
+      "recommended_sale_cop": 20000,
+      "recommended_sale_usd": 5,
+      "condition_discount_pct": 50,
+      "sources": [],
+      "notes": "Common digital scale model. Functional with minor cosmetic wear. Easy sell."
+    },
+    "item_name_en": "Digital Kitchen Scale SF-400",
+    "description_en": "White plastic digital kitchen scale. 10000g x 1g capacity. LCD display.",
+    "item_name_es": "Báscula Digital de Cocina SF-400",
+    "description_es": "Báscula digital de cocina, capacidad 10kg.",
+    "notes_en": "",
+    "active": true
+  },
+  {
+    "id": 37,
+    "item_name": "Drinking Glassware Collection",
+    "category": "Kitchen",
+    "condition": "Good",
+    "description": "Full set: two ribbed water bottles, four highball glasses, one glass mug, one branded rocks glass, one tumbler. 9 pieces total.",
+    "photos": [
+      "20260325_132313.jpg",
+      "20260325_132237.jpg",
+      "20260325_132248.jpg",
+      "20260325_132300.jpg",
+      "20260325_132257.jpg",
+      "20260325_132244.jpg"
+    ],
+    "notes": "Standard everyday glass",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "pricing": {
+      "new_price_cop": 80000,
+      "new_price_usd": 19,
+      "used_price_range_cop": "25000-45000",
+      "used_price_range_usd": "6-11",
+      "recommended_sale_cop": 35000,
+      "recommended_sale_usd": 8,
+      "condition_discount_pct": 56,
+      "sources": [],
+      "notes": "Mixed collection of 9 pieces, no damage. Bundle price for the collection."
+    },
+    "item_name_en": "Drinking Glassware Collection",
+    "description_en": "Full set: two ribbed water bottles, four highball glasses, one glass mug, one branded rocks glass, one tumbler. 9 pieces total.",
+    "item_name_es": "Colección de Vasos de Vidrio",
+    "description_es": "Juego de vasos de vidrio para bebidas.",
+    "notes_en": "Standard everyday glass",
+    "notes_es": "",
+    "active": true
+  },
+  {
+    "id": 38,
+    "item_name": "Finlandek Select Electric Pressure Cooker",
+    "category": "Kitchen",
+    "condition": "Good",
+    "description": "Finlandek Select FI-PR618 electric pressure cooker. 1000W. Spanish controls for Colombian cooking (Arroz, Frijol, Sopa, etc.).",
+    "photos": [
+      "20260326_102238.jpg",
+      "20260326_102130.jpg",
+      "20260326_102133.jpg",
+      "20260326_102307.jpg",
+      "20260326_102343.jpg"
+    ],
+    "notes": "Lid gasket intact; Unit powers on and functions",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "pricing": {
+      "new_price_cop": 319000,
+      "new_price_usd": 75,
+      "used_price_range_cop": "70000-120000",
+      "used_price_range_usd": "17-29",
+      "recommended_sale_cop": 120000,
+      "recommended_sale_usd": 35,
+      "condition_discount_pct": 55,
+      "sources": [
+        {
+          "site": "homecenter.com.co",
+          "url": "https://www.homecenter.com.co/homecenter-co/product/876612/olla-multifuncional-blackdecker-de-57-litros-pr100b/876612/",
+          "price_cop": 200000,
+          "note": "Olla Multifuncional Black+Decker 5.7L PR100B - similar electric pressure cooker confirmed"
+        }
+      ],
+      "notes": "Functional pressure cooker with Spanish programs for Colombian cooking. Good demand."
+    },
+    "item_name_en": "Finlandek Select Electric Pressure Cooker",
+    "description_en": "Finlandek Select FI-PR618 electric pressure cooker. 1000W. Spanish controls for Colombian cooking (Arroz, Frijol, Sopa, etc.).",
+    "item_name_es": "Olla a Presión Eléctrica Finlandek Select",
+    "description_es": "Olla a presión eléctrica marca Finlandek Select.",
+    "notes_en": "Lid gasket intact; Unit powers on and functions",
+    "notes_es": "Funciona correctamente",
+    "active": true
+  },
+  {
+    "id": 39,
+    "item_name": "Floral Dinnerware Set (Agapanthus Pattern)",
+    "category": "Kitchen",
+    "condition": "Good",
+    "description": "Purple agapanthus and yellow wildflower botanical print dinnerware: dinner plate, saucers, bowls, 3 teacups. Opal/tempered glass.",
+    "photos": [
+      "20260325_130728.jpg",
+      "20260325_130709.jpg",
+      "20260325_130724.jpg",
+      "20260325_130746.jpg",
+      "20260325_130749.jpg",
+      "20260325_130736.jpg"
+    ],
+    "notes": "Smooth white glaze",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "pricing": {
+      "new_price_cop": 150000,
+      "new_price_usd": 36,
+      "used_price_range_cop": "50000-90000",
+      "used_price_range_usd": "12-21",
+      "recommended_sale_cop": 70000,
+      "recommended_sale_usd": 17,
+      "condition_discount_pct": 53,
+      "sources": [],
+      "notes": "Pretty floral pattern in like-new condition. Multiple pieces. Good find."
+    },
+    "item_name_en": "Floral Dinnerware Set (Agapanthus Pattern)",
+    "description_en": "Purple agapanthus and yellow wildflower botanical print dinnerware: dinner plate, saucers, bowls, 3 teacups. Opal/tempered glass.",
+    "item_name_es": "Vajilla Floral Diseño Agapanthus",
+    "description_es": "Juego de vajilla con diseño floral Agapanthus.",
+    "notes_en": "Smooth white glaze",
+    "notes_es": "",
+    "active": true
+  },
+  {
+    "id": 40,
+    "item_name": "Geometric/Mosaic Dinnerware Set (3 pieces)",
+    "category": "Kitchen",
+    "condition": "Good",
+    "description": "Three white pieces with modern geometric mosaic pattern (black, brown, gold squares/dots on rim): dinner plate, saucer, bowl.",
+    "photos": [
+      "20260325_130830.jpg"
+    ],
+    "notes": "",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "pricing": {
+      "new_price_cop": 60000,
+      "new_price_usd": 14,
+      "used_price_range_cop": "20000-35000",
+      "used_price_range_usd": "5-8",
+      "recommended_sale_cop": 28000,
+      "recommended_sale_usd": 7,
+      "condition_discount_pct": 53,
+      "sources": [],
+      "notes": "3-piece set in good condition. Modern geometric pattern. Bundle with other dinnerware."
+    },
+    "item_name_en": "Geometric/Mosaic Dinnerware Set (3 pieces)",
+    "description_en": "Three white pieces with modern geometric mosaic pattern (black, brown, gold squares/dots on rim): dinner plate, saucer, bowl.",
+    "item_name_es": "Vajilla Geométrica/Mosaico (3 piezas)",
+    "description_es": "Juego de 3 piezas de vajilla con diseño geométrico.",
+    "_photoVersions": {
+      "20260325_130830.jpg": 1774731359180
+    },
+    "notes_en": "",
+    "active": true
+  },
+  {
+    "id": 41,
+    "item_name": "Glass Food Storage Containers with Lids",
+    "category": "Kitchen",
+    "condition": "Good",
+    "description": "Set of 4-5 rectangular glass containers with snap-lock lids with blue silicone gaskets and four-clip locking mechanism.",
+    "photos": [
+      "20260325_182727.jpg",
+      "20260325_182618.jpg",
+      "20260325_182737.jpg",
+      "20260325_182733.jpg"
+    ],
+    "notes": "",
+    "reviewed": true,
+    "quantity": 1,
+    "flagBox": false,
+    "pricing": {
+      "new_price_cop": 120000,
+      "new_price_usd": 29,
+      "used_price_range_cop": "45000-70000",
+      "used_price_range_usd": "11-17",
+      "recommended_sale_cop": 55000,
+      "recommended_sale_usd": 13,
+      "condition_discount_pct": 54,
+      "sources": [],
+      "notes": "Glass containers with airtight lids in good condition. Practical kitchen item, good demand."
+    },
+    "item_name_en": "Glass Food Storage Containers with Lids",
+    "description_en": "Set of 4-5 rectangular glass containers with snap-lock lids with blue silicone gaskets and four-clip locking mechanism.",
+    "item_name_es": "Recipientes de Vidrio con Tapa",
+    "description_es": "Recipientes de vidrio para alimentos con tapa hermética.",
+    "notes_en": "",
+    "active": true
+  },
+  {
+    "id": 42,
+    "item_name": "Jarras/Botellas de Vidrio (Par)",
+    "category": "Kitchen",
+    "condition": "Good",
+    "description": "Par de jarras de vidrio para agua.",
+    "photos": [
+      "20260325_132211.jpg"
+    ],
+    "notes": "",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "pricing": {
+      "new_price_cop": 60000,
+      "new_price_usd": 14,
+      "used_price_range_cop": "20000-35000",
+      "used_price_range_usd": "5-8",
+      "recommended_sale_cop": 28000,
+      "recommended_sale_usd": 7,
+      "condition_discount_pct": 53,
+      "sources": [
+        {
+          "site": "homecenter.com.co",
+          "url": "https://www.homecenter.com.co/homecenter-co/product/257473/jarra-de-vidrio-18-litros-255cm-transparente/257473/",
+          "price_cop": 60000,
+          "note": "Jarra de Vidrio 1.8 Litros 25.5cm Transparente - similar glass pitcher confirmed at Homecenter"
+        }
+      ],
+      "notes": "Pair of ribbed glass bottles, no damage. Bundle with kitchen items."
+    },
+    "item_name_en": "Glass Water Pitchers/Bottles (Pair)",
+    "description_en": "Two tall ribbed/textured clear glass bottles with colored plastic lids (purple and hot pink).",
+    "item_name_es": "Jarras/Botellas de Vidrio (Par)",
+    "description_es": "Par de jarras de vidrio para agua.",
+    "active": true
+  },
+  {
+    "id": 43,
+    "item_name": "Grival 4-Stage Under-Counter Water Filter",
+    "category": "Kitchen",
+    "condition": "Excellent",
+    "description": "Grival 4-stage under-counter water filter. Activated carbon technology, reduces odors, improves taste and water quality.",
+    "photos": [
+      "20260326_112335.jpg",
+      "20260326_112342.jpg",
+      "20260326_112347.jpg",
+      "20260326_112349.jpg",
+      "20260326_113804.jpg"
+    ],
+    "notes": "Appears new or like-new; shiny unblemished chrome",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "pricing": {
+      "new_price_cop": 624900,
+      "new_price_usd": 149,
+      "used_price_range_cop": "230000-280000",
+      "used_price_range_usd": "55-67",
+      "recommended_sale_cop": 250000,
+      "recommended_sale_usd": 60,
+      "condition_discount_pct": 29,
+      "sources": [
+        {
+          "site": "homecenter.com.co",
+          "url": "https://www.homecenter.com.co/homecenter-co/product/267451/filtro-agua-bajo-meson-4-etapas/267451/",
+          "price_cop": 624900,
+          "note": "Grival Filtro 4 Etapas — Homecenter"
+        }
+      ],
+      "notes": "Excellent condition water filter system. High demand in Colombia where tap water quality concerns exist. Nearly new."
+    },
+    "item_name_en": "Grival 4-Stage Under-Counter Water Filter",
+    "description_en": "Grival 4-stage under-counter water filter. Activated carbon technology, reduces odors, improves taste and water quality.",
+    "item_name_es": "Filtro de Agua Bajo Mesón 4 Etapas Grival",
+    "description_es": "Filtro de agua Grival de 4 etapas para instalación bajo mesón. Tecnología de carbón activado, reduce olores, mejora sabor y apariencia del agua. Marca Grival.",
+    "notes_en": "Appears new or like-new; shiny unblemished chrome",
+    "notes_es": "Como nuevo",
+    "_photoVersions": {
+      "20260326_113804.jpg": 1774730860195
+    },
+    "active": true
+  },
+  {
+    "id": 44,
+    "item_name": "Hamilton Beach Coffee Grinder",
+    "category": "Kitchen",
+    "condition": "Good",
+    "description": "Hamilton Beach electric coffee/spice grinder. Model 80335G, 125W.",
+    "photos": [
+      "20260325_190319.jpg",
+      "20260325_190312.jpg",
+      "20260325_190247.jpg"
+    ],
+    "notes": "Some grime around base edges",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "pricing": {
+      "new_price_cop": 90000,
+      "new_price_usd": 21,
+      "used_price_range_cop": "30000-50000",
+      "used_price_range_usd": "7-12",
+      "recommended_sale_cop": 40000,
+      "recommended_sale_usd": 10,
+      "condition_discount_pct": 56,
+      "sources": [],
+      "notes": "Functional coffee/spice grinder with typical coffee staining. Budget-friendly used price."
+    },
+    "item_name_en": "Hamilton Beach Coffee Grinder",
+    "description_en": "Hamilton Beach electric coffee/spice grinder. Model 80335G, 125W.",
+    "item_name_es": "Molino de Café Hamilton Beach",
+    "description_es": "Molino de café eléctrico Hamilton Beach.",
+    "notes_en": "Some grime around base edges",
+    "notes_es": "",
+    "active": true
+  },
+  {
+    "id": 45,
+    "item_name": "Hand-Painted Ceramic Bowl",
+    "category": "Kitchen",
+    "condition": "Good",
+    "description": "Small ceramic bowl with concentric hand-painted rings in black, red-orange, olive green, orange, and coral pink. Mediterranean/Mexican artisan style.",
+    "photos": [
+      "20260325_130840.jpg",
+      "20260325_130837.jpg"
+    ],
+    "notes": "Minor glaze variation; handmade/artisan",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "pricing": {
+      "new_price_cop": 50000,
+      "new_price_usd": 12,
+      "used_price_range_cop": "15000-30000",
+      "used_price_range_usd": "4-7",
+      "recommended_sale_cop": 25000,
+      "recommended_sale_usd": 6,
+      "condition_discount_pct": 50,
+      "sources": [],
+      "notes": "Handmade artisan bowl. Colorful rings are charming. Good for craft market."
+    },
+    "item_name_en": "Hand-Painted Ceramic Bowl",
+    "description_en": "Small ceramic bowl with concentric hand-painted rings in black, red-orange, olive green, orange, and coral pink. Mediterranean/Mexican artisan style.",
+    "item_name_es": "Tazón de Cerámica Pintado a Mano",
+    "description_es": "Tazón de cerámica decorativo pintado a mano.",
+    "_photoVersions": {
+      "20260325_130840.jpg": 1774726226450,
+      "20260325_130837.jpg": 1774726271169
+    },
+    "notes_en": "Minor glaze variation; handmade/artisan",
+    "notes_es": "Hecho a mano / artesanal",
+    "active": true
+  },
+  {
+    "id": 47,
+    "item_name": "Kitchen Utensil Collection",
+    "category": "Kitchen",
+    "condition": "Good",
+    "description": "Comprehensive set: knife block with knives/scissors, wooden utensils, can opener, peeler, garlic press, tongs, measuring cups/spoons, serving spoons, cutting board, box grater, cutlery organizer with flatware.",
+    "photos": [
+      "20260326_094742.jpg",
+      "20260326_094823.jpg",
+      "20260326_094807.jpg",
+      "20260326_094820.jpg",
+      "20260326_094826.jpg",
+      "20260326_094812.jpg"
+    ],
+    "notes": "All items laid out for inventory; Silverware appears clean; Minor use darkening on wooden spoon",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "pricing": {
+      "new_price_cop": 250000,
+      "new_price_usd": 60,
+      "used_price_range_cop": "80000-130000",
+      "used_price_range_usd": "19-31",
+      "recommended_sale_cop": 100000,
+      "recommended_sale_usd": 24,
+      "condition_discount_pct": 60,
+      "sources": [],
+      "notes": "Comprehensive kitchen utensil set. Great value bundle for someone furnishing a kitchen. Includes flatware set, knives, and all basics."
+    },
+    "_photoVersions": {
+      "20260326_094742.jpg": 1774634715677
+    },
+    "item_name_en": "Kitchen Utensil Collection",
+    "description_en": "Comprehensive set: knife block with knives/scissors, wooden utensils, can opener, peeler, garlic press, tongs, measuring cups/spoons, serving spoons, cutting board, box grater, cutlery organizer with flatware.",
+    "item_name_es": "Colección de Utensilios de Cocina",
+    "description_es": "Set de utensilios de cocina variados.",
+    "notes_en": "All items laid out for inventory; Silverware appears clean; Minor use darkening on wooden spoon",
+    "notes_es": "",
+    "active": true
+  },
+  {
+    "id": 48,
+    "item_name": "MVPower Yogurt Maker",
+    "category": "Kitchen",
+    "condition": "Good",
+    "description": "MVPower SNJ-159B yogurt maker. 25W, 8 glass jars 1440ML. Retail box. Appears unused.",
+    "photos": [
+      "20260325_183821.jpg",
+      "20260325_183842.jpg",
+      "20260325_183831.jpg",
+      "receipt_yogurt_maker.jpg"
+    ],
+    "notes": "Marked as New; Box in fair condition; Product appears new/unused inside",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "pricing": {
+      "new_price_cop": 300000,
+      "new_price_usd": 71,
+      "used_price_range_cop": "80000-120000",
+      "used_price_range_usd": "19-29",
+      "recommended_sale_cop": 250000,
+      "recommended_sale_usd": 60,
+      "condition_discount_pct": 27,
+      "sources": [
+        {
+          "site": "mercadolibre.com.co",
+          "url": "https://www.mercadolibre.com.co/yogurtera-digital--mvpower-maquina-para-yogurt-con-8-vasos/up/MCOU2429806908",
+          "price_cop": 300000,
+          "note": "actual purchase — paid 300,000 COP"
+        }
+      ],
+      "notes": "Paid 300,000 COP on MercadoLibre (Feb 17, 2025). Free shipping. Efecty payment. Delivered Feb 22."
+    },
+    "receipts": [
+      {
+        "file": "receipt_powerxl_blender.jpg",
+        "note": "MercadoLibre receipt — paid 300,000 COP"
+      }
+    ],
+    "item_name_en": "MVPower Yogurt Maker",
+    "description_en": "MVPower SNJ-159B yogurt maker. 25W, 8 glass jars 1440ML. Retail box. Appears unused.",
+    "item_name_es": "Yogurtera Digital MVPower con 8 Vasos",
+    "description_es": "Yogurtera digital MVPower con 8 vasos de vidrio incluidos.",
+    "notes_en": "Marked as New; Box in fair condition; Product appears new/unused inside",
+    "notes_es": "Nuevo — producto sin usar dentro de la caja",
+    "active": true,
+    "_photoVersions": {
+      "receipt_yogurt_maker.jpg": 1774735077978
+    }
+  },
+  {
+    "id": 49,
+    "item_name": "Ninja Auto iQ Personal Blender",
+    "category": "Kitchen",
+    "condition": "Good",
+    "description": "Ninja Auto iQ BN401 personal blender. Two cups with sip-and-seal lids. Start/Stop, Crush, Smoothie, Pulse buttons.",
+    "photos": [
+      "20260325_183936.jpg",
+      "20260325_183938.jpg",
+      "20260325_183946.jpg"
+    ],
+    "notes": "base clean",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "pricing": {
+      "new_price_cop": 400000,
+      "new_price_usd": 100,
+      "used_price_range_cop": "100000-160000",
+      "used_price_range_usd": "24-38",
+      "recommended_sale_cop": 200000,
+      "recommended_sale_usd": 50,
+      "condition_discount_pct": 57,
+      "sources": [
+        {
+          "site": "homecenter.com.co",
+          "url": "https://www.homecenter.com.co/homecenter-co/product/563379/licuadora-personal-nuti-pro-con-auto-iq-1100w/563379/",
+          "price_cop": 399900,
+          "note": "Ninja Licuadora Personal Auto-IQ 1100W - similar personal blender, confirmed at Homecenter"
+        }
+      ],
+      "notes": "Popular Ninja personal blender in good condition. Cups show minor cloudiness but functional. Fast seller."
+    },
+    "item_name_en": "Ninja Auto iQ Personal Blender",
+    "description_en": "Ninja Auto iQ BN401 personal blender. Two cups with sip-and-seal lids. Start/Stop, Crush, Smoothie, Pulse buttons.",
+    "item_name_es": "Licuadora Personal Ninja Auto iQ",
+    "description_es": "Licuadora personal Ninja Auto iQ con vasos para llevar.",
+    "notes_en": "base clean",
+    "notes_es": "",
+    "active": true
+  },
+  {
+    "id": 50,
+    "item_name": "Ninja Professional Blender BL610",
+    "category": "Kitchen",
+    "condition": "Good",
+    "description": "Ninja Professional 1000W blender BL610 with 72oz clear pitcher, Total Crushing blade. Controls: Power, Pulse, Low, Med, High.",
+    "photos": [
+      "20260325_183339.jpg",
+      "20260325_183433.jpg"
+    ],
+    "notes": "",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "pricing": {
+      "new_price_cop": 400000,
+      "new_price_usd": 100,
+      "used_price_range_cop": "120000-200000",
+      "used_price_range_usd": "29-48",
+      "recommended_sale_cop": 160000,
+      "recommended_sale_usd": 38,
+      "condition_discount_pct": 54,
+      "sources": [
+        {
+          "site": "exito.com",
+          "url": "https://www.exito.com/licuadora-profesional-ninja-1000w-42562/p",
+          "price_cop": null,
+          "note": "Ninja Professional BL610 1000W — Éxito"
+        }
+      ],
+      "notes": "Full-size 1000W Ninja blender with large 72oz pitcher. Good condition with typical use signs. Strong used demand."
+    },
+    "item_name_en": "Ninja Professional Blender BL610",
+    "description_en": "Ninja Professional 1000W blender BL610 with 72oz clear pitcher, Total Crushing blade. Controls: Power, Pulse, Low, Med, High.",
+    "item_name_es": "Licuadora Profesional Ninja BL610",
+    "description_es": "Licuadora profesional Ninja BL610 de 1000W con jarra de 72oz.",
+    "notes_en": "",
+    "active": true
+  },
+  {
+    "id": 51,
+    "item_name": "Pink Granite Stone Cookware Set",
+    "category": "Kitchen",
+    "condition": "Good",
+    "description": "4-piece pink/rose cookware set: two-handled pot and frying pan with granite stone-coated interiors, plus two glass lids with pink silicone rims.",
+    "photos": [
+      "20260325_185405.jpg",
+      "20260325_185431.jpg",
+      "20260325_185425.jpg"
+    ],
+    "notes": "Matte pink handles and knobs",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "_photoVersions": {
+      "20260325_185431.jpg": 1774630036787,
+      "20260325_185425.jpg": 1774630049563
+    },
+    "pricing": {
+      "new_price_cop": 280000,
+      "new_price_usd": 67,
+      "used_price_range_cop": "180000-230000",
+      "used_price_range_usd": "43-55",
+      "recommended_sale_cop": 200000,
+      "recommended_sale_usd": 48,
+      "condition_discount_pct": 29,
+      "sources": [
+        {
+          "site": "homecenter.com.co",
+          "url": "https://www.homecenter.com.co/homecenter-co/product/776541/juego-de-ollas-8-piezas-con-antiadherente-ceramico-aluminio-forjado-kitchenaid-negro/776541/",
+          "price_cop": 280000,
+          "note": "Juego de Ollas 8 piezas antiadherente cerámico - comparable cookware set at Homecenter"
+        }
+      ],
+      "notes": ""
+    },
+    "item_name_en": "Pink Granite Stone Cookware Set",
+    "description_en": "4-piece pink/rose cookware set: two-handled pot and frying pan with granite stone-coated interiors, plus two glass lids with pink silicone rims.",
+    "item_name_es": "Juego de Ollas Antiadherentes Rosa Granito",
+    "description_es": "Juego de ollas y sartenes con recubrimiento antiadherente estilo granito rosa.",
+    "notes_en": "Matte pink handles and knobs",
+    "notes_es": "Mangos y perillas color rosa mate",
+    "active": true
+  },
+  {
+    "id": 53,
+    "item_name": "PowerXL Smart Pro Blender",
+    "category": "Kitchen",
+    "condition": "Fair",
+    "description": "PowerXL Smart Pro 1800W blender with glass jar, 6 titanium-coated blades, box included. Spanish touch controls.",
+    "photos": [
+      "20260326_114458.jpg",
+      "20260325_183544.jpg",
+      "20260326_114504.jpg",
+      "20260326_114507.jpg",
+      "20260325_183624.jpg",
+      "20260326_114729.jpg",
+      "20260326_114732.jpg",
+      "receipt_powerxl_blender.jpg"
+    ],
+    "notes": "",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "pricing": {
+      "new_price_cop": 449000,
+      "new_price_usd": 107,
+      "used_price_range_cop": "50000-120000",
+      "used_price_range_usd": "12-29",
+      "recommended_sale_cop": 200000,
+      "recommended_sale_usd": 48,
+      "condition_discount_pct": 55,
+      "sources": [
+        {
+          "site": "mercadolibre.com.co",
+          "url": "https://www.mercadolibre.com.co/licuadora-powerxl-potencia-1800w-6-cuchillas-de-titanio-2l/up/MCOU2418650500?pdp_filters=item_id:MCO1496983432",
+          "price_cop": 599900,
+          "note": "actual product — paid 404,900 COP after discounts"
+        }
+      ],
+      "notes": "Paid 404,900 COP after 180k discount + 15k coupon on MercadoLibre (Feb 26, 2025). List price 599,900 COP. Free shipping. Efecty payment. Minor cosmetic chip on jar rim, fully functional."
+    },
+    "receipts": [
+      {
+        "file": "receipt_powerxl_blender.jpg",
+        "note": "MercadoLibre receipt — paid 404,900 COP"
+      }
+    ],
+    "item_name_en": "PowerXL Smart Pro Blender",
+    "description_en": "PowerXL Smart Pro 1800W blender with glass jar, 6 titanium-coated blades, box included. Spanish touch controls.",
+    "item_name_es": "Licuadora PowerXL Smart Pro 1800W",
+    "description_es": "Licuadora PowerXL Smart Pro de 1800W con 6 cuchillas de titanio y jarra de 2L.",
+    "active": true,
+    "_photoVersions": {
+      "receipt_powerxl_blender.jpg": 1774735107086
+    },
+    "notes_en": ""
+  },
+  {
+    "id": 54,
+    "item_name": "Quilted Oven Mitts (Pair)",
+    "category": "Kitchen",
+    "condition": "Good",
+    "description": "Pair of black quilted oven mitts with diamond pattern and hanging loops at cuff end.",
+    "photos": [
+      "20260325_183040.jpg"
+    ],
+    "notes": "Small spot/mark visible",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "_photoVersions": {
+      "20260325_183040.jpg": 1774631327393
+    },
+    "pricing": {
+      "new_price_cop": 30000,
+      "new_price_usd": 7,
+      "used_price_range_cop": "8000-15000",
+      "used_price_range_usd": "2-4",
+      "recommended_sale_cop": 12000,
+      "recommended_sale_usd": 3,
+      "condition_discount_pct": 60,
+      "sources": [],
+      "notes": "Very low value item. Bundle with kitchen utensils or include free with larger purchase."
+    },
+    "item_name_en": "Quilted Oven Mitts (Pair)",
+    "description_en": "Pair of black quilted oven mitts with diamond pattern and hanging loops at cuff end.",
+    "item_name_es": "Guantes de Cocina Acolchados (Par)",
+    "description_es": "Par de guantes de cocina acolchados negros.",
+    "notes_en": "Small spot/mark visible",
+    "notes_es": "",
+    "active": true
+  },
+  {
+    "id": 55,
+    "item_name": "Protectores Antisalpicaduras Rama Design (Set de 3)",
+    "category": "Kitchen",
+    "condition": "Excellent",
+    "description": "Set de 3 protectores antisalpicaduras para sartén.",
+    "photos": [
+      "20260325_184705.jpg",
+      "20260325_184712.jpg"
+    ],
+    "notes": "Nuevos — también sirven como coladores",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "_photoVersions": {
+      "20260325_184705.jpg": 1774631336630
+    },
+    "pricing": {
+      "new_price_cop": 21000,
+      "new_price_usd": 5,
+      "used_price_range_cop": "12000-18000",
+      "used_price_range_usd": "3-4",
+      "recommended_sale_cop": 18000,
+      "recommended_sale_usd": 4,
+      "condition_discount_pct": 14,
+      "sources": [],
+      "notes": "Essentially new, 2 in original packaging. Price confirmed at $7,000 each from sticker. Bundle with kitchen items."
+    },
+    "item_name_en": "Rama Design Splatter Screens (Set of 3)",
+    "description_en": "Three Rama Design 29cm/11.5\" stainless steel splatter screens with black plastic knob handles. Two still in packaging.",
+    "item_name_es": "Protectores Antisalpicaduras Rama Design (Set de 3)",
+    "description_es": "Set de 3 protectores antisalpicaduras para sartén.",
+    "notes_en": "New; price sticker shows $7,000 COP each; Can also be used for straining",
+    "notes_es": "Nuevos — también sirven como coladores",
+    "active": true
+  },
+  {
+    "id": 56,
+    "item_name": "Arepa Heater / Warmer",
+    "category": "Kitchen",
+    "condition": "Fair",
+    "description": "Round arepa heater/warmer for keeping arepas warm.",
+    "photos": [
+      "20260325_182841.jpg"
+    ],
+    "notes": "",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "_photoVersions": {
+      "20260325_182841.jpg": 1774630329074
+    },
+    "pricing": {
+      "new_price_cop": 50000,
+      "new_price_usd": 12,
+      "used_price_range_cop": "15000-25000",
+      "used_price_range_usd": "4-6",
+      "recommended_sale_cop": 18000,
+      "recommended_sale_usd": 4,
+      "condition_discount_pct": 64,
+      "sources": [],
+      "notes": "Colombian specialty kitchen item. High local demand. Fair condition — typical use wear. Easy sell in Medellin."
+    },
+    "item_name_en": "Arepa Heater / Warmer",
+    "description_en": "Round arepa heater/warmer for keeping arepas warm.",
+    "item_name_es": "Calentador de Arepas",
+    "description_es": "Calentador/parrilla para arepas.",
+    "notes_en": "",
+    "active": true
+  },
+  {
+    "id": 58,
+    "item_name": "Exclusive Kitchen Crop 4-Tray Seed Sprouter (VKP1234)",
+    "category": "Kitchen",
+    "condition": "Good",
+    "description": "Kitchen Crop 4-tray seed sprouter by VKP Brands. BPA-free, stackable drainage trays. ",
+    "photos": [
+      "20260324_113421.jpg",
+      "nick_kitchen_crop_box.jpg"
+    ],
+    "notes": "",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "pricing": {
+      "new_price_cop": 120000,
+      "new_price_usd": 29,
+      "used_price_range_cop": "50000-80000",
+      "used_price_range_usd": "12-19",
+      "recommended_sale_cop": 65000,
+      "recommended_sale_usd": 15,
+      "condition_discount_pct": 46,
+      "sources": [
+        {
+          "site": "amazon.com",
+          "url": "https://www.amazon.com/s?k=Kitchen+Crop+VKP1234+4+tray+seed+sprouter",
+          "price_cop": 120000,
+          "note": "Kitchen Crop VKP1234 seed sprouter - search on Amazon (US product, ~$25-30 USD). Includes bonus organic seeds."
+        }
+      ],
+      "notes": "Niche health/wellness product. Comes with bonus seeds and box. Growing sprouts at home is trending in Colombia health community."
+    },
+    "item_name_en": "Exclusive Kitchen Crop 4-Tray Seed Sprouter (VKP1234)",
+    "description_en": "Kitchen Crop 4-tray seed sprouter by VKP Brands. BPA-free, stackable drainage trays. ",
+    "item_name_es": "Germinador de Semillas Kitchen Crop 4 Bandejas (VKP1234)",
+    "description_es": "Germinador de semillas de 4 bandejas apilables con drenaje. Incluye semillas orgánicas.",
+    "notes_en": "",
+    "notes_es": "Incluye caja y semillas orgánicas de brócoli y alfalfa",
+    "active": true
+  },
+  {
+    "id": 59,
+    "item_name": "Stainless Steel Colander",
+    "category": "Kitchen",
+    "condition": "Good",
+    "description": "Stainless steel perforated colander with two small riveted loop handles. Footed base for stability.",
+    "photos": [
+      "20260325_185902.jpg",
+      "20260325_185800.jpg"
+    ],
+    "notes": "Clean and shiny; Minor dullness/patina from use",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "pricing": {
+      "new_price_cop": 45000,
+      "new_price_usd": 11,
+      "used_price_range_cop": "15000-25000",
+      "used_price_range_usd": "4-6",
+      "recommended_sale_cop": 20000,
+      "recommended_sale_usd": 5,
+      "condition_discount_pct": 56,
+      "sources": [],
+      "notes": "Clean stainless colander in good condition. Bundle with kitchen items."
+    },
+    "item_name_en": "Stainless Steel Colander",
+    "description_en": "Stainless steel perforated colander with two small riveted loop handles. Footed base for stability.",
+    "item_name_es": "Colador de Acero Inoxidable",
+    "description_es": "Colador de cocina de acero inoxidable.",
+    "notes_en": "Clean and shiny; Minor dullness/patina from use",
+    "notes_es": "",
+    "active": true
+  },
+  {
+    "id": 60,
+    "item_name": "Stainless Steel Mesh Strainers (Set of 4)",
+    "category": "Kitchen",
+    "condition": "Good",
+    "description": "Four stainless steel fine-mesh strainers with wire loop handles, graduated sizes.",
+    "photos": [
+      "20260325_185829.jpg",
+      "20260325_185839.jpg"
+    ],
+    "notes": "Mesh intact, no holes or tears",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "_photoVersions": {
+      "20260325_185829.jpg": 1774731381562,
+      "20260325_185839.jpg": 1774632255492
+    },
+    "pricing": {
+      "new_price_cop": 60000,
+      "new_price_usd": 14,
+      "used_price_range_cop": "20000-35000",
+      "used_price_range_usd": "5-8",
+      "recommended_sale_cop": 28000,
+      "recommended_sale_usd": 7,
+      "condition_discount_pct": 53,
+      "sources": [],
+      "notes": "Set of 4 graduated sizes in good condition. Bundle with colanders."
+    },
+    "item_name_en": "Stainless Steel Mesh Strainers (Set of 4)",
+    "description_en": "Four stainless steel fine-mesh strainers with wire loop handles, graduated sizes.",
+    "item_name_es": "Coladores de Malla de Acero Inoxidable (Set de 4)",
+    "description_es": "Set de 4 coladores de malla de acero inoxidable.",
+    "notes_en": "Mesh intact, no holes or tears",
+    "notes_es": "",
+    "active": true
+  },
+  {
+    "id": 61,
+    "item_name": "White Melamine Serving Tray",
+    "category": "Kitchen",
+    "condition": "Good",
+    "description": "White rectangular melamine serving tray with scalloped/wavy edges, embossed floral scroll border, oval cut-out handles. MELA-WARE brand.",
+    "photos": [
+      "20260325_190358.jpg",
+      "20260325_190406.jpg"
+    ],
+    "notes": "",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "_photoVersions": {
+      "20260325_190406.jpg": 1774631231335,
+      "20260325_190358.jpg": 1774631217073
+    },
+    "pricing": {
+      "new_price_cop": 30000,
+      "new_price_usd": 7,
+      "used_price_range_cop": "8000-15000",
+      "used_price_range_usd": "2-4",
+      "recommended_sale_cop": 12000,
+      "recommended_sale_usd": 3,
+      "condition_discount_pct": 60,
+      "sources": [],
+      "notes": "Clean white serving tray in good condition. Low value — bundle or include free."
+    },
+    "item_name_en": "White Melamine Serving Tray",
+    "description_en": "White rectangular melamine serving tray with scalloped/wavy edges, embossed floral scroll border, oval cut-out handles. MELA-WARE brand.",
+    "item_name_es": "Bandeja para Servir Blanca de Melamina",
+    "description_es": "Bandeja para servir de melamina blanca.",
+    "notes_en": "",
+    "active": true
+  },
+  {
+    "id": 62,
+    "item_name": "White Plastic Colander",
+    "category": "Kitchen",
+    "condition": "Good",
+    "description": "White plastic colander with two small integrated handles, footed base, square perforations.",
+    "photos": [
+      "20260325_185732.jpg",
+      "20260325_185737.jpg"
+    ],
+    "notes": "",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "pricing": {
+      "new_price_cop": 25000,
+      "new_price_usd": 6,
+      "used_price_range_cop": "8000-15000",
+      "used_price_range_usd": "2-4",
+      "recommended_sale_cop": 10000,
+      "recommended_sale_usd": 2,
+      "condition_discount_pct": 60,
+      "sources": [],
+      "notes": "Basic plastic colander. Very low value. Bundle with other kitchen items."
+    },
+    "item_name_en": "White Plastic Colander",
+    "description_en": "White plastic colander with two small integrated handles, footed base, square perforations.",
+    "item_name_es": "Colador Plástico Blanco",
+    "description_es": "Colador de plástico blanco.",
+    "_photoVersions": {
+      "20260325_185732.jpg": 1774731549654,
+      "20260325_185737.jpg": 1774731561909
+    },
+    "notes_en": "",
+    "active": true
+  },
+  {
+    "id": 63,
+    "item_name": "White Plastic Mesh Strainers (Set of 7)",
+    "category": "Kitchen",
+    "condition": "Good",
+    "description": "Six white plastic-handled mesh strainers (graduated sizes) plus one yellow plastic mesh strainer.",
+    "photos": [
+      "20260325_185640.jpg",
+      "20260325_185634.jpg"
+    ],
+    "notes": "Mesh intact on all; Yellow strainer shows slight discoloration",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "_photoVersions": {
+      "20260325_185640.jpg": 1774731394519
+    },
+    "pricing": {
+      "new_price_cop": 60000,
+      "new_price_usd": 14,
+      "used_price_range_cop": "15000-30000",
+      "used_price_range_usd": "4-7",
+      "recommended_sale_cop": 25000,
+      "recommended_sale_usd": 6,
+      "condition_discount_pct": 58,
+      "sources": [],
+      "notes": "Good set of 7 graduated strainers. Bundle with kitchen utensils."
+    },
+    "item_name_en": "White Plastic Mesh Strainers (Set of 7)",
+    "description_en": "Six white plastic-handled mesh strainers (graduated sizes) plus one yellow plastic mesh strainer.",
+    "item_name_es": "Coladores de Malla Plástica (Set de 7)",
+    "description_es": "Set de 7 coladores de malla plástica blancos.",
+    "notes_en": "Mesh intact on all; Yellow strainer shows slight discoloration",
+    "notes_es": "",
+    "active": true
+  },
+  {
+    "id": 64,
+    "item_name": "Würden Food Processor",
+    "category": "Kitchen",
+    "condition": "Good",
+    "description": "Würden WPR-FP-408 food processor. 1000W. Manufactured 09/2024. 2000ml bowl, 5 stainless steel discs, S-blade, storage caddy. Box included.",
+    "photos": [
+      "20260325_184146.jpg",
+      "20260325_184418.jpg",
+      "20260325_184356.jpg",
+      "20260325_184415.jpg",
+      "20260326_110739.jpg",
+      "20260325_184199.jpg"
+    ],
+    "notes": "Box shows creases; All components appear intact and functional",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "_photoVersions": {
+      "20260325_184415.jpg": 1774630395636,
+      "20260325_184199.jpg": 1774630415498,
+      "20260325_184418.jpg": 1774630429440
+    },
+    "pricing": {
+      "new_price_cop": 400000,
+      "new_price_usd": 107,
+      "used_price_range_cop": "160000-250000",
+      "used_price_range_usd": "38-60",
+      "recommended_sale_cop": 200000,
+      "recommended_sale_usd": 48,
+      "condition_discount_pct": 56,
+      "sources": [
+        {
+          "site": "homecenter.com.co",
+          "url": "https://www.homecenter.com.co/homecenter-co/product/303179/procesador-de-alimentos-1000w-acero/303179/",
+          "price_cop": 379900,
+          "note": "Würden Procesador de Alimentos 1000W Acero - confirmed at Homecenter"
+        }
+      ],
+      "notes": "Nearly new (manufactured September 2024). Complete with all 5 discs and storage caddy. Box included. High value item."
+    },
+    "item_name_en": "Würden Food Processor",
+    "description_en": "Würden WPR-FP-408 food processor. 1000W. Manufactured 09/2024. 2000ml bowl, 5 stainless steel discs, S-blade, storage caddy. Box included.",
+    "item_name_es": "Procesador de Alimentos Würden",
+    "description_es": "Procesador de alimentos Würden de 1000W.",
+    "notes_en": "Box shows creases; All components appear intact and functional",
+    "notes_es": "Todos los componentes incluidos y funcionales",
+    "active": true
+  },
+  {
+    "id": 65,
+    "item_name": "Chrome 3-Tier Corner Bathroom Shelf",
+    "category": "Bathroom",
+    "condition": "Fair",
+    "description": "Freestanding chrome three-tier quarter-circle corner shelf. Wire grid shelves.",
+    "photos": [
+      "20260326_103222.jpg"
+    ],
+    "notes": "",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "pricing": {
+      "new_price_cop": 80000,
+      "new_price_usd": 19,
+      "used_price_range_cop": "20000-35000",
+      "used_price_range_usd": "5-8",
+      "recommended_sale_cop": 25000,
+      "recommended_sale_usd": 6,
+      "condition_discount_pct": 69,
+      "sources": [
+        {
+          "site": "homecenter.com.co",
+          "url": "https://www.homecenter.com.co/homecenter-co/product/395302/esquinero-de-bano-3-niveles-cromado/395302/",
+          "price_cop": 80000,
+          "note": "Esquinero de Baño 3 Niveles Cromado - exact match confirmed at Homecenter"
+        }
+      ],
+      "notes": " Still functional. Low price to sell."
+    },
+    "item_name_en": "Chrome 3-Tier Corner Bathroom Shelf",
+    "description_en": "Freestanding chrome three-tier quarter-circle corner shelf. Wire grid shelves.",
+    "item_name_es": "Esquinero de Baño Cromado 3 Niveles",
+    "description_es": "Organizador esquinero de baño cromado con 3 niveles.",
+    "notes_en": "",
+    "active": true
+  },
+  {
+    "id": 66,
+    "item_name": "Digital Body Composition Scale",
+    "category": "Bathroom",
+    "condition": "Good",
+    "description": "Black glass digital bathroom scale with four stainless steel bioelectrical impedance electrode pads. LCD display. Confirmed working.",
+    "photos": [
+      "20260325_114430.jpg",
+      "20260325_114423.jpg"
+    ],
+    "notes": "Working correctly",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "_photoVersions": {
+      "20260325_114423.jpg": 1774631992171,
+      "20260325_114430.jpg": 1774632009416
+    },
+    "pricing": {
+      "new_price_cop": 150000,
+      "new_price_usd": 36,
+      "used_price_range_cop": "55000-90000",
+      "used_price_range_usd": "13-21",
+      "recommended_sale_cop": 70000,
+      "recommended_sale_usd": 17,
+      "condition_discount_pct": 53,
+      "sources": [],
+      "notes": "Functional body composition scale. Confirmed working. Good demand for health-focused items."
+    },
+    "item_name_en": "Digital Body Composition Scale",
+    "description_en": "Black glass digital bathroom scale with four stainless steel bioelectrical impedance electrode pads. LCD display. Confirmed working.",
+    "item_name_es": "Báscula Digital de Composición Corporal",
+    "description_es": "Báscula digital de baño con medición de composición corporal.",
+    "notes_en": "Working correctly",
+    "notes_es": "Funciona correctamente",
+    "active": true
+  },
+  {
+    "id": 67,
+    "item_name": "Handheld Shower Head & Hanging Caddy",
+    "category": "Bathroom",
+    "condition": "Good",
+    "description": "Chrome multi-spray handheld shower head with flexible hose. Black metal 3-tier hanging shower caddy with suction cups.",
+    "photos": [
+      "20260326_103918.jpg",
+      "20260326_103921.jpg"
+    ],
+    "notes": "Chrome clean and shiny; caddy has no visible rust",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "pricing": {
+      "new_price_cop": 120000,
+      "new_price_usd": 29,
+      "used_price_range_cop": "45000-70000",
+      "used_price_range_usd": "11-17",
+      "recommended_sale_cop": 55000,
+      "recommended_sale_usd": 13,
+      "condition_discount_pct": 54,
+      "sources": [],
+      "notes": "Two items together. Chrome shower head with hose and 3-tier caddy. Good condition, practical set."
+    },
+    "item_name_en": "Handheld Shower Head & Hanging Caddy",
+    "description_en": "Chrome multi-spray handheld shower head with flexible hose. Black metal 3-tier hanging shower caddy with suction cups.",
+    "item_name_es": "Ducha de Mano y Organizador Colgante",
+    "description_es": "Ducha de mano con organizador colgante incluido.",
+    "notes_en": "Chrome clean and shiny; caddy has no visible rust",
+    "notes_es": "",
+    "active": true
+  },
+  {
+    "id": 68,
+    "item_name": "Stainless Steel Bathroom Trash Cans",
+    "category": "Bathroom",
+    "condition": "Fair",
+    "description": "Two identical small stainless steel step-on pedal trash cans (~5L each) with black plastic bases.",
+    "photos": [
+      "20260326_102905.jpg"
+    ],
+    "notes": "",
+    "quantity": 2,
+    "reviewed": true,
+    "flagBox": false,
+    "pricing": {
+      "new_price_cop": 250000,
+      "new_price_usd": 60,
+      "used_price_range_cop": "55000-150000",
+      "used_price_range_usd": "15-40",
+      "recommended_sale_cop": 80000,
+      "recommended_sale_usd": 20,
+      "condition_discount_pct": 67,
+      "sources": [],
+      "notes": ""
+    },
+    "item_name_en": "Stainless Steel Bathroom Trash Cans",
+    "description_en": "Two identical small stainless steel step-on pedal trash cans (~5L each) with black plastic bases.",
+    "item_name_es": "Papeleras de Acero Inoxidable para Baño (Par)",
+    "description_es": "Par de papeleras de acero inoxidable para baño.",
+    "notes_en": "",
+    "active": true
+  },
+  {
+    "id": 69,
+    "item_name": "Cleaning Supplies Set (Broom, Dustpan & Spin Mop)",
+    "category": "Cleaning",
+    "condition": "Good",
+    "description": "Red-handled broom with pink bristles, red standing dustpan, and white/teal spin mop with bucket and wringer.",
+    "photos": [
+      "20260324_115552.jpg"
+    ],
+    "notes": "Broom bristles slightly splayed; all items leaning against gray entry door",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "pricing": {
+      "new_price_cop": 100000,
+      "new_price_usd": 24,
+      "used_price_range_cop": "30000-50000",
+      "used_price_range_usd": "7-12",
+      "recommended_sale_cop": 40000,
+      "recommended_sale_usd": 10,
+      "condition_discount_pct": 60,
+      "sources": [],
+      "notes": "Basic cleaning set. Note: Vacuum listed separately (id 71). Bundle deal for move-out buyer."
+    },
+    "item_name_en": "Cleaning Supplies Set (Broom, Dustpan & Spin Mop)",
+    "description_en": "Red-handled broom with pink bristles, red standing dustpan, and white/teal spin mop with bucket and wringer.",
+    "item_name_es": "Set de Limpieza (Escoba, Recogedor y Trapeador)",
+    "description_es": "Set de limpieza con escoba, recogedor y trapeador giratorio.",
+    "notes_en": "Broom bristles slightly splayed; all items leaning against gray entry door",
+    "notes_es": "",
+    "active": true
+  },
+  {
+    "id": 70,
+    "item_name": "Gray Plastic Step-On Trash Can",
+    "category": "Cleaning",
+    "condition": "Good",
+    "description": "Gray rectangular plastic pedal trash can with matching lid and black foot pedal. Standard household size.",
+    "photos": [
+      "20260324_123536.jpg"
+    ],
+    "notes": "white trash bag liner visible",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "pricing": {
+      "new_price_cop": 60000,
+      "new_price_usd": 14,
+      "used_price_range_cop": "20000-35000",
+      "used_price_range_usd": "5-8",
+      "recommended_sale_cop": 30000,
+      "recommended_sale_usd": 7,
+      "condition_discount_pct": 50,
+      "sources": [],
+      "notes": "Standard pedal trash can in good condition. Common household item."
+    },
+    "item_name_en": "Gray Plastic Step-On Trash Can",
+    "description_en": "Gray rectangular plastic pedal trash can with matching lid and black foot pedal. Standard household size.",
+    "item_name_es": "Papelera Gris con Pedal",
+    "description_es": "Papelera plástica gris con pedal.",
+    "notes_en": "white trash bag liner visible",
+    "notes_es": "",
+    "active": true
+  },
+  {
+    "id": 71,
+    "item_name": "Würden Cordless Stick Vacuum Cleaner",
+    "category": "Cleaning",
+    "condition": "Fair",
+    "description": "Würden aspiradora 2-en-1 (stick + handheld) cyclonic bagless vacuum. Original retail box with Sodimac/Corona retail strap. 2-year warranty. Little chip at the top of removable piece but still functions",
+    "photos": [
+      "20260324_113437.jpg",
+      "20260326_110640.jpg"
+    ],
+    "notes": "BASE DE CARGA label on charging dock",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "pricing": {
+      "new_price_cop": 350000,
+      "new_price_usd": 83,
+      "used_price_range_cop": "130000-200000",
+      "used_price_range_usd": "31-48",
+      "recommended_sale_cop": 100000,
+      "recommended_sale_usd": 25,
+      "condition_discount_pct": 54,
+      "sources": [],
+      "notes": "Würden brand sold at Sodimac/Corona. Box included. Cordless stick vacuums are high demand items in Medellin apartments."
+    },
+    "item_name_en": "Würden Cordless Stick Vacuum Cleaner",
+    "description_en": "Würden aspiradora 2-en-1 (stick + handheld) cyclonic bagless vacuum. Original retail box with Sodimac/Corona retail strap. 2-year warranty. Little chip at the top of removable piece but still functions",
+    "item_name_es": "Aspiradora Inalámbrica Würden",
+    "description_es": "Aspiradora inalámbrica tipo bastón Würden.",
+    "notes_en": "BASE DE CARGA label on charging dock",
+    "notes_es": "",
+    "active": true
+  },
+  {
+    "id": 73,
+    "item_name": "Black Plastic 5-Tier Shelving Unit",
+    "category": "Storage",
+    "condition": "Good",
+    "description": "Tall black plastic modular shelving unit with 5 evenly spaced shelves and cylindrical legs. Approximately 5-6 feet tall.",
+    "photos": [
+      "20260324_110412.jpg"
+    ],
+    "notes": "Empty, appears new or lightly used",
+    "quantity": 2,
+    "reviewed": true,
+    "flagBox": false,
+    "pricing": {
+      "new_price_cop": 150000,
+      "new_price_usd": 40,
+      "used_price_range_cop": "40000-80000",
+      "used_price_range_usd": "10-20",
+      "recommended_sale_cop": 60000,
+      "recommended_sale_usd": 15,
+      "condition_discount_pct": 50,
+      "sources": [
+        {
+          "site": "homecenter.com.co",
+          "url": "https://www.homecenter.com.co/homecenter-co/product/302463/estanteria-12-pulgadas-5-niveles-606x1695x301-cm-negra/302463/",
+          "price_cop": 100000,
+          "note": "Estantería 12 Pulgadas 5 Niveles 60.6x169.5x30.1 cm Negra - 5-tier plastic shelf confirmed at Homecenter"
+        }
+      ],
+      "notes": "Price per unit (qty 2). Near-new condition. Practical storage solution. High demand for furnished apartments."
+    },
+    "item_name_en": "Black Plastic 5-Tier Shelving Unit",
+    "description_en": "Tall black plastic modular shelving unit with 5 evenly spaced shelves and cylindrical legs. Approximately 5-6 feet tall.",
+    "item_name_es": "Estante Plástico Negro de 5 Niveles",
+    "description_es": "Estante organizador plástico negro con 5 niveles.",
+    "notes_en": "Empty, appears new or lightly used",
+    "notes_es": "Como nuevo",
+    "active": true
+  },
+  {
+    "id": 74,
+    "item_name": "Fixser Digital Safe (53L)",
+    "category": "Storage",
+    "condition": "Good",
+    "description": "Fixser Digital Safe 53L. 36x33x50cm, LED screen, 2-year warranty. Dark gray textured powder-coated finish. Numeric keypad, rotary locking knob. Box included.",
+    "photos": [
+      "20260324_121406.jpg",
+      "20260324_121415.jpg",
+      "20260326_111117.jpg",
+      "receipt_homecenter_may30.jpg"
+    ],
+    "notes": "Interior empty and clean",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "pricing": {
+      "new_price_cop": 569900,
+      "new_price_usd": 136,
+      "used_price_range_cop": "280000-360000",
+      "used_price_range_usd": "67-86",
+      "recommended_sale_cop": 320000,
+      "recommended_sale_usd": 76,
+      "condition_discount_pct": 29,
+      "sources": [
+        {
+          "site": "homecenter.com.co",
+          "url": "https://www.homecenter.com.co/homecenter-co/product/213871/caja-fuerte-pantalla-50x36x33cm-53lt/213875/",
+          "price_cop": 569900,
+          "note": "Caja Fuerte Pantalla 53L — paid 569,900 COP, Homecenter Molinos"
+        }
+      ],
+      "notes": "Paid 569,900 COP at Homecenter Molinos May 30 2025. SKU 213875. Debit card."
+    },
+    "receipts": [
+      {
+        "file": "Factura_electrónica_4306100347462---23fefc96-923c-4826-892d-41d9a3bae6c3.pdf",
+        "note": "Homecenter Molinos invoice — SKU 213875, 569,900 COP"
+      }
+    ],
+    "item_name_en": "Fixser Digital Safe (53L)",
+    "description_en": "Fixser Digital Safe 53L. 36x33x50cm, LED screen, 2-year warranty. Dark gray textured powder-coated finish. Numeric keypad, rotary locking knob. Box included.",
+    "item_name_es": "Caja Fuerte Digital Fixser 53L",
+    "description_es": "Caja fuerte digital Fixser con pantalla, capacidad 53 litros.",
+    "notes_en": "Interior empty and clean",
+    "notes_es": "Interior limpio",
+    "active": true
+  },
+  {
+    "id": 77,
+    "item_name": "1HORA Bluetooth Speaker",
+    "category": "Electronics",
+    "condition": "Good",
+    "description": "Cylindrical upright portable Bluetooth speaker branded 1HORA. Woven fabric mesh. USB-A, 3.5mm aux, micro SD slot, USB-C charging port.",
+    "photos": [
+      "20260324_134239.jpg",
+      "20260324_134249.jpg"
+    ],
+    "notes": "Fabric mesh intact, no tears",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "pricing": {
+      "new_price_cop": 100000,
+      "new_price_usd": 24,
+      "used_price_range_cop": "40000-65000",
+      "used_price_range_usd": "10-15",
+      "recommended_sale_cop": 50000,
+      "recommended_sale_usd": 12,
+      "condition_discount_pct": 50,
+      "sources": [
+        {
+          "site": "homecenter.com.co",
+          "url": "https://www.homecenter.com.co/homecenter-co/product/695058/parlante-bluetooth-portatil-generico/695058/",
+          "price_cop": 100000,
+          "note": "Parlante Bluetooth Portátil - confirmed at Homecenter (1HORA is similar budget portable BT speaker brand)"
+        }
+      ],
+      "notes": "1HORA is a popular budget brand in Colombia. Multiple connectivity options. Good condition."
+    },
+    "item_name_en": "1HORA Bluetooth Speaker",
+    "description_en": "Cylindrical upright portable Bluetooth speaker branded 1HORA. Woven fabric mesh. USB-A, 3.5mm aux, micro SD slot, USB-C charging port.",
+    "item_name_es": "Parlante Bluetooth 1HORA",
+    "description_es": "Parlante portátil Bluetooth marca 1HORA.",
+    "notes_en": "Fabric mesh intact, no tears",
+    "notes_es": "",
+    "active": true
+  },
+  {
+    "id": 79,
+    "item_name": "Parlante Bluetooth Klip Xtreme BoomFire 1200 (KLS-660)",
+    "category": "Electronics",
+    "condition": "Good",
+    "description": "Parlante portátil Bluetooth Klip Xtreme BoomFire 1200 con caja incluida.",
+    "photos": [
+      "20260324_133652.jpg",
+      "20260324_130548.jpg",
+      "20260324_130557.jpg",
+      "20260324_130559.jpg"
+    ],
+    "notes": "Caja original incluida",
+    "quantity": 1,
+    "reviewed": false,
+    "flagBox": false,
+    "pricing": {
+      "new_price_cop": 250000,
+      "new_price_usd": 60,
+      "used_price_range_cop": "100000-160000",
+      "used_price_range_usd": "24-38",
+      "recommended_sale_cop": 130000,
+      "recommended_sale_usd": 31,
+      "condition_discount_pct": 48,
+      "sources": [
+        {
+          "site": "homecenter.com.co",
+          "url": "https://www.homecenter.com.co/homecenter-co/product/708825/parlante-klip-xtreme-boomfire-bluetooth-kls-100-80-w-rms/708825/",
+          "price_cop": 250000,
+          "note": "Parlante Klip Xtreme BoomFire Bluetooth KLS-100 80W RMS - exact brand match confirmed at Homecenter"
+        }
+      ],
+      "notes": "Klip Xtreme is a recognized brand in Colombia. Party speaker with LED light. Box included. Good condition."
+    },
+    "item_name_en": "Klip Xtreme BoomFire 1200 Bluetooth Speaker (KLS-660)",
+    "description_en": "Klip Xtreme KLS-100 portable Bluetooth party speaker with dual-driver design. Green accent details. Flame LED light. Retail box included.",
+    "item_name_es": "Parlante Bluetooth Klip Xtreme BoomFire 1200 (KLS-660)",
+    "description_es": "Parlante portátil Bluetooth Klip Xtreme BoomFire 1200 con caja incluida.",
+    "notes_en": "Retail box included; portable party speaker",
+    "notes_es": "Caja original incluida",
+    "active": true
+  },
+  {
+    "id": 80,
+    "item_name": "LG 49\" Television with Remote",
+    "category": "Electronics",
+    "condition": "Good",
+    "description": "LG 49LH570T 49-inch TV. Manufactured April 2016, assembled in Mexico. AC 100-240V, 1.6A. Smart TV with Netflix and Prime Video buttons on remote.",
+    "photos": [
+      "20260324_123940.jpg",
+      "20260324_123954.jpg",
+      "20260325_122959.jpg"
+    ],
+    "notes": "Multiple cables hanging behind",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "pricing": {
+      "new_price_cop": 1500000,
+      "new_price_usd": 357,
+      "used_price_range_cop": "500000-750000",
+      "used_price_range_usd": "119-179",
+      "recommended_sale_cop": 600000,
+      "recommended_sale_usd": 143,
+      "condition_discount_pct": 60,
+      "sources": [],
+      "notes": "LG 49LH570T from 2016. 49-inch with Smart TV capabilities. Screen intact, no issues visible. Good demand for large TVs in Medellin."
+    },
+    "_photoVersions": {
+      "20260324_123940.jpg": 1774644067631
+    },
+    "item_name_en": "LG 49\" Television with Remote",
+    "description_en": "LG 49LH570T 49-inch TV. Manufactured April 2016, assembled in Mexico. AC 100-240V, 1.6A. Smart TV with Netflix and Prime Video buttons on remote.",
+    "item_name_es": "Televisor LG 49 Pulgadas con Control",
+    "description_es": "Televisor LG de 49 pulgadas con control remoto incluido.",
+    "notes_en": "Multiple cables hanging behind",
+    "notes_es": "",
+    "active": true
+  },
+  {
+    "id": 81,
+    "item_name": "VTA+ Wireless Security System (VTA-84440)",
+    "category": "Electronics",
+    "condition": "Good",
+    "description": "VTA+ VTA-84440 wireless security system. Includes magnetic door/window contact sensor and wireless indoor alarm siren/hub. Both units installed and operational.",
+    "photos": [
+      "20260324_114416.jpg",
+      "20260324_134116.jpg"
+    ],
+    "notes": "Both units installed and operational; model VTA-84440",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "pricing": {
+      "new_price_cop": 299990,
+      "new_price_usd": 71,
+      "used_price_range_cop": "80000-130000",
+      "used_price_range_usd": "19-31",
+      "recommended_sale_cop": 100000,
+      "recommended_sale_usd": 24,
+      "condition_discount_pct": 50,
+      "sources": [
+        {
+          "site": "homecenter.com.co",
+          "url": "https://www.homecenter.com.co/homecenter-co/product/731759",
+          "price_cop": 299990,
+          "note": "receipt confirmed — SKU 731759 Kit de Seguridad INT, Homecenter Molinos"
+        }
+      ],
+      "notes": "Paid 299,990 COP cash at Homecenter Medellín Molinos. June 5, 2025. SKU 731759 \"Kit de Seguridad INT\". Invoice 4306100349146."
+    },
+    "receipts": [
+      {
+        "file": "Factura_electrónica_4306100349146---d822a4be-f4a2-42d6-a683-4d4c5b6a3504.pdf",
+        "note": "Homecenter Molinos invoice — SKU 731759, 299,990 COP"
+      }
+    ],
+    "item_name_en": "VTA+ Wireless Security System (VTA-84440)",
+    "description_en": "VTA+ VTA-84440 wireless security system. Includes magnetic door/window contact sensor and wireless indoor alarm siren/hub. Both units installed and operational.",
+    "item_name_es": "Sistema de Seguridad Inalámbrico VTA+ (VTA-84440)",
+    "description_es": "Kit de seguridad inalámbrico VTA+ con sensor de puerta y sirena.",
+    "notes_en": "Both units installed and operational; model VTA-84440",
+    "notes_es": "Ambas unidades instaladas y operativas — modelo VTA-84440",
+    "active": true
+  },
+  {
+    "id": 82,
+    "item_name": "Tarjeta MicroSD Maxell 64GB",
+    "category": "Electronics",
+    "condition": "Good",
+    "description": "Tarjeta de memoria MicroSD Maxell de 64GB.",
+    "photos": [
+      "20260324_133811.jpg"
+    ],
+    "notes": "Nueva y sellada",
+    "quantity": 1,
+    "reviewed": false,
+    "flagBox": false,
+    "pricing": {
+      "new_price_cop": 60000,
+      "new_price_usd": 14,
+      "used_price_range_cop": "35000-50000",
+      "used_price_range_usd": "8-12",
+      "recommended_sale_cop": 50000,
+      "recommended_sale_usd": 12,
+      "condition_discount_pct": 17,
+      "sources": [
+        {
+          "site": "homecenter.com.co",
+          "url": "https://www.homecenter.com.co/homecenter-co/search?Ntt=microsd+64gb+clase+10+u3+v30",
+          "price_cop": 60000,
+          "note": "Search: 64GB MicroSD U3 V30 at Homecenter (Maxell ActionPro sealed retail)"
+        },
+        {
+          "site": "homecenter.com.co",
+          "url": "https://www.homecenter.com.co/homecenter-co/product/439925/tarjeta-micro-sd-64-gb-u3-action-prouhs-3-class-10/439925/",
+          "price_cop": 60000,
+          "note": "Tarjeta Micro SD 64 GB U3 Action Pro UHS-3 Class 10 - exact spec match confirmed at Homecenter"
+        }
+      ],
+      "notes": "New and sealed. High-spec MicroSD (U3, V30, 8K). Sell at near-new price. Easy online/quick sale."
+    },
+    "item_name_en": "Maxell 64GB MicroSD Card",
+    "description_en": "Maxell ActionPro 64GB MicroSD XC I card in sealed retail blister. U3, A1, V30, 100MB/s, supports 8K.",
+    "item_name_es": "Tarjeta MicroSD Maxell 64GB",
+    "description_es": "Tarjeta de memoria MicroSD Maxell de 64GB.",
+    "notes_en": "New and sealed",
+    "notes_es": "Nueva y sellada",
+    "active": true
+  },
+  {
+    "id": 84,
+    "item_name": "VTA+ Planet 2 Smart Wi-Fi Camera Kit (2-Pack)",
+    "category": "Electronics",
+    "condition": "Good",
+    "description": "VTA+ Planet 2 kit of 2 indoor spherical pan-and-tilt Wi-Fi cameras. Box included.",
+    "photos": [
+      "20260324_133750.jpg",
+      "20260324_115122.jpg",
+      "20260324_115134.jpg"
+    ],
+    "notes": "Retail box included; 2 cameras; currently installed",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "pricing": {
+      "new_price_cop": 199900,
+      "new_price_usd": 48,
+      "used_price_range_cop": "180000-280000",
+      "used_price_range_usd": "43-67",
+      "recommended_sale_cop": 230000,
+      "recommended_sale_usd": 55,
+      "condition_discount_pct": 43,
+      "sources": [
+        {
+          "site": "homecenter.com.co",
+          "url": "https://www.homecenter.com.co/homecenter-co/product/776562",
+          "price_cop": 199900,
+          "note": "receipt — KIT 2 CAMARAS INTELI"
+        }
+      ],
+      "notes": "Paid 199,900 COP at Homecenter Molinos May 30 2025. SKU 776562. 16.67% discount applied. Debit card."
+    },
+    "receipts": [
+      {
+        "file": "Factura_electrónica_4306100347462---23fefc96-923c-4826-892d-41d9a3bae6c3.pdf",
+        "note": "Homecenter Molinos invoice — SKU 776562, 199,900 COP"
+      }
+    ],
+    "_photoVersions": {
+      "receipt_homecenter_may30.jpg": 1774707205570
+    },
+    "item_name_en": "VTA+ Planet 2 Smart Wi-Fi Camera Kit (2-Pack)",
+    "description_en": "VTA+ Planet 2 kit of 2 indoor spherical pan-and-tilt Wi-Fi cameras. Box included.",
+    "item_name_es": "Kit de 2 Cámaras Inteligentes VTA+ Planet 2",
+    "description_es": "Kit de 2 cámaras de seguridad Wi-Fi VTA+ Planet 2 con movimiento.",
+    "notes_en": "Retail box included; 2 cameras; currently installed",
+    "notes_es": "Caja original incluida — 2 cámaras actualmente instaladas",
+    "active": true
+  },
+  {
+    "id": 85,
+    "item_name": "Monitor LED Sceptre J20 de 20 Pulgadas",
+    "category": "Electronics",
+    "condition": "Excellent",
+    "description": "Monitor LED Sceptre J20 de 20 pulgadas.",
+    "photos": [
+      "nick_monitor_screen_on.jpg",
+      "20260324_130124.jpg",
+      "20260324_130121.jpg",
+      "20260324_130249.jpg"
+    ],
+    "notes": "",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "pricing": {
+      "new_price_cop": 350000,
+      "new_price_usd": 83,
+      "used_price_range_cop": "150000-230000",
+      "used_price_range_usd": "36-55",
+      "recommended_sale_cop": 190000,
+      "recommended_sale_usd": 45,
+      "condition_discount_pct": 46,
+      "sources": [
+        {
+          "site": "homecenter.com.co",
+          "url": "https://www.homecenter.com.co/homecenter-co/product/777938/monitor-24-led-fhd-ips-100hz-pantalla-gamer-slim-sin-bordes/777938/",
+          "price_cop": 350000,
+          "note": "Monitor 24\" LED FHD IPS 100Hz - comparable monitor confirmed at Homecenter (Sceptre J20 is 20\", older budget model)"
+        }
+      ],
+      "notes": "Older budget Sceptre monitor. Thick bezels typical of older models. Screen appears clean. Good for budget home office setup."
+    },
+    "item_name_en": "Sceptre J20 20\" LED Monitor",
+    "description_en": "Sceptre J20 computer monitor (approx 20-inch) on round black pedestal stand.",
+    "item_name_es": "Monitor LED Sceptre J20 de 20 Pulgadas",
+    "description_es": "Monitor LED Sceptre J20 de 20 pulgadas.",
+    "notes_en": "Thick bezels suggest older/budget model",
+    "notes_es": "",
+    "active": true
+  },
+  {
+    "id": 86,
+    "item_name": "Sony Bravia 46\" TV with Remote",
+    "category": "Electronics",
+    "condition": "Poor",
+    "description": "Sony KDL-46EX727 LCD TV. 46-inch, 110-240V, 122W. TV only. Screen is messed up, LCD has lines running through it, For Repair or Parts",
+    "photos": [
+      "20260325_120105.jpg",
+      "20260325_120028.jpg",
+      "20260325_120307.jpg",
+      "20260325_122944.jpg",
+      "20260325_115857.jpg",
+      "20260325_115901.jpg"
+    ],
+    "notes": "",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "pricing": {
+      "new_price_cop": 2000000,
+      "new_price_usd": 476,
+      "used_price_range_cop": "300000-500000",
+      "used_price_range_usd": "71-119",
+      "recommended_sale_cop": 80000,
+      "recommended_sale_usd": 19,
+      "condition_discount_pct": 85,
+      "sources": [],
+      "notes": "Screen panel damaged with lines — for parts only. Price reflects scrap/parts value only."
+    },
+    "item_name_en": "Sony Bravia 46\" TV with Remote",
+    "description_en": "Sony KDL-46EX727 LCD TV. 46-inch, 110-240V, 122W. TV only. Screen is messed up, LCD has lines running through it, For Repair or Parts",
+    "item_name_es": "Televisor Sony Bravia 46 Pulgadas con Control",
+    "description_es": "Televisor Sony Bravia de 46 pulgadas con control remoto. Pantalla dañada — solo para repuestos.",
+    "active": true,
+    "notes_en": ""
+  },
+  {
+    "id": 87,
+    "item_name": "TV Wall Mount Bracket",
+    "category": "Electronics",
+    "condition": "Fair",
+    "description": "Black metal adjustable/articulating TV wall mount bracket, disassembled. Two vertical arms with adjustment holes, wall plate, pivot bolts.",
+    "photos": [
+      "20260326_111204.jpg",
+      "20260326_111209.jpg"
+    ],
+    "notes": "Black powder-coated steel, suitable for medium to large TVs",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "pricing": {
+      "new_price_cop": 80000,
+      "new_price_usd": 19,
+      "used_price_range_cop": "25000-45000",
+      "used_price_range_usd": "6-11",
+      "recommended_sale_cop": 35000,
+      "recommended_sale_usd": 8,
+      "condition_discount_pct": 56,
+      "sources": [
+        {
+          "site": "homecenter.com.co",
+          "url": "https://www.homecenter.com.co/homecenter-co/product/710304/soporte-de-tv-con-brazo-articulado-de-movimiento-completo-para-televisores/710304/",
+          "price_cop": 80000,
+          "note": "Soporte de TV con Brazo Articulado de Movimiento Completo - TV wall mount confirmed at Homecenter"
+        }
+      ],
+      "notes": "Articulating TV mount in fair condition. Practical item with good demand. Bundle with Sony TV."
+    },
+    "item_name_en": "TV Wall Mount Bracket",
+    "description_en": "Black metal adjustable/articulating TV wall mount bracket, disassembled. Two vertical arms with adjustment holes, wall plate, pivot bolts.",
+    "item_name_es": "Soporte de Pared para TV",
+    "description_es": "Soporte articulado de pared para televisor.",
+    "notes_en": "Black powder-coated steel, suitable for medium to large TVs",
+    "notes_es": "Acero negro, apto para TV medianos y grandes",
+    "active": true
+  },
+  {
+    "id": 88,
+    "item_name": "VTA+ Figu 3 Smart Wi-Fi Camera",
+    "category": "Electronics",
+    "condition": "Poor",
+    "description": "VTA+ Figu 3 indoor cylindrical Wi-Fi smart security camera. Retail box included. Connection issues. Randomly disconnects",
+    "photos": [
+      "20260324_133821.jpg"
+    ],
+    "notes": "Box shown; in use",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "pricing": {
+      "new_price_cop": 89900,
+      "new_price_usd": 21,
+      "used_price_range_cop": "40000-70000",
+      "used_price_range_usd": "17-26",
+      "recommended_sale_cop": 40000,
+      "recommended_sale_usd": 10,
+      "condition_discount_pct": 40,
+      "sources": [
+        {
+          "site": "homecenter.com.co",
+          "url": "https://www.homecenter.com.co/homecenter-co/product/778931",
+          "price_cop": 89900,
+          "note": "receipt — CAMARA INTELIGENTE R"
+        }
+      ],
+      "notes": "Paid 89,900 COP at Homecenter Molinos May 30 2025. SKU 778931. 10% discount applied."
+    },
+    "_photoVersions": {
+      "20260324_133821.jpg": 1774644190474
+    },
+    "receipts": [
+      {
+        "file": "Factura_electrónica_4306100347462---23fefc96-923c-4826-892d-41d9a3bae6c3.pdf",
+        "note": "Homecenter Molinos invoice — SKU 778931, 89,900 COP"
+      }
+    ],
+    "item_name_en": "VTA+ Figu 3 Smart Wi-Fi Camera",
+    "description_en": "VTA+ Figu 3 indoor cylindrical Wi-Fi smart security camera. Retail box included. Connection issues. Randomly disconnects",
+    "item_name_es": "Cámara Inteligente Wi-Fi VTA+ Figu 3",
+    "description_es": "Cámara de seguridad Wi-Fi fija VTA+ Figu 3.",
+    "notes_en": "Box shown; in use",
+    "notes_es": "Caja incluida, en uso",
+    "active": true
+  },
+  {
+    "id": 89,
+    "item_name": "VTA+ Krony Smart Motion Camera (New, Sealed)",
+    "category": "Electronics",
+    "condition": "New",
+    "description": "Retail box for VTA+ Krony 2K Smart Motion Cam. Cloud storage, call button, WiFi 2.4/5 GHz, Google Home/Alexa compatible. Box appears new/sealed.",
+    "photos": [
+      "20260324_133739.jpg"
+    ],
+    "notes": "Box appears new/sealed",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "pricing": {
+      "new_price_cop": 99900,
+      "new_price_usd": 25,
+      "used_price_range_cop": "40000-80000",
+      "used_price_range_usd": "10-20",
+      "recommended_sale_cop": 80000,
+      "recommended_sale_usd": 20,
+      "condition_discount_pct": 16,
+      "sources": [
+        {
+          "site": "homecenter.com.co",
+          "url": "https://www.homecenter.com.co/homecenter-co/product/3030296/camara-wifi-con-movimiento-2k-interior-krony-vta/3030296/",
+          "price_cop": 99900,
+          "note": "VTA Cámara WiFi 2K Interior Krony - confirmed at Homecenter, exact model"
+        }
+      ],
+      "notes": "New sealed box. 2K camera with dual-band WiFi. Google Home/Alexa compatible. Sell at near-new price."
+    },
+    "item_name_en": "VTA+ Krony Smart Motion Camera (New, Sealed)",
+    "description_en": "Retail box for VTA+ Krony 2K Smart Motion Cam. Cloud storage, call button, WiFi 2.4/5 GHz, Google Home/Alexa compatible. Box appears new/sealed.",
+    "item_name_es": "Cámara Inteligente VTA+ Krony (Nueva, Sellada)",
+    "description_es": "Cámara de seguridad Wi-Fi VTA+ Krony, nueva y sellada en caja original.",
+    "notes_en": "Box appears new/sealed",
+    "notes_es": "Caja sellada, nueva",
+    "active": true
+  },
+  {
+    "id": 90,
+    "item_name": "VTA+ Video Portero WiFi BIT II con Pantalla 7\"",
+    "category": "Electronics",
+    "condition": "Good",
+    "description": "VTA+ BIT II Video Portero WiFi with 7\" touchscreen (1024x600), FHD camera, IP65 weatherproof, DVR function, 120° viewing angle, night vision up to 8m, WiFi 2.4GHz, supports up to 2 wired cameras, microSD up to 128GB. VTA+ app control.",
+    "photos": [
+      "nick_doorbell_box.jpg",
+      "20260324_114410.jpg",
+      "20260324_114414.jpg",
+      "receipt_video_portero.jpg"
+    ],
+    "notes": "Box included; Full HD; WiFi; outdoor doorbell camera + indoor monitor",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "pricing": {
+      "new_price_cop": 699900,
+      "new_price_usd": 167,
+      "used_price_range_cop": "160000-250000",
+      "used_price_range_usd": "38-60",
+      "recommended_sale_cop": 250000,
+      "recommended_sale_usd": 60,
+      "condition_discount_pct": 43,
+      "sources": [
+        {
+          "site": "vta.co",
+          "url": "https://www.vta.co/video-portero-wifi-bit-ll-con-pantalla-vta--smart-home-/p",
+          "price_cop": 699900,
+          "note": "official VTA+ store — 699,900 COP"
+        }
+      ],
+      "notes": "VTA.co official price: 699,900 COP. Receipt from Homecenter shows 99,900 (likely an error or partial item). VTA.co is the source of truth."
+    },
+    "receipts": [
+      {
+        "file": "receipt_video_portero_vta.jpg",
+        "note": "VTA.co price screenshot — 699,900 COP"
+      }
+    ],
+    "item_name_en": "VTA+ Video Portero WiFi BIT II con Pantalla 7\"",
+    "description_en": "VTA+ BIT II Video Portero WiFi with 7\" touchscreen (1024x600), FHD camera, IP65 weatherproof, DVR function, 120° viewing angle, night vision up to 8m, WiFi 2.4GHz, supports up to 2 wired cameras, microSD up to 128GB. VTA+ app control.",
+    "item_name_es": "Video Portero WiFi VTA+ BIT II con Pantalla 7\"",
+    "description_es": "Video portero inteligente VTA+ BIT II con pantalla táctil de 7\", cámara FHD, IP65, visión nocturna.",
+    "notes_en": "Box included; Full HD; WiFi; outdoor doorbell camera + indoor monitor",
+    "notes_es": "Caja incluida — Full HD, WiFi, cámara exterior + monitor interior",
+    "active": true
+  },
+  {
+    "id": 91,
+    "item_name": "Adjustable Dumbbell/Barbell Set",
+    "category": "Other",
+    "condition": "Good",
+    "description": "Pair of adjustable dumbbells convertible to barbell. Black cement/plastic plates, red/orange textured rubber grips. Threaded spinlock collars. 4 X 2.5KG Plates and  8 X 1KG plates.",
+    "photos": [
+      "20260325_115637.jpg",
+      "20260325_115405.jpg",
+      "20260325_115426.jpg",
+      "20260325_115420.jpg"
+    ],
+    "notes": "Good condition",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "_photoVersions": {
+      "20260325_115637.jpg": 1774631443916,
+      "20260325_115405.jpg": 1774631455457
+    },
+    "pricing": {
+      "new_price_cop": 400000,
+      "new_price_usd": 100,
+      "used_price_range_cop": "150000-240000",
+      "used_price_range_usd": "40-60",
+      "recommended_sale_cop": 150000,
+      "recommended_sale_usd": 40,
+      "condition_discount_pct": 40,
+      "sources": [],
+      "notes": "Convertible dumbbell-to-barbell. Minimal wear. Home fitness equipment in high demand post-COVID."
+    },
+    "item_name_en": "Adjustable Dumbbell/Barbell Set",
+    "description_en": "Pair of adjustable dumbbells convertible to barbell. Black cement/plastic plates, red/orange textured rubber grips. Threaded spinlock collars. 4 X 2.5KG Plates and  8 X 1KG plates.",
+    "item_name_es": "Juego de Mancuernas/Barra Ajustable",
+    "description_es": "Set de pesas ajustables tipo mancuerna y barra.",
+    "notes_en": "Good condition",
+    "notes_es": "Buen estado",
+    "active": true
+  },
+  {
+    "id": 92,
+    "item_name": "Fixser Double Deadbolt Lock (New in Packaging)",
+    "category": "Other",
+    "condition": "Excellent",
+    "description": "Fixser Cerrojo Doble deadbolt in sealed blister packaging. Antique brass finish, 5 keys, Grade 3, 5-year warranty.",
+    "photos": [
+      "20260324_134454.jpg",
+      "receipt_homecenter_may30.jpg"
+    ],
+    "notes": "Brand new, never opened",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "_photoVersions": {
+      "20260324_134454.jpg": 1774631489131
+    },
+    "pricing": {
+      "new_price_cop": 30900,
+      "new_price_usd": 7,
+      "used_price_range_cop": "15000-20000",
+      "used_price_range_usd": "4-5",
+      "recommended_sale_cop": 20000,
+      "recommended_sale_usd": 5,
+      "condition_discount_pct": 19,
+      "sources": [],
+      "notes": "Paid 30,900 COP at Homecenter Molinos May 30 2025. SKU 321519 \"Placa Acero Conjunto\"."
+    },
+    "receipts": [
+      {
+        "file": "Factura_electrónica_4306100347462---23fefc96-923c-4826-892d-41d9a3bae6c3.pdf",
+        "note": "Homecenter Molinos invoice — SKU 321519, 30,900 COP"
+      }
+    ],
+    "item_name_en": "Fixser Double Deadbolt Lock (New in Packaging)",
+    "description_en": "Fixser Cerrojo Doble deadbolt in sealed blister packaging. Antique brass finish, 5 keys, Grade 3, 5-year warranty.",
+    "item_name_es": "Cerrojo Doble Fixser (Nuevo en Empaque)",
+    "description_es": "Cerrojo doble marca Fixser, nuevo en empaque original.",
+    "notes_en": "Brand new, never opened",
+    "notes_es": "Completamente nuevo, sin abrir",
+    "active": true
+  },
+  {
+    "id": 93,
+    "item_name": "Foam Roller",
+    "category": "Other",
+    "condition": "Good",
+    "description": "Black textured foam roller for muscle recovery. Grid-like surface with raised blocks and ridges. Hollow center.",
+    "photos": [
+      "20260325_115729.jpg",
+      "20260325_115732.jpg"
+    ],
+    "notes": "",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "_photoVersions": {
+      "20260325_115729.jpg": 1774631514673,
+      "20260325_115732.jpg": 1774631527783
+    },
+    "pricing": {
+      "new_price_cop": 120000,
+      "new_price_usd": 30,
+      "used_price_range_cop": "40000-80000",
+      "used_price_range_usd": "10-20",
+      "recommended_sale_cop": 60000,
+      "recommended_sale_usd": 15,
+      "condition_discount_pct": 42,
+      "sources": [],
+      "notes": "Lightly used textured foam roller. Fitness recovery equipment in demand. Easy sell to health-conscious buyers."
+    },
+    "item_name_en": "Foam Roller",
+    "description_en": "Black textured foam roller for muscle recovery. Grid-like surface with raised blocks and ridges. Hollow center.",
+    "item_name_es": "Rodillo de Espuma",
+    "description_es": "Rodillo de espuma para ejercicio y recuperación muscular.",
+    "notes_en": "",
+    "active": true
+  },
+  {
+    "id": 94,
+    "item_name": "Folding Clothes Drying Rack",
+    "category": "Other",
+    "condition": "Good",
+    "description": "Large multi-tier folding laundry drying rack, fully extended. Silver/gray metal frame with teal/blue plastic joints. Multiple tiers and fold-out wings.",
+    "photos": [
+      "20260325_122339.jpg",
+      "20260325_122346.jpg"
+    ],
+    "notes": "Large capacity rack",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "pricing": {
+      "new_price_cop": 214000,
+      "new_price_usd": 60,
+      "used_price_range_cop": "80000-120000",
+      "used_price_range_usd": "20-30",
+      "recommended_sale_cop": 100000,
+      "recommended_sale_usd": 25,
+      "condition_discount_pct": 50,
+      "sources": [],
+      "notes": "Large folding drying rack in good condition. Essential item in Colombian apartments where dryers are uncommon. Easy sell."
+    },
+    "item_name_en": "Folding Clothes Drying Rack",
+    "description_en": "Large multi-tier folding laundry drying rack, fully extended. Silver/gray metal frame with teal/blue plastic joints. Multiple tiers and fold-out wings.",
+    "item_name_es": "Tendedero Plegable de Ropa",
+    "description_es": "Tendedero plegable para secar ropa.",
+    "notes_en": "Large capacity rack",
+    "notes_es": "Gran capacidad",
+    "active": true
+  },
+  {
+    "id": 95,
+    "item_name": "Two Basketballs",
+    "category": "Other",
+    "condition": "Good",
+    "description": "Adidas All-Court Official Game Ball and Tarmak BT100 Soft Size 7 Both indoor/outdoor.",
+    "photos": [
+      "20260325_122109.jpg"
+    ],
+    "notes": "",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "_photoVersions": {
+      "20260325_122109.jpg": 1774631468038
+    },
+    "pricing": {
+      "new_price_cop": 200000,
+      "new_price_usd": 48,
+      "used_price_range_cop": "50000-100000",
+      "used_price_range_usd": "12-24",
+      "recommended_sale_cop": 60000,
+      "recommended_sale_usd": 15,
+      "condition_discount_pct": 60,
+      "sources": [],
+      "notes": "Two balls sold together. Adidas in good shape, Tarmak heavily worn. Priced as a pair. Basketball popular in Colombia."
+    },
+    "item_name_en": "Two Basketballs",
+    "description_en": "Adidas All-Court Official Game Ball and Tarmak BT100 Soft Size 7 Both indoor/outdoor.",
+    "item_name_es": "Dos Balones de Baloncesto",
+    "description_es": "Dos balones de baloncesto.",
+    "notes_en": "",
+    "active": true
+  },
+  {
+    "id": 96,
+    "item_name": "Bamboo Mortar and Pestle",
+    "category": "Kitchen",
+    "condition": "Good",
+    "description": "Small bamboo mortar and pestle for grinding spices, herbs, and pastes.",
+    "photos": [
+      "20260325_183302.jpg"
+    ],
+    "notes": "",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "_photoVersions": {
+      "20260325_183302.jpg": 1774630955373
+    },
+    "pricing": {
+      "new_price_cop": 30000,
+      "new_price_usd": 7,
+      "used_price_range_cop": "10000-20000",
+      "used_price_range_usd": "2-5",
+      "recommended_sale_cop": 15000,
+      "recommended_sale_usd": 4,
+      "condition_discount_pct": 50,
+      "sources": [],
+      "notes": "Small bamboo mortar and pestle. Common kitchen tool. Bundle with kitchen items."
+    },
+    "item_name_en": "Bamboo Mortar and Pestle",
+    "description_en": "Small bamboo mortar and pestle for grinding spices, herbs, and pastes.",
+    "item_name_es": "Mortero y Pilón de Bambú",
+    "description_es": "Mortero y pilón de bambú para moler especias.",
+    "notes_en": "",
+    "active": true
+  },
+  {
+    "id": 97,
+    "item_name": "VTA+ Krony Smart Motion Camera (Used)",
+    "category": "Electronics",
+    "condition": "Good",
+    "description": "VTA+ Krony smart Wi-Fi motion camera, pan-and-tilt. Previously installed. Box included.",
+    "photos": [
+      "20260324_133805.jpg",
+      "20260324_115205.jpg"
+    ],
+    "notes": "Open/used unit; box included",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "pricing": {
+      "new_price_cop": 99900,
+      "new_price_usd": 25,
+      "used_price_range_cop": "40000-80000",
+      "used_price_range_usd": "10-20",
+      "recommended_sale_cop": 60000,
+      "recommended_sale_usd": 15,
+      "condition_discount_pct": 40,
+      "sources": [
+        {
+          "site": "homecenter.com.co",
+          "url": "https://www.homecenter.com.co/homecenter-co/product/3030296/camara-wifi-con-movimiento-2k-interior-krony-vta/3030296/",
+          "price_cop": 99900,
+          "note": "VTA Cámara WiFi 2K Interior Krony - confirmed at Homecenter (new price reference)"
+        }
+      ],
+      "notes": "Used unit of the same Krony 2K camera (id 89 is new/sealed). Box included. Good condition from previous installation."
+    },
+    "item_name_en": "VTA+ Krony Smart Motion Camera (Used)",
+    "description_en": "VTA+ Krony smart Wi-Fi motion camera, pan-and-tilt. Previously installed. Box included.",
+    "item_name_es": "Cámara Inteligente VTA+ Krony (Usada)",
+    "description_es": "Cámara de seguridad Wi-Fi VTA+ Krony, previamente instalada y en uso.",
+    "notes_en": "Open/used unit; box included",
+    "notes_es": "Unidad usada, caja incluida",
+    "active": true
+  }
+]
