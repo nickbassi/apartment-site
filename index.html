@@ -865,7 +865,7 @@
 
   // ── Fetch & Render ──
   const inventoryPath = isAdmin ? '/inventory.json' : '/inventory-active.json';
-  fetch(BP + '/inventory.json')
+  fetch(BP + inventoryPath)
     .then(r => r.json())
     .then(data => {
       allItems = data;
