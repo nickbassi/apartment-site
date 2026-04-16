@@ -1690,8 +1690,13 @@
     "item_name_es": "Licuadora Profesional Ninja BL610",
     "description_es": "Licuadora profesional Ninja BL610 de 1000W con jarra de 72oz.",
     "notes_en": "",
-    "active": true,
-    "notes_es": ""
+    "active": false,
+    "notes_es": "",
+    "sold": true,
+    "sold_date": "2026-04-15",
+    "sold_price_cop": 150000,
+    "sold_as_bundle": true,
+    "sold_bundle_note": "Sold together with Procesador de Alimentos Würden (id=64) for COP 150,000 total"
   },
   {
     "id": 51,
@@ -2166,7 +2171,12 @@
     "description_es": "Procesador de alimentos Würden de 1000W.",
     "notes_en": "",
     "notes_es": "",
-    "active": true
+    "active": false,
+    "sold": true,
+    "sold_date": "2026-04-15",
+    "sold_price_cop": 150000,
+    "sold_as_bundle": true,
+    "sold_bundle_note": "Sold together with Licuadora Profesional Ninja BL610 (id=50) for COP 150,000 total"
   },
   {
     "id": 65,

@@ -1047,8 +1047,79 @@
       <div style="text-align:center;font-size:18px;font-weight:700;color:var(--green);padding:16px;background:var(--surface);border:1px solid var(--green);border-radius:12px;margin-bottom:24px;">
         If you sell everything: ~$${totalSale.toLocaleString('es-CO')} COP (~$${Math.round(totalSale/4200).toLocaleString()} USD)
       </div>
+      ${renderSoldDashboard(items)}
     `;
     document.getElementById('main').parentElement.insertBefore(statsDiv, document.getElementById('main'));
+  }
+
+  function renderSoldDashboard(items) {
+    const sold = items.filter(i => i.sold === true);
+    if (sold.length === 0) return '';
+
+    const totalRevenue = sold.reduce((s, i) => {
+      // For bundle sales, only count the price once (from the first item in the bundle)
+      if (i.sold_as_bundle && i.sold_bundle_note && i.sold_bundle_note.includes('id=' + i.id)) return s;
+      return s + (i.sold_price_cop || 0);
+    }, 0);
+    // Simpler: just sum unique bundle groups + non-bundle items
+    const bundleGroups = {};
+    let revenue = 0;
+    sold.forEach(i => {
+      if (i.sold_as_bundle && i.sold_bundle_note) {
+        const key = i.sold_bundle_note;
+        if (!bundleGroups[key]) {
+          bundleGroups[key] = true;
+          revenue += (i.sold_price_cop || 0);
+        }
+      } else {
+        revenue += (i.sold_price_cop || 0);
+      }
+    });
+
+    const totalRecommended = sold.reduce((s, i) => s + (i.pricing?.recommended_sale_cop || 0), 0);
+
+    const rows = sold.map(i => `
+      <tr style="border-bottom:1px solid var(--border);">
+        <td style="padding:8px 12px;font-size:13px;color:var(--text);">${getItemName(i)}</td>
+        <td style="padding:8px 12px;font-size:12px;color:var(--text-muted);">${i.category || ''}</td>
+        <td style="padding:8px 12px;font-size:12px;color:var(--text-muted);font-family:'JetBrains Mono',monospace;">$${(i.pricing?.recommended_sale_cop||0).toLocaleString('es-CO')}</td>
+        <td style="padding:8px 12px;font-size:12px;color:var(--green);font-weight:600;font-family:'JetBrains Mono',monospace;">$${(i.sold_price_cop||0).toLocaleString('es-CO')}</td>
+        <td style="padding:8px 12px;font-size:12px;color:var(--text-muted);">${i.sold_date || ''}</td>
+        <td style="padding:8px 12px;font-size:11px;color:var(--text-muted);">${i.sold_bundle_note ? '📦 ' + i.sold_bundle_note : ''}</td>
+      </tr>
+    `).join('');
+
+    return `
+      <div style="background:var(--surface);border:1px solid var(--green);border-radius:12px;padding:16px;margin-bottom:24px;">
+        <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+          <div style="font-size:14px;color:var(--green);font-weight:700;text-transform:uppercase;letter-spacing:1px;">💰 Sold Items (${sold.length})</div>
+          <div style="font-size:18px;font-weight:700;color:var(--green);">Revenue: $${revenue.toLocaleString('es-CO')} COP</div>
+        </div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:16px;">
+          <div style="background:var(--bg);border-radius:8px;padding:12px;">
+            <div style="font-size:11px;color:var(--text-muted);text-transform:uppercase;">Total Recommended</div>
+            <div style="font-size:20px;font-weight:700;color:var(--text-muted);">$${totalRecommended.toLocaleString('es-CO')}</div>
+          </div>
+          <div style="background:var(--bg);border-radius:8px;padding:12px;">
+            <div style="font-size:11px;color:var(--green);text-transform:uppercase;">Actual Revenue</div>
+            <div style="font-size:20px;font-weight:700;color:var(--green);">$${revenue.toLocaleString('es-CO')}</div>
+          </div>
+        </div>
+        <table style="width:100%;border-collapse:collapse;">
+          <thead>
+            <tr style="border-bottom:2px solid var(--border);">
+              <th style="padding:8px 12px;text-align:left;font-size:11px;color:var(--text-muted);text-transform:uppercase;">Item</th>
+              <th style="padding:8px 12px;text-align:left;font-size:11px;color:var(--text-muted);text-transform:uppercase;">Category</th>
+              <th style="padding:8px 12px;text-align:left;font-size:11px;color:var(--text-muted);text-transform:uppercase;">Asking</th>
+              <th style="padding:8px 12px;text-align:left;font-size:11px;color:var(--text-muted);text-transform:uppercase;">Sold For</th>
+              <th style="padding:8px 12px;text-align:left;font-size:11px;color:var(--text-muted);text-transform:uppercase;">Date</th>
+              <th style="padding:8px 12px;text-align:left;font-size:11px;color:var(--text-muted);text-transform:uppercase;">Notes</th>
+            </tr>
+          </thead>
+          <tbody>${rows}</tbody>
+        </table>
+      </div>
+    `;
   }
 
   function renderAll(items) {
@@ -1120,9 +1191,11 @@
     const imgHtml = photo
       ? `<img src="${BP}/thumbs/${encodeURIComponent(photo)}" alt="${name.replace(/"/g,'&quot;')}" loading="lazy">`
       : `<div class="card-no-img">📦</div>`;
+    const soldBadge = item.sold ? '<div style="position:absolute;top:8px;left:8px;background:#e53e3e;color:#fff;font-size:11px;font-weight:700;padding:3px 8px;border-radius:4px;text-transform:uppercase;letter-spacing:1px;z-index:1;">VENDIDO</div>' : '';
+    const soldOverlay = item.sold ? 'opacity:0.5;' : '';
     return `
-      <div class="card" data-id="${item.id}" role="button" tabindex="0" aria-label="${name}">
-        <div class="card-img">${imgHtml}</div>
+      <div class="card" data-id="${item.id}" role="button" tabindex="0" aria-label="${name}" style="${soldOverlay}">
+        <div class="card-img" style="position:relative;">${soldBadge}${imgHtml}</div>
         <div class="card-body">
           <div class="card-name">${name}</div>
           <div class="card-meta">

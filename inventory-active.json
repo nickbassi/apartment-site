@@ -1158,46 +1158,6 @@
     "active": true
   },
   {
-    "id": 50,
-    "item_name": "Ninja Professional Blender BL610",
-    "category": "Kitchen",
-    "condition": "Good",
-    "description": "Ninja Professional 1000W blender BL610 with 72oz clear pitcher, Total Crushing blade. Controls: Power, Pulse, Low, Med, High.",
-    "photos": [
-      "20260325_183339.jpg",
-      "20260325_183433.jpg"
-    ],
-    "notes": "",
-    "quantity": 1,
-    "reviewed": true,
-    "flagBox": false,
-    "pricing": {
-      "new_price_cop": 400000,
-      "new_price_usd": 100,
-      "used_price_range_cop": "120000-200000",
-      "used_price_range_usd": "29-48",
-      "recommended_sale_cop": 160000,
-      "recommended_sale_usd": 38,
-      "condition_discount_pct": 54,
-      "sources": [
-        {
-          "site": "exito.com",
-          "url": "https://www.exito.com/licuadora-profesional-ninja-1000w-42562/p",
-          "price_cop": null,
-          "note": "Ninja Professional BL610 1000W — Éxito"
-        }
-      ],
-      "notes": "Full-size 1000W Ninja blender with large 72oz pitcher. Good condition with typical use signs. Strong used demand."
-    },
-    "item_name_en": "Ninja Professional Blender BL610",
-    "description_en": "Ninja Professional 1000W blender BL610 with 72oz clear pitcher, Total Crushing blade. Controls: Power, Pulse, Low, Med, High.",
-    "item_name_es": "Licuadora Profesional Ninja BL610",
-    "description_es": "Licuadora profesional Ninja BL610 de 1000W con jarra de 72oz.",
-    "notes_en": "",
-    "active": true,
-    "notes_es": ""
-  },
-  {
     "id": 55,
     "item_name": "Protectores Antisalpicaduras Rama Design (Set de 3)",
     "category": "Kitchen",
@@ -1304,55 +1264,6 @@
     "notes_en": "",
     "active": true,
     "notes_es": ""
-  },
-  {
-    "id": 64,
-    "item_name": "Würden Food Processor",
-    "category": "Kitchen",
-    "condition": "Good",
-    "description": "Würden WPR-FP-408 food processor. 1000W. Manufactured 09/2024. 2000ml bowl, 5 stainless steel discs, S-blade, storage caddy. Box included.",
-    "photos": [
-      "20260325_184146.jpg",
-      "20260325_184418.jpg",
-      "20260325_184356.jpg",
-      "20260325_184415.jpg",
-      "20260326_110739.jpg",
-      "20260325_184199.jpg"
-    ],
-    "notes": "",
-    "quantity": 1,
-    "reviewed": true,
-    "flagBox": false,
-    "_photoVersions": {
-      "20260325_184415.jpg": 1774630395636,
-      "20260325_184199.jpg": 1774630415498,
-      "20260325_184418.jpg": 1774630429440
-    },
-    "pricing": {
-      "new_price_cop": 400000,
-      "new_price_usd": 107,
-      "used_price_range_cop": "160000-250000",
-      "used_price_range_usd": "38-60",
-      "recommended_sale_cop": 200000,
-      "recommended_sale_usd": 48,
-      "condition_discount_pct": 56,
-      "sources": [
-        {
-          "site": "homecenter.com.co",
-          "url": "https://www.homecenter.com.co/homecenter-co/product/303179/procesador-de-alimentos-1000w-acero/303179/",
-          "price_cop": 379900,
-          "note": "Würden Procesador de Alimentos 1000W Acero - confirmed at Homecenter"
-        }
-      ],
-      "notes": "Nearly new (manufactured September 2024). Complete with all 5 discs and storage caddy. Box included. High value item."
-    },
-    "item_name_en": "Würden Food Processor",
-    "description_en": "Würden WPR-FP-408 food processor. 1000W. Manufactured 09/2024. 2000ml bowl, 5 stainless steel discs, S-blade, storage caddy. Box included.",
-    "item_name_es": "Procesador de Alimentos Würden",
-    "description_es": "Procesador de alimentos Würden de 1000W.",
-    "notes_en": "",
-    "notes_es": "",
-    "active": true
   },
   {
     "id": 65,
