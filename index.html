@@ -798,9 +798,9 @@
 
   // ── Language Detection ──
   const urlParams = new URLSearchParams(window.location.search);
-  const isAdmin = window.location.pathname.includes('/admin') || urlParams.get('admin') === '1';
+  const isAdmin = false;
   const langParam = urlParams.get('lang');
-  const lang = isAdmin ? 'en' : (langParam || (window.location.pathname.includes('/en') ? 'en' : 'es'));
+  const lang = langParam || (window.location.pathname.includes('/en') ? 'en' : 'es');
 
   // ── Strings ──
   const T = {
