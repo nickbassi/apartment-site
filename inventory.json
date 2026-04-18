@@ -237,7 +237,10 @@
     "sold": true,
     "sold_date": "2026-04-18",
     "sold_as_bundle": false,
-    "sold_bundle_note": "Marked sold / unavailable"
+    "sold_bundle_note": "Sold for $55 USD",
+    "sold_price_usd": 55,
+    "sold_price_cop": 198029,
+    "sold_currency": "USD"
   },
   {
     "id": 8,
@@ -1380,6 +1383,59 @@
     "notes_en": ""
   },
   {
+    "id": 43,
+    "item_name": "Grival 4-Stage Under-Counter Water Filter",
+    "category": "Kitchen",
+    "condition": "Excellent",
+    "description": "Grival 4-stage under-counter water filter. Activated carbon technology, reduces odors, improves taste and water quality.",
+    "photos": [
+      "20260326_112335.jpg",
+      "20260326_112342.jpg",
+      "20260326_112347.jpg",
+      "20260326_112349.jpg",
+      "20260326_113804.jpg"
+    ],
+    "notes": "",
+    "quantity": 0,
+    "reviewed": true,
+    "flagBox": false,
+    "pricing": {
+      "new_price_cop": 624900,
+      "new_price_usd": 149,
+      "used_price_range_cop": "230000-280000",
+      "used_price_range_usd": "55-67",
+      "recommended_sale_cop": 250000,
+      "recommended_sale_usd": 60,
+      "condition_discount_pct": 29,
+      "sources": [
+        {
+          "site": "homecenter.com.co",
+          "url": "https://www.homecenter.com.co/homecenter-co/product/267451/filtro-agua-bajo-meson-4-etapas/267451/",
+          "price_cop": 624900,
+          "note": "Grival Filtro 4 Etapas — Homecenter"
+        }
+      ],
+      "notes": "Excellent condition water filter system. High demand in Colombia where tap water quality concerns exist. Nearly new."
+    },
+    "item_name_en": "Grival 4-Stage Under-Counter Water Filter",
+    "description_en": "Grival 4-stage under-counter water filter. Activated carbon technology, reduces odors, improves taste and water quality.",
+    "item_name_es": "Filtro de Agua Bajo Mesón 4 Etapas Grival",
+    "description_es": "Filtro de agua Grival de 4 etapas para instalación bajo mesón. Tecnología de carbón activado, reduce olores, mejora sabor y apariencia del agua. Marca Grival.",
+    "notes_en": "",
+    "notes_es": "",
+    "_photoVersions": {
+      "20260326_113804.jpg": 1774730860195
+    },
+    "active": true,
+    "sold": true,
+    "sold_date": "2026-04-18",
+    "sold_price_usd": 55,
+    "sold_price_cop": 198029,
+    "sold_currency": "USD",
+    "sold_as_bundle": false,
+    "sold_bundle_note": "Sold for $55 USD"
+  },
+  {
     "id": 44,
     "item_name": "Hamilton Beach Coffee Grinder",
     "category": "Kitchen",
@@ -2344,6 +2400,52 @@
     "notes_en": "",
     "notes_es": "",
     "active": false
+  },
+  {
+    "id": 73,
+    "item_name": "Black Plastic 5-Tier Shelving Unit",
+    "category": "Storage",
+    "condition": "Good",
+    "description": "Tall black plastic modular shelving unit with 5 evenly spaced shelves and cylindrical legs. Approximately 5-6 feet tall.",
+    "photos": [
+      "20260324_110412.jpg"
+    ],
+    "notes": "",
+    "quantity": 0,
+    "reviewed": true,
+    "flagBox": false,
+    "pricing": {
+      "new_price_cop": 150000,
+      "new_price_usd": 40,
+      "used_price_range_cop": "40000-80000",
+      "used_price_range_usd": "10-20",
+      "recommended_sale_cop": 60000,
+      "recommended_sale_usd": 15,
+      "condition_discount_pct": 50,
+      "sources": [
+        {
+          "site": "homecenter.com.co",
+          "url": "https://www.homecenter.com.co/homecenter-co/product/302463/estanteria-12-pulgadas-5-niveles-606x1695x301-cm-negra/302463/",
+          "price_cop": 100000,
+          "note": "Estantería 12 Pulgadas 5 Niveles 60.6x169.5x30.1 cm Negra - 5-tier plastic shelf confirmed at Homecenter"
+        }
+      ],
+      "notes": "Price per unit (qty 2). Near-new condition. Practical storage solution. High demand for furnished apartments."
+    },
+    "item_name_en": "Black Plastic 5-Tier Shelving Unit",
+    "description_en": "Tall black plastic modular shelving unit with 5 evenly spaced shelves and cylindrical legs. Approximately 5-6 feet tall.",
+    "item_name_es": "Estante Plástico Negro de 5 Niveles",
+    "description_es": "Estante organizador plástico negro con 5 niveles.",
+    "notes_en": "",
+    "notes_es": "",
+    "active": true,
+    "sold": true,
+    "sold_date": "2026-04-18",
+    "sold_price_usd": 71.66,
+    "sold_price_cop": 258029,
+    "sold_currency": "COP",
+    "sold_as_bundle": false,
+    "sold_bundle_note": "Two 5-tier shelving units sold total: 60,000 COP + $55 USD (last unit)"
   },
   {
     "id": 74,
