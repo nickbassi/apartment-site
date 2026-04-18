@@ -64,7 +64,13 @@
     "description_es": "Mesa auxiliar plegable tipo bandeja, compacta y portátil.",
     "notes_en": "",
     "active": true,
-    "notes_es": ""
+    "notes_es": "",
+    "sold": true,
+    "sold_date": "2026-04-17",
+    "sold_price_usd": 8,
+    "sold_price_cop": 30000,
+    "sold_currency": "USD",
+    "sold_bundle_note": "Sold for $8 USD"
   },
   {
     "id": 3,
