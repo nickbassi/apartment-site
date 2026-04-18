@@ -810,38 +810,6 @@
     "active": true
   },
   {
-    "id": 34,
-    "item_name": "Chrome Wire Fruit/Vegetable Basket Stand",
-    "category": "Kitchen",
-    "condition": "Good",
-    "description": "Four-tier freestanding chrome wire basket stand. Graduated sizes.",
-    "photos": [
-      "20260324_115058.jpg"
-    ],
-    "notes": "",
-    "quantity": 1,
-    "reviewed": true,
-    "flagBox": false,
-    "pricing": {
-      "new_price_cop": 80000,
-      "new_price_usd": 19,
-      "used_price_range_cop": "30000-50000",
-      "used_price_range_usd": "7-12",
-      "recommended_sale_cop": 40000,
-      "recommended_sale_usd": 10,
-      "condition_discount_pct": 50,
-      "sources": [],
-      "notes": "Practical kitchen organizer. Good chrome condition, no rust. Easy to sell."
-    },
-    "item_name_en": "Chrome Wire Fruit/Vegetable Basket Stand",
-    "description_en": "Four-tier freestanding chrome wire basket stand. Graduated sizes.",
-    "item_name_es": "Frutero de Alambre Cromado",
-    "description_es": "Frutero tipo canasta de alambre cromado con niveles.",
-    "notes_en": "",
-    "notes_es": "",
-    "active": true
-  },
-  {
     "id": 36,
     "item_name": "Digital Kitchen Scale SF-400",
     "category": "Kitchen",

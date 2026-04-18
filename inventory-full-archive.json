@@ -1150,7 +1150,13 @@
     "description_es": "Frutero tipo canasta de alambre cromado con niveles.",
     "notes_en": "",
     "notes_es": "",
-    "active": true
+    "active": true,
+    "sold": true,
+    "sold_date": "2026-04-18",
+    "sold_price_usd": 11,
+    "sold_price_cop": 39606,
+    "sold_currency": "USD",
+    "sold_bundle_note": "Sold for $11 USD"
   },
   {
     "id": 36,
