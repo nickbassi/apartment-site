@@ -41,7 +41,7 @@
       "20260324_122331.jpg"
     ],
     "notes": "",
-    "quantity": 1,
+    "quantity": 0,
     "reviewed": true,
     "flagBox": false,
     "_photoVersions": {
@@ -66,11 +66,12 @@
     "active": true,
     "notes_es": "",
     "sold": true,
-    "sold_date": "2026-04-17",
-    "sold_price_usd": 8,
-    "sold_price_cop": 30000,
+    "sold_date": "2026-04-18",
+    "sold_price_usd": 55,
+    "sold_price_cop": 198029,
     "sold_currency": "USD",
-    "sold_bundle_note": "Sold for $8 USD"
+    "sold_bundle_note": "Sold together with Black Plastic 5-Tier Shelving Unit (id=73) for $55 total",
+    "sold_as_bundle": true
   },
   {
     "id": 3,
@@ -1430,7 +1431,7 @@
       "20260326_113804.jpg"
     ],
     "notes": "",
-    "quantity": 1,
+    "quantity": 0,
     "reviewed": true,
     "flagBox": false,
     "pricing": {
@@ -1460,7 +1461,14 @@
     "_photoVersions": {
       "20260326_113804.jpg": 1774730860195
     },
-    "active": true
+    "active": true,
+    "sold": true,
+    "sold_date": "2026-04-18",
+    "sold_price_usd": 55,
+    "sold_price_cop": 198029,
+    "sold_currency": "USD",
+    "sold_as_bundle": false,
+    "sold_bundle_note": "Sold for $55 USD"
   },
   {
     "id": 44,
@@ -2438,7 +2446,7 @@
       "20260324_110412.jpg"
     ],
     "notes": "",
-    "quantity": 1,
+    "quantity": 0,
     "reviewed": true,
     "flagBox": false,
     "pricing": {
@@ -2465,7 +2473,14 @@
     "description_es": "Estante organizador plástico negro con 5 niveles.",
     "notes_en": "",
     "notes_es": "",
-    "active": true
+    "active": true,
+    "sold": true,
+    "sold_date": "2026-04-18",
+    "sold_price_usd": 55,
+    "sold_price_cop": 198029,
+    "sold_currency": "USD",
+    "sold_as_bundle": true,
+    "sold_bundle_note": "Sold together with Black Folding TV Tray / Side Table (id=2) for $55 total"
   },
   {
     "id": 74,
