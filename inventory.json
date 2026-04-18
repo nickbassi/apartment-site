@@ -237,9 +237,9 @@
     "sold": true,
     "sold_date": "2026-04-18",
     "sold_as_bundle": false,
-    "sold_bundle_note": "Sold for $55 USD",
-    "sold_price_usd": 55,
-    "sold_price_cop": 198029,
+    "sold_bundle_note": "Sold for 170,000 COP",
+    "sold_price_usd": 47.22,
+    "sold_price_cop": 170000,
     "sold_currency": "USD"
   },
   {
@@ -2441,11 +2441,11 @@
     "active": true,
     "sold": true,
     "sold_date": "2026-04-18",
-    "sold_price_usd": 71.66,
-    "sold_price_cop": 258029,
+    "sold_price_usd": 25.0,
+    "sold_price_cop": 90000,
     "sold_currency": "COP",
     "sold_as_bundle": false,
-    "sold_bundle_note": "Two 5-tier shelving units sold total: 60,000 COP + $55 USD (last unit)"
+    "sold_bundle_note": "Two 5-tier shelving units sold total: 90,000 COP (60,000 + 30,000)"
   },
   {
     "id": 74,
