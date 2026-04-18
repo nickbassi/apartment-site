@@ -103,39 +103,6 @@
     "active": true
   },
   {
-    "id": 7,
-    "item_name": "Folding/Rolling Desk with Casters",
-    "category": "Furniture",
-    "condition": "Good",
-    "description": "Rectangular desk with light oak wood-grain laminate top, black metal angled legs with locking caster wheels. Mobile/rolling design.",
-    "photos": [
-      "20260324_171543.jpg",
-      "20260324_171555.jpg"
-    ],
-    "notes": "",
-    "quantity": 1,
-    "reviewed": true,
-    "flagBox": false,
-    "pricing": {
-      "new_price_cop": 400000,
-      "new_price_usd": 95,
-      "used_price_range_cop": "140000-220000",
-      "used_price_range_usd": "33-52",
-      "recommended_sale_cop": 170000,
-      "recommended_sale_usd": 40,
-      "condition_discount_pct": 58,
-      "sources": [],
-      "notes": "Mobile desk with casters. Good condition "
-    },
-    "item_name_en": "Folding/Rolling Desk with Casters",
-    "description_en": "Rectangular desk with light oak wood-grain laminate top, black metal angled legs with locking caster wheels. Mobile/rolling design.",
-    "item_name_es": "Escritorio Plegable con Ruedas",
-    "description_es": "Escritorio plegable con ruedas, fácil de mover.",
-    "notes_en": "",
-    "active": true,
-    "notes_es": ""
-  },
-  {
     "id": 8,
     "item_name": "Mirrored Nightstands (Pair)",
     "category": "Furniture",
