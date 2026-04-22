@@ -1120,45 +1120,6 @@
     "notes_es": ""
   },
   {
-    "id": 65,
-    "item_name": "Chrome 3-Tier Corner Bathroom Shelf",
-    "category": "Bathroom",
-    "condition": "Fair",
-    "description": "Freestanding chrome three-tier quarter-circle corner shelf. Wire grid shelves.",
-    "photos": [
-      "20260326_103222.jpg"
-    ],
-    "notes": "",
-    "quantity": 1,
-    "reviewed": true,
-    "flagBox": false,
-    "pricing": {
-      "new_price_cop": 80000,
-      "new_price_usd": 19,
-      "used_price_range_cop": "20000-35000",
-      "used_price_range_usd": "5-8",
-      "recommended_sale_cop": 25000,
-      "recommended_sale_usd": 6,
-      "condition_discount_pct": 69,
-      "sources": [
-        {
-          "site": "homecenter.com.co",
-          "url": "https://www.homecenter.com.co/homecenter-co/product/395302/esquinero-de-bano-3-niveles-cromado/395302/",
-          "price_cop": 80000,
-          "note": "Esquinero de Baño 3 Niveles Cromado - exact match confirmed at Homecenter"
-        }
-      ],
-      "notes": " Still functional. Low price to sell."
-    },
-    "item_name_en": "Chrome 3-Tier Corner Bathroom Shelf",
-    "description_en": "Freestanding chrome three-tier quarter-circle corner shelf. Wire grid shelves.",
-    "item_name_es": "Esquinero de Baño Cromado 3 Niveles",
-    "description_es": "Organizador esquinero de baño cromado con 3 niveles.",
-    "notes_en": "",
-    "active": true,
-    "notes_es": ""
-  },
-  {
     "id": 66,
     "item_name": "Digital Body Composition Scale",
     "category": "Bathroom",
@@ -1500,41 +1461,6 @@
     "description_en": "Black textured foam roller for muscle recovery. Grid-like surface with raised blocks and ridges. Hollow center.",
     "item_name_es": "Rodillo de Espuma",
     "description_es": "Rodillo de espuma para ejercicio y recuperación muscular.",
-    "notes_en": "",
-    "active": true,
-    "notes_es": ""
-  },
-  {
-    "id": 95,
-    "item_name": "Two Basketballs",
-    "category": "Other",
-    "condition": "Good",
-    "description": "Adidas All-Court Official Game Ball and Tarmak BT100 Soft Size 7 Both indoor/outdoor.",
-    "photos": [
-      "20260325_122109.jpg"
-    ],
-    "notes": "",
-    "quantity": 1,
-    "reviewed": true,
-    "flagBox": false,
-    "_photoVersions": {
-      "20260325_122109.jpg": 1774631468038
-    },
-    "pricing": {
-      "new_price_cop": 200000,
-      "new_price_usd": 48,
-      "used_price_range_cop": "50000-100000",
-      "used_price_range_usd": "12-24",
-      "recommended_sale_cop": 60000,
-      "recommended_sale_usd": 15,
-      "condition_discount_pct": 60,
-      "sources": [],
-      "notes": "Two balls sold together. Adidas in good shape, Tarmak heavily worn. Priced as a pair. Basketball popular in Colombia."
-    },
-    "item_name_en": "Two Basketballs",
-    "description_en": "Adidas All-Court Official Game Ball and Tarmak BT100 Soft Size 7 Both indoor/outdoor.",
-    "item_name_es": "Dos Balones de Baloncesto",
-    "description_es": "Dos balones de baloncesto.",
     "notes_en": "",
     "active": true,
     "notes_es": ""

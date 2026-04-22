@@ -2199,8 +2199,12 @@
     "item_name_es": "Esquinero de Baño Cromado 3 Niveles",
     "description_es": "Organizador esquinero de baño cromado con 3 niveles.",
     "notes_en": "",
-    "active": true,
-    "notes_es": ""
+    "active": false,
+    "notes_es": "",
+    "sold": true,
+    "sold_date": "2026-04-22",
+    "sold_price_cop": 25000,
+    "sold_bundle_note": "Sold for 25,000 COP"
   },
   {
     "id": 66,
@@ -3278,8 +3282,12 @@
     "item_name_es": "Dos Balones de Baloncesto",
     "description_es": "Dos balones de baloncesto.",
     "notes_en": "",
-    "active": true,
-    "notes_es": ""
+    "active": false,
+    "notes_es": "",
+    "sold": true,
+    "sold_date": "2026-04-22",
+    "sold_price_cop": 40000,
+    "sold_bundle_note": "Sold for 40,000 COP (pair)"
   },
   {
     "id": 96,
