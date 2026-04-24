@@ -1191,11 +1191,9 @@
     const imgHtml = photo
       ? `<img src="${BP}/thumbs/${encodeURIComponent(photo)}" alt="${name.replace(/"/g,'&quot;')}" loading="lazy">`
       : `<div class="card-no-img">📦</div>`;
-    const soldBadge = item.sold ? '<div style="position:absolute;top:8px;left:8px;background:#e53e3e;color:#fff;font-size:11px;font-weight:700;padding:3px 8px;border-radius:4px;text-transform:uppercase;letter-spacing:1px;z-index:1;">VENDIDO</div>' : '';
-    const soldOverlay = item.sold ? 'opacity:0.5;' : '';
     return `
-      <div class="card" data-id="${item.id}" role="button" tabindex="0" aria-label="${name}" style="${soldOverlay}">
-        <div class="card-img" style="position:relative;">${soldBadge}${imgHtml}</div>
+      <div class="card" data-id="${item.id}" role="button" tabindex="0" aria-label="${name}">
+        <div class="card-img">${imgHtml}</div>
         <div class="card-body">
           <div class="card-name">${name}</div>
           <div class="card-meta">
