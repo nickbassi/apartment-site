@@ -3409,7 +3409,7 @@
     "quantity": 1,
     "reviewed": true,
     "flagBox": false,
-    "active": true,
+    "active": false,
     "pricing": {
       "new_price_cop": 300000,
       "new_price_usd": 83,
@@ -3424,6 +3424,10 @@
     "_photoVersions": {
       "20260422_190425.jpg": 1777052052083,
       "20260422_190422.jpg": 1777052072985
-    }
+    },
+    "sold": true,
+    "sold_date": "2026-04-24",
+    "sold_price_cop": 90000,
+    "sold_bundle_note": "Sold for 90,000 COP"
   }
 ]
