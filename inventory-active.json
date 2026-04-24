@@ -6,7 +6,11 @@
     "condition": "Fair",
     "description": "Armless black faux leather chair with tufted/button design and chrome legs. Matches futon sofa style.",
     "photos": [
-      "20260324_111739.jpg"
+      "20260324_111739.jpg",
+      "20260424_113503.jpg",
+      "20260424_113511.jpg",
+      "20260424_113513.jpg",
+      "20260424_113534.jpg"
     ],
     "notes": "",
     "quantity": 1,
@@ -38,7 +42,12 @@
     "condition": "Good",
     "description": "Modern TV stand with black tempered glass shelves and ornate chrome/silver decorative column design. Built-in TV mounting bracket at center top.",
     "photos": [
-      "20260324_111431.jpg"
+      "20260324_111431.jpg",
+      "20260424_113017.jpg",
+      "20260424_113026.jpg",
+      "20260424_113029.jpg",
+      "20260424_113100.jpg",
+      "20260424_113301.jpg"
     ],
     "notes": "",
     "quantity": 1,
@@ -74,7 +83,13 @@
     "description": "Dark brown/espresso rectangular dining table with four matching chairs. Chairs have dark wooden frames with curved backrests and white/cream upholstered seats.",
     "photos": [
       "20260324_114118.jpg",
-      "20260324_114157.jpg"
+      "20260324_114157.jpg",
+      "20260424_110405.jpg",
+      "20260424_110427.jpg",
+      "20260424_110553.jpg",
+      "20260424_110556.jpg",
+      "20260424_111605.jpg",
+      "20260424_111614.jpg"
     ],
     "notes": "",
     "quantity": 1,
@@ -94,13 +109,53 @@
       "sources": [],
       "notes": "Complete 4-person dining set in good condition. High demand item in Medellin used market."
     },
-    "item_name_en": "Dining Table with Chairs",
-    "description_en": "Dark brown/espresso rectangular dining table with four matching chairs. Chairs have dark wooden frames with curved backrests and white/cream upholstered seats.",
-    "item_name_es": "Mesa de Comedor con Sillas",
-    "description_es": "Juego de comedor con mesa rectangular y sillas.",
+    "item_name_en": "Dining Table with 3 Chairs",
+    "description_en": "Dark brown/espresso rectangular dining table with 3 matching chairs. Chairs have dark wooden frames with curved backrests and white/cream upholstered seats.",
+    "item_name_es": "Mesa de Comedor con 3 Sillas",
+    "description_es": "Mesa de comedor rectangular color marrón oscuro/espresso con 3 sillas a juego. Las sillas tienen marcos de madera oscura, respaldos curvos y asientos tapizados en crema/blanco.",
     "notes_en": "",
     "notes_es": "",
     "active": true
+  },
+  {
+    "id": 7,
+    "item_name": "Folding/Rolling Desk with Casters",
+    "category": "Furniture",
+    "condition": "Good",
+    "description": "Rectangular desk with light oak wood-grain laminate top, black metal angled legs with locking caster wheels. Mobile/rolling design.",
+    "photos": [
+      "20260324_171543.jpg",
+      "20260324_171555.jpg"
+    ],
+    "notes": "",
+    "quantity": 0,
+    "reviewed": true,
+    "flagBox": false,
+    "pricing": {
+      "new_price_cop": 400000,
+      "new_price_usd": 95,
+      "used_price_range_cop": "140000-220000",
+      "used_price_range_usd": "33-52",
+      "recommended_sale_cop": 170000,
+      "recommended_sale_usd": 40,
+      "condition_discount_pct": 58,
+      "sources": [],
+      "notes": "Mobile desk with casters. Good condition "
+    },
+    "item_name_en": "Folding/Rolling Desk with Casters",
+    "description_en": "Rectangular desk with light oak wood-grain laminate top, black metal angled legs with locking caster wheels. Mobile/rolling design.",
+    "item_name_es": "Escritorio Plegable con Ruedas",
+    "description_es": "Escritorio plegable con ruedas, fácil de mover.",
+    "notes_en": "",
+    "active": true,
+    "notes_es": "",
+    "sold": true,
+    "sold_date": "2026-04-18",
+    "sold_as_bundle": false,
+    "sold_bundle_note": "Sold for 170,000 COP",
+    "sold_price_usd": 47.22,
+    "sold_price_cop": 170000,
+    "sold_currency": "USD"
   },
   {
     "id": 8,
@@ -145,7 +200,12 @@
     "condition": "Good",
     "description": "Two-tier glass coffee table with organic/kidney shaped split-level top. Chrome cylindrical legs.",
     "photos": [
-      "20260324_110633.jpg"
+      "20260324_110633.jpg",
+      "20260424_112324.jpg",
+      "20260424_112330.jpg",
+      "20260424_112337.jpg",
+      "20260424_112341.jpg",
+      "20260424_112405.jpg"
     ],
     "notes": "",
     "quantity": 1,
@@ -261,7 +321,10 @@
     "condition": "Good",
     "description": "Black faux leather futon-style sofa with silver/gray decorative pillows.",
     "photos": [
-      "20260324_111712.jpg"
+      "20260324_111712.jpg",
+      "20260424_113217.jpg",
+      "20260424_113222.jpg",
+      "20260424_113231.jpg"
     ],
     "notes": "",
     "reviewed": true,
@@ -777,6 +840,44 @@
     "active": true
   },
   {
+    "id": 34,
+    "item_name": "Chrome Wire Fruit/Vegetable Basket Stand",
+    "category": "Kitchen",
+    "condition": "Good",
+    "description": "Four-tier freestanding chrome wire basket stand. Graduated sizes.",
+    "photos": [
+      "20260324_115058.jpg"
+    ],
+    "notes": "",
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "pricing": {
+      "new_price_cop": 80000,
+      "new_price_usd": 19,
+      "used_price_range_cop": "30000-50000",
+      "used_price_range_usd": "7-12",
+      "recommended_sale_cop": 40000,
+      "recommended_sale_usd": 10,
+      "condition_discount_pct": 50,
+      "sources": [],
+      "notes": "Practical kitchen organizer. Good chrome condition, no rust. Easy to sell."
+    },
+    "item_name_en": "Chrome Wire Fruit/Vegetable Basket Stand",
+    "description_en": "Four-tier freestanding chrome wire basket stand. Graduated sizes.",
+    "item_name_es": "Frutero de Alambre Cromado",
+    "description_es": "Frutero tipo canasta de alambre cromado con niveles.",
+    "notes_en": "",
+    "notes_es": "",
+    "active": true,
+    "sold": true,
+    "sold_date": "2026-04-18",
+    "sold_price_usd": 11,
+    "sold_price_cop": 39606,
+    "sold_currency": "USD",
+    "sold_bundle_note": "Sold for $11 USD"
+  },
+  {
     "id": 36,
     "item_name": "Digital Kitchen Scale SF-400",
     "category": "Kitchen",
@@ -881,6 +982,59 @@
     "active": true,
     "notes_es": "",
     "notes_en": ""
+  },
+  {
+    "id": 43,
+    "item_name": "Grival 4-Stage Under-Counter Water Filter",
+    "category": "Kitchen",
+    "condition": "Excellent",
+    "description": "Grival 4-stage under-counter water filter. Activated carbon technology, reduces odors, improves taste and water quality.",
+    "photos": [
+      "20260326_112335.jpg",
+      "20260326_112342.jpg",
+      "20260326_112347.jpg",
+      "20260326_112349.jpg",
+      "20260326_113804.jpg"
+    ],
+    "notes": "",
+    "quantity": 0,
+    "reviewed": true,
+    "flagBox": false,
+    "pricing": {
+      "new_price_cop": 624900,
+      "new_price_usd": 149,
+      "used_price_range_cop": "230000-280000",
+      "used_price_range_usd": "55-67",
+      "recommended_sale_cop": 250000,
+      "recommended_sale_usd": 60,
+      "condition_discount_pct": 29,
+      "sources": [
+        {
+          "site": "homecenter.com.co",
+          "url": "https://www.homecenter.com.co/homecenter-co/product/267451/filtro-agua-bajo-meson-4-etapas/267451/",
+          "price_cop": 624900,
+          "note": "Grival Filtro 4 Etapas — Homecenter"
+        }
+      ],
+      "notes": "Excellent condition water filter system. High demand in Colombia where tap water quality concerns exist. Nearly new."
+    },
+    "item_name_en": "Grival 4-Stage Under-Counter Water Filter",
+    "description_en": "Grival 4-stage under-counter water filter. Activated carbon technology, reduces odors, improves taste and water quality.",
+    "item_name_es": "Filtro de Agua Bajo Mesón 4 Etapas Grival",
+    "description_es": "Filtro de agua Grival de 4 etapas para instalación bajo mesón. Tecnología de carbón activado, reduce olores, mejora sabor y apariencia del agua. Marca Grival.",
+    "notes_en": "",
+    "notes_es": "",
+    "_photoVersions": {
+      "20260326_113804.jpg": 1774730860195
+    },
+    "active": true,
+    "sold": true,
+    "sold_date": "2026-04-18",
+    "sold_price_usd": 55,
+    "sold_price_cop": 198029,
+    "sold_currency": "USD",
+    "sold_as_bundle": false,
+    "sold_bundle_note": "Sold for $55 USD"
   },
   {
     "id": 45,
@@ -1187,6 +1341,52 @@
     "notes_en": "",
     "active": true,
     "notes_es": ""
+  },
+  {
+    "id": 73,
+    "item_name": "Black Plastic 5-Tier Shelving Unit",
+    "category": "Storage",
+    "condition": "Good",
+    "description": "Tall black plastic modular shelving unit with 5 evenly spaced shelves and cylindrical legs. Approximately 5-6 feet tall.",
+    "photos": [
+      "20260324_110412.jpg"
+    ],
+    "notes": "",
+    "quantity": 0,
+    "reviewed": true,
+    "flagBox": false,
+    "pricing": {
+      "new_price_cop": 150000,
+      "new_price_usd": 40,
+      "used_price_range_cop": "40000-80000",
+      "used_price_range_usd": "10-20",
+      "recommended_sale_cop": 60000,
+      "recommended_sale_usd": 15,
+      "condition_discount_pct": 50,
+      "sources": [
+        {
+          "site": "homecenter.com.co",
+          "url": "https://www.homecenter.com.co/homecenter-co/product/302463/estanteria-12-pulgadas-5-niveles-606x1695x301-cm-negra/302463/",
+          "price_cop": 100000,
+          "note": "Estantería 12 Pulgadas 5 Niveles 60.6x169.5x30.1 cm Negra - 5-tier plastic shelf confirmed at Homecenter"
+        }
+      ],
+      "notes": "Price per unit (qty 2). Near-new condition. Practical storage solution. High demand for furnished apartments."
+    },
+    "item_name_en": "Black Plastic 5-Tier Shelving Unit",
+    "description_en": "Tall black plastic modular shelving unit with 5 evenly spaced shelves and cylindrical legs. Approximately 5-6 feet tall.",
+    "item_name_es": "Estante Plástico Negro de 5 Niveles",
+    "description_es": "Estante organizador plástico negro con 5 niveles.",
+    "notes_en": "",
+    "notes_es": "",
+    "active": true,
+    "sold": true,
+    "sold_date": "2026-04-18",
+    "sold_price_usd": 25.0,
+    "sold_price_cop": 90000,
+    "sold_currency": "COP",
+    "sold_as_bundle": false,
+    "sold_bundle_note": "Two 5-tier shelving units sold total: 90,000 COP (60,000 + 30,000)"
   },
   {
     "id": 77,
@@ -1499,5 +1699,42 @@
     "notes_en": "",
     "active": true,
     "notes_es": ""
+  },
+  {
+    "id": 98,
+    "item_name": "Tall Bar Stools (Pair)",
+    "item_name_en": "Tall Bar Stools (Pair)",
+    "item_name_es": "Sillas Altas de Bar (Par)",
+    "category": "Furniture",
+    "condition": "Good",
+    "description": "Pair of adjustable-height bar/counter stools with chrome gas-lift base and black padded seats.",
+    "description_en": "Pair of adjustable-height bar/counter stools with chrome gas-lift base and black padded seats. Height-adjustable. Great for kitchen counters or bars.",
+    "description_es": "Par de sillas de bar/barra de altura ajustable con base cromada de gas y asientos acolchados negros. Altura ajustable. Ideal para barras de cocina o bares.",
+    "notes": "",
+    "notes_en": "",
+    "notes_es": "",
+    "photos": [
+      "20260422_190422.jpg",
+      "20260422_190425.jpg",
+      "20260422_190428.jpg",
+      "20260422_190431.jpg",
+      "20260422_190440.jpg",
+      "20260422_190450.jpg"
+    ],
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "active": true,
+    "pricing": {
+      "new_price_cop": 300000,
+      "new_price_usd": 83,
+      "used_price_range_cop": "60000-150000",
+      "used_price_range_usd": "17-42",
+      "recommended_sale_cop": 100000,
+      "recommended_sale_usd": 28,
+      "condition_discount_pct": 67,
+      "sources": [],
+      "notes": "Adjustable gas-lift chrome bar stools, used-good condition. Priced mid-range for quick sale."
+    }
   }
 ]

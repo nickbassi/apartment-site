@@ -6,7 +6,11 @@
     "condition": "Fair",
     "description": "Armless black faux leather chair with tufted/button design and chrome legs. Matches futon sofa style.",
     "photos": [
-      "20260324_111739.jpg"
+      "20260324_111739.jpg",
+      "20260424_113503.jpg",
+      "20260424_113511.jpg",
+      "20260424_113513.jpg",
+      "20260424_113534.jpg"
     ],
     "notes": "",
     "quantity": 1,
@@ -38,7 +42,12 @@
     "condition": "Good",
     "description": "Modern TV stand with black tempered glass shelves and ornate chrome/silver decorative column design. Built-in TV mounting bracket at center top.",
     "photos": [
-      "20260324_111431.jpg"
+      "20260324_111431.jpg",
+      "20260424_113017.jpg",
+      "20260424_113026.jpg",
+      "20260424_113029.jpg",
+      "20260424_113100.jpg",
+      "20260424_113301.jpg"
     ],
     "notes": "",
     "quantity": 1,
@@ -74,7 +83,13 @@
     "description": "Dark brown/espresso rectangular dining table with four matching chairs. Chairs have dark wooden frames with curved backrests and white/cream upholstered seats.",
     "photos": [
       "20260324_114118.jpg",
-      "20260324_114157.jpg"
+      "20260324_114157.jpg",
+      "20260424_110405.jpg",
+      "20260424_110427.jpg",
+      "20260424_110553.jpg",
+      "20260424_110556.jpg",
+      "20260424_111605.jpg",
+      "20260424_111614.jpg"
     ],
     "notes": "",
     "quantity": 1,
@@ -94,10 +109,10 @@
       "sources": [],
       "notes": "Complete 4-person dining set in good condition. High demand item in Medellin used market."
     },
-    "item_name_en": "Dining Table with Chairs",
-    "description_en": "Dark brown/espresso rectangular dining table with four matching chairs. Chairs have dark wooden frames with curved backrests and white/cream upholstered seats.",
-    "item_name_es": "Mesa de Comedor con Sillas",
-    "description_es": "Juego de comedor con mesa rectangular y sillas.",
+    "item_name_en": "Dining Table with 3 Chairs",
+    "description_en": "Dark brown/espresso rectangular dining table with 3 matching chairs. Chairs have dark wooden frames with curved backrests and white/cream upholstered seats.",
+    "item_name_es": "Mesa de Comedor con 3 Sillas",
+    "description_es": "Mesa de comedor rectangular color marrón oscuro/espresso con 3 sillas a juego. Las sillas tienen marcos de madera oscura, respaldos curvos y asientos tapizados en crema/blanco.",
     "notes_en": "",
     "notes_es": "",
     "active": true
@@ -285,7 +300,12 @@
     "condition": "Good",
     "description": "Two-tier glass coffee table with organic/kidney shaped split-level top. Chrome cylindrical legs.",
     "photos": [
-      "20260324_110633.jpg"
+      "20260324_110633.jpg",
+      "20260424_112324.jpg",
+      "20260424_112330.jpg",
+      "20260424_112337.jpg",
+      "20260424_112341.jpg",
+      "20260424_112405.jpg"
     ],
     "notes": "",
     "quantity": 1,
@@ -499,7 +519,10 @@
     "condition": "Good",
     "description": "Black faux leather futon-style sofa with silver/gray decorative pillows.",
     "photos": [
-      "20260324_111712.jpg"
+      "20260324_111712.jpg",
+      "20260424_113217.jpg",
+      "20260424_113222.jpg",
+      "20260424_113231.jpg"
     ],
     "notes": "",
     "reviewed": true,
@@ -3363,5 +3386,42 @@
     "notes_en": "",
     "notes_es": "",
     "active": false
+  },
+  {
+    "id": 98,
+    "item_name": "Tall Bar Stools (Pair)",
+    "item_name_en": "Tall Bar Stools (Pair)",
+    "item_name_es": "Sillas Altas de Bar (Par)",
+    "category": "Furniture",
+    "condition": "Good",
+    "description": "Pair of adjustable-height bar/counter stools with chrome gas-lift base and black padded seats.",
+    "description_en": "Pair of adjustable-height bar/counter stools with chrome gas-lift base and black padded seats. Height-adjustable. Great for kitchen counters or bars.",
+    "description_es": "Par de sillas de bar/barra de altura ajustable con base cromada de gas y asientos acolchados negros. Altura ajustable. Ideal para barras de cocina o bares.",
+    "notes": "",
+    "notes_en": "",
+    "notes_es": "",
+    "photos": [
+      "20260422_190422.jpg",
+      "20260422_190425.jpg",
+      "20260422_190428.jpg",
+      "20260422_190431.jpg",
+      "20260422_190440.jpg",
+      "20260422_190450.jpg"
+    ],
+    "quantity": 1,
+    "reviewed": true,
+    "flagBox": false,
+    "active": true,
+    "pricing": {
+      "new_price_cop": 300000,
+      "new_price_usd": 83,
+      "used_price_range_cop": "60000-150000",
+      "used_price_range_usd": "17-42",
+      "recommended_sale_cop": 100000,
+      "recommended_sale_usd": 28,
+      "condition_discount_pct": 67,
+      "sources": [],
+      "notes": "Adjustable gas-lift chrome bar stools, used-good condition. Priced mid-range for quick sale."
+    }
   }
 ]
