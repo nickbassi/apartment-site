@@ -642,7 +642,11 @@
     "description_es": "Reloj de pared color negro.",
     "notes_en": "",
     "notes_es": "",
-    "active": true
+    "active": false,
+    "sold": true,
+    "sold_date": "2026-04-25",
+    "sold_price_cop": 40000,
+    "sold_bundle_note": "Sold for 40,000 COP (20% off list)"
   },
   {
     "id": 19,
@@ -676,8 +680,12 @@
     "item_name_es": "Florero Decorativo de Vidrio Azul",
     "description_es": "Florero decorativo de vidrio color azul.",
     "notes_en": "",
-    "active": true,
-    "notes_es": ""
+    "active": false,
+    "notes_es": "",
+    "sold": true,
+    "sold_date": "2026-04-25",
+    "sold_price_cop": 24000,
+    "sold_bundle_note": "Sold for 24,000 COP (20% off list)"
   },
   {
     "id": 20,
@@ -708,8 +716,12 @@
     "item_name_es": "Cuadro Díptico Puente Atirantado en Lienzo",
     "description_es": "Par de cuadros en lienzo con imagen de puente atirantado.",
     "notes_en": "",
-    "active": true,
-    "notes_es": ""
+    "active": false,
+    "notes_es": "",
+    "sold": true,
+    "sold_date": "2026-04-25",
+    "sold_price_cop": 48000,
+    "sold_bundle_note": "Sold for 48,000 COP (20% off list)"
   },
   {
     "id": 21,
@@ -902,7 +914,11 @@
     "description_es": "Cuadro en lienzo con collage de la ciudad de Nueva York.",
     "notes_en": "",
     "notes_es": "",
-    "active": true
+    "active": false,
+    "sold": true,
+    "sold_date": "2026-04-25",
+    "sold_price_cop": 32000,
+    "sold_bundle_note": "Sold for 32,000 COP (20% off list)"
   },
   {
     "id": 28,
@@ -965,8 +981,12 @@
     "item_name_es": "Cuadro Escena Urbana",
     "description_es": "Cuadro impreso con escena urbana.",
     "notes_en": "",
-    "active": true,
-    "notes_es": ""
+    "active": false,
+    "notes_es": "",
+    "sold": true,
+    "sold_date": "2026-04-25",
+    "sold_price_cop": 24000,
+    "sold_bundle_note": "Sold for 24,000 COP (20% off list)"
   },
   {
     "id": 30,
@@ -2262,7 +2282,11 @@
     "description_es": "Báscula digital de baño con medición de composición corporal.",
     "notes_en": "",
     "notes_es": "",
-    "active": true
+    "active": false,
+    "sold": true,
+    "sold_date": "2026-04-25",
+    "sold_price_cop": 56000,
+    "sold_bundle_note": "Sold for 56,000 COP (20% off list)"
   },
   {
     "id": 67,
