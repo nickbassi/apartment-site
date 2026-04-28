@@ -541,45 +541,6 @@
     "notes_es": ""
   },
   {
-    "id": 42,
-    "item_name": "Jarras/Botellas de Vidrio (Par)",
-    "category": "Kitchen",
-    "condition": "Good",
-    "description": "Par de jarras de vidrio para agua.",
-    "photos": [
-      "20260325_132211.jpg"
-    ],
-    "notes": "",
-    "quantity": 1,
-    "reviewed": true,
-    "flagBox": false,
-    "pricing": {
-      "new_price_cop": 60000,
-      "new_price_usd": 14,
-      "used_price_range_cop": "20000-35000",
-      "used_price_range_usd": "5-8",
-      "recommended_sale_cop": 28000,
-      "recommended_sale_usd": 7,
-      "condition_discount_pct": 53,
-      "sources": [
-        {
-          "site": "homecenter.com.co",
-          "url": "https://www.homecenter.com.co/homecenter-co/product/257473/jarra-de-vidrio-18-litros-255cm-transparente/257473/",
-          "price_cop": 60000,
-          "note": "Jarra de Vidrio 1.8 Litros 25.5cm Transparente - similar glass pitcher confirmed at Homecenter"
-        }
-      ],
-      "notes": "Pair of ribbed glass bottles, no damage. Bundle with kitchen items."
-    },
-    "item_name_en": "Glass Water Pitchers/Bottles (Pair)",
-    "description_en": "Two tall ribbed/textured clear glass bottles with colored plastic lids (purple and hot pink).",
-    "item_name_es": "Jarras/Botellas de Vidrio (Par)",
-    "description_es": "Par de jarras de vidrio para agua.",
-    "active": true,
-    "notes_es": "",
-    "notes_en": ""
-  },
-  {
     "id": 45,
     "item_name": "Hand-Painted Ceramic Bowl",
     "category": "Kitchen",
@@ -704,42 +665,6 @@
     "description_en": "Ninja Auto iQ BN401 personal blender. Two cups with sip-and-seal lids. Start/Stop, Crush, Smoothie, Pulse buttons.",
     "item_name_es": "Licuadora Personal Ninja Auto iQ",
     "description_es": "Licuadora personal Ninja Auto iQ con vasos para llevar.",
-    "notes_en": "",
-    "notes_es": "",
-    "active": true
-  },
-  {
-    "id": 55,
-    "item_name": "Protectores Antisalpicaduras Rama Design (Set de 3)",
-    "category": "Kitchen",
-    "condition": "Excellent",
-    "description": "Set de 3 protectores antisalpicaduras para sartén.",
-    "photos": [
-      "20260325_184705.jpg",
-      "20260325_184712.jpg"
-    ],
-    "notes": "",
-    "quantity": 1,
-    "reviewed": true,
-    "flagBox": false,
-    "_photoVersions": {
-      "20260325_184705.jpg": 1774631336630
-    },
-    "pricing": {
-      "new_price_cop": 21000,
-      "new_price_usd": 5,
-      "used_price_range_cop": "12000-18000",
-      "used_price_range_usd": "3-4",
-      "recommended_sale_cop": 18000,
-      "recommended_sale_usd": 4,
-      "condition_discount_pct": 14,
-      "sources": [],
-      "notes": "Essentially new, 2 in original packaging. Price confirmed at $7,000 each from sticker. Bundle with kitchen items."
-    },
-    "item_name_en": "Rama Design Splatter Screens (Set of 3)",
-    "description_en": "Three Rama Design 29cm/11.5\" stainless steel splatter screens with black plastic knob handles. Two still in packaging.",
-    "item_name_es": "Protectores Antisalpicaduras Rama Design (Set de 3)",
-    "description_es": "Set de 3 protectores antisalpicaduras para sartén.",
     "notes_en": "",
     "notes_es": "",
     "active": true
@@ -1010,48 +935,6 @@
     "description_en": "Pair of adjustable dumbbells convertible to barbell. Black cement/plastic plates, red/orange textured rubber grips. Threaded spinlock collars. 4 X 2.5KG Plates and  8 X 1KG plates.",
     "item_name_es": "Juego de Mancuernas/Barra Ajustable",
     "description_es": "Set de pesas ajustables tipo mancuerna y barra.",
-    "notes_en": "",
-    "notes_es": "",
-    "active": true
-  },
-  {
-    "id": 92,
-    "item_name": "Fixser Double Deadbolt Lock (New in Packaging)",
-    "category": "Other",
-    "condition": "Excellent",
-    "description": "Fixser Cerrojo Doble deadbolt in sealed blister packaging. Antique brass finish, 5 keys, Grade 3, 5-year warranty.",
-    "photos": [
-      "20260324_134454.jpg",
-      "receipt_homecenter_may30.jpg"
-    ],
-    "notes": "",
-    "quantity": 1,
-    "reviewed": true,
-    "flagBox": false,
-    "_photoVersions": {
-      "20260324_134454.jpg": 1774631489131
-    },
-    "pricing": {
-      "new_price_cop": 30900,
-      "new_price_usd": 7,
-      "used_price_range_cop": "15000-20000",
-      "used_price_range_usd": "4-5",
-      "recommended_sale_cop": 20000,
-      "recommended_sale_usd": 5,
-      "condition_discount_pct": 19,
-      "sources": [],
-      "notes": "Paid 30,900 COP at Homecenter Molinos May 30 2025. SKU 321519 \"Placa Acero Conjunto\"."
-    },
-    "receipts": [
-      {
-        "file": "Factura_electrónica_4306100347462---23fefc96-923c-4826-892d-41d9a3bae6c3.pdf",
-        "note": "Homecenter Molinos invoice — SKU 321519, 30,900 COP"
-      }
-    ],
-    "item_name_en": "Fixser Double Deadbolt Lock (New in Packaging)",
-    "description_en": "Fixser Cerrojo Doble deadbolt in sealed blister packaging. Antique brass finish, 5 keys, Grade 3, 5-year warranty.",
-    "item_name_es": "Cerrojo Doble Fixser (Nuevo en Empaque)",
-    "description_es": "Cerrojo doble marca Fixser, nuevo en empaque original.",
     "notes_en": "",
     "notes_es": "",
     "active": true

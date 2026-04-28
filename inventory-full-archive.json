@@ -1419,9 +1419,13 @@
     "description_en": "Two tall ribbed/textured clear glass bottles with colored plastic lids (purple and hot pink).",
     "item_name_es": "Jarras/Botellas de Vidrio (Par)",
     "description_es": "Par de jarras de vidrio para agua.",
-    "active": true,
+    "active": false,
     "notes_es": "",
-    "notes_en": ""
+    "notes_en": "",
+    "sold": true,
+    "sold_date": "2026-04-28",
+    "sold_price_cop": 22000,
+    "sold_bundle_note": "Sold for 22,000 COP (20% off list)"
   },
   {
     "id": 43,
@@ -1893,7 +1897,11 @@
     "description_es": "Set de 3 protectores antisalpicaduras para sartén.",
     "notes_en": "",
     "notes_es": "",
-    "active": true
+    "active": false,
+    "sold": true,
+    "sold_date": "2026-04-28",
+    "sold_price_cop": 14000,
+    "sold_bundle_note": "Sold for 14,000 COP (20% off list)"
   },
   {
     "id": 56,
@@ -3223,7 +3231,11 @@
     "description_es": "Cerrojo doble marca Fixser, nuevo en empaque original.",
     "notes_en": "",
     "notes_es": "",
-    "active": true
+    "active": false,
+    "sold": true,
+    "sold_date": "2026-04-28",
+    "sold_price_cop": 16000,
+    "sold_bundle_note": "Sold for 16,000 COP (20% off list)"
   },
   {
     "id": 93,
