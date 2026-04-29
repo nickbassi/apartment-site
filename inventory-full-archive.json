@@ -245,7 +245,7 @@
     "item_name_es": "Escritorio Plegable con Ruedas",
     "description_es": "Escritorio plegable con ruedas, fácil de mover.",
     "notes_en": "",
-    "active": true,
+    "active": false,
     "notes_es": "",
     "sold": true,
     "sold_date": "2026-04-18",
